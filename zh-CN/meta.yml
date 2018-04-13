@@ -1,0 +1,22 @@
+hero_image: images/robo-trumps.png
+theme: turquoise
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+title: 机器人王牌
+description: 创建一个机器人数据库并与朋友玩机器人王牌！
+original_url: https://codeclubprojects.org/en-GB/python/robo-trumps
+interests: ''
+technologies: python
+site_areas: codeclub, python
+steps:
+- title: 介绍
+- title: 从文件读取机器人数据
+- title: 显示数据
+- title: '挑战：添加更多机器人'
+- title: '挑战：向机器人添加更多统计数据'
+- title: 随机显示机器人
+- title: '挑战：与朋友玩机器人王牌'
+
