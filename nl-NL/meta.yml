@@ -1,0 +1,33 @@
+---
+hero_image: images/robo-trumps.png
+theme: turquoise
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: Robo-Troef
+description: Maak een database met robots en speel Robo-Troef met een vriend!
+original_url: https://codeclubprojects.org/en-GB/python/robo-trumps
+interests: games
+technologies: Python
+site_areas: projects
+hardware: ''
+software: python
+version: 3
+last_tested: 2017-01-01
+steps:
+  - 
+    title: Inleiding
+  - 
+    title: Lees robot gegevens uit een bestand
+  - 
+    title: Toon de gegevens
+  - 
+    title: 'Uitdaging: voeg meer robots toe'
+  - 
+    title: 'Uitdaging: voeg meer statistieken aan de robots toe'
+  - 
+    title: Geef een willekeurige robot weer
+  - 
+    title: 'Uitdaging: speel RobotTroef met een vriend'
