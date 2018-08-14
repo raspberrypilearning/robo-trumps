@@ -3,48 +3,48 @@
 from turtle import *
 from random import choice
 
-screen = Screen()
-screen.bgcolor('white')
+scherm = Screen()
+scherm.bgcolor('white')
 penup()
 hideturtle()
 robots = {}
 
 file = open('cards.txt', 'r')
 
-for line in file.read().splitlines():
-  name, battery, intelligence, usefulness, speed, image, colour = line.split(', ')
-  robots[name] = [battery, intelligence, usefulness, speed, image, colour]
-  screen.register_shape(image)
+for regel in file.read().splitlines():
+  naam, batterij, intelligentie, bruikbaarheid, snelheid, afbeelding, kleur = regel.split(', ')
+  robots[naam] = [batterij, intelligentie, bruikbaarheid, snelheid, afbeelding, kleur]
+  scherm.register_shape(afbeelding)
 file.close()
 
-print('Robots: ', ', '.join(robots.keys()), ' (or random)')
+print('Robots: ', ', '.join(robots.keys()), ' (of willekeurig)')
 
 while True:
-  robot = input("Choose a robot: ")
-  if(robot == "random"):
+  robot = input("Kies een robot: ")
+  if(robot == "willekeurig"):
     robot = choice(robots.keys())
     print(robot)
   
   if robot in robots:
-    stats = robots[robot]
-    style = ('Courier', 14, 'bold')
+    gegevens = robots[robot]
+    stijl = ('Courier', 14, 'bold')
     clear()
-    color(stats[5])
+    color(gegevens[5])
     goto(0, 100)
-    shape(stats[4])
+    shape(gegevens[4])
     setheading(90)
     stamp()
     setheading(-90)
-    forward(60)
-    write('Name: ' + robot, font=style, align='center')
+    forward(80)
+    write('Naam: ' + robot, font=stijl, align='center')
     forward(25)
-    write('Battery: ' + stats[0], font=style, align='center')
+    write('Batterij: ' + gegevens[0], font=stijl, align='center')
     forward(25)
-    write('Intelligence: ' + stats[1], font=style, align='center')
+    write('Intelligentie: ' + gegevens[1], font=stijl, align='center')
     forward(25)
-    write('Usefulness: ' + stats[2], font=style, align='center')
+    write('Bruikbaarheid: ' + gegevens[2], font=stijl, align='center')
     forward(25)
-    write('Speed: ' + stats[3], font=style, align='center')
+    write('Snelheid: ' + gegevens[3], font=stijl, align='center')
     
   else:
-    print("Robot doesn't exist!")
+    print("Robot bestaat niet!")
