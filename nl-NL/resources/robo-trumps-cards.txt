@@ -1,0 +1,3 @@
+regenboog, 10, 34, rainbow.gif
+ruimte, 13, 28, space.gif
+vogel, 6, 4, bird.gif
