@@ -2,7 +2,7 @@
 
 Nu kun je de robotgegevens op een interessantere manier weergeven.
 
-Laten we een robottroefkaart weergeven met een afbeelding en gegevens voor zijn slimheid en bruikbaarheid.
+Laten we een robottroefkaart weergeven met een afbeelding en gegevens over zijn intelligentie en bruikbaarheid.
 
 Wanneer je deze stap hebt voltooid, kun je robots zoals deze weergeven:
 
@@ -34,7 +34,7 @@ Wanneer je deze stap hebt voltooid, kun je robots zoals deze weergeven:
     
     ![screenshot](images/robotrumps-name.png)
 
-+ Probeer de ` style` variabele te veranderen totdat je tevreden bent met de tekst.
++ Probeer de ` stijl` variabele aan te passen tot je tevreden bent met de tekst.
     
     In plaats van `Arial` zou je: `Courier`, `Times` of `Verdana` kunnen proberen.
     
@@ -42,27 +42,27 @@ Wanneer je deze stap hebt voltooid, kun je robots zoals deze weergeven:
     
     Je kunt `bold` in `normal` of `italic` veranderen.
 
-+ Sla de lijst met statistieken voor de robot op in een variabele in plaats van ze weer te geven:
++ Sla de lijst met robotgegevens op in een variabele in plaats van ze weer te geven:
     
     ![screenshot](images/robotrumps-stats.png)
 
-+ Je hebt nu toegang tot de gegevens voor de robot als items in een lijst:
++ Je hebt nu toegang tot de gegevens voor de robot in een lijst:
     
-    + `stats[0]` is slimhied
-    + `stats[1]` is batterij
-    + `stats[2]` is de naam van de afbeelding
+    + `gegevens[0]` is intelligentie
+    + `gegevens[1]` is batterij
+    + `gegevens[2]` is de naam van de afbeelding
     
-    Voeg code toe om de slimheid en batterij gegevens weer te geven:
+    Voeg code toe om de intelligentie- en batterijgegevens weer te geven:
     
     ![screenshot](images/robotrumps-stats-2.png)
 
-+ Oh jee! De statistieken staan allemaal door elkaar. Je moet code toevoegen om de turtle te verplaatsen:
++ Oh jee! De gegevens staan allemaal door elkaar. Je moet code toevoegen om de turtle te verplaatsen:
     
     ![screenshot](images/robotrumps-stats-3.png)
 
-+ En tot slot, laten we de robotafbeelding toevoegen om het scherm te voltooien.
++ En tot slot voegen we de robotafbeelding toe om het beeld af te maken.
     
-    Je moet een lijn toevoegen om de afbeelding te registreren wanneer je de gegevens leest van `cards.txt`:
+    Je moet een regel toevoegen om de afbeelding te registreren wanneer je de gegevens leest van `cards.txt`:
     
     ![screenshot](images/robotrumps-register.png)
 
