@@ -1,15 +1,15 @@
-## Display a random robot
+## Prikaži nasumičnog robota
 
-Let’s add code so that you get a random robot when you type Random instead of a robot name.
+Dodajmo kôd kojim ćeš dobiti nasumično odabranog robota kada upišeš Random umjesto njegovog imena.
 
-+ First you'll need to import the choice function from the random module:
++ Prvo moraš uvesti choice funkciju iz modula random:
     
     ![screenshot](images/robotrumps-random.png)
 
-+ You can use `choice` to pick a random robot name from the list of keys from the robot dictionary.
++ Možeš koristiti `choice` za odabir nasumičnog imena robota iz liste ključeva u rječniku roboti.
     
     ![screenshot](images/robotrumps-choice.png)
 
-+ In Python 3 you need to use `list` to turn the results of `keys` into a list.
++ U Pythonu 3 moraš koristiti `list` za pretvaranje rezultata `ključeva` u listu.
     
-    Tip: Make sure you check your brackets carefully!
+    Savjet: Pripazi na zagrade!
