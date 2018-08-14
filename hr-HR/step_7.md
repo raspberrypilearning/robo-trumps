@@ -1,10 +1,10 @@
 \--- challenge \---
 
-## Challenge: Play robot trumps with a friend
+## Izazov: Zaigraj Borbe robota s prijateljem
 
-Share your project with a friend and play Robotrumps. Both use the same project so that it's fair! Player one requests a random robot and then chooses a category. Player 2 then requests a random robot and you check who has the highest score for the chosen category, then swap over.
+Podijeli svoj projekt s prijateljem i zaigrajte Borbe robota. Oboje koristite isti projekt da bude pošteno! Prvi igrač poziva nasumično odabranog robota, a zatim bira kategoriju. Tada i drugi igrač poziva nasumično odabranog robota, a zatim provjeravate tko ima najviši rezultat u odabranoj kategoriji. Nakon toga se mijenjate.
 
-The game works best if you both play with the same deck of cards. Share a link to your trinket project with a friend so you can both use the same deck.
+Igra najbolje funkcionira ako oboje igrate sa istim špilom karata. Podijeli link svog trinket projekta sa prijateljem kako bi oboje mogli koristiti isti špil.
 
 ![screenshot](images/robotrumps-play.png)
 
