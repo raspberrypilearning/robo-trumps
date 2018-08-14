@@ -1,63 +1,63 @@
-## Read robot data from a file
+## Učitaj podatke o robotu iz datoteke
 
-It's often useful to be able to read information from a file. You can then change the data in the file without having to change your code.
+Često je korisno moći učitati podatke iz datoteke. Na taj način ne trebaš mijenjati svoj kôd, već možeš izmijeniti podatke unutar datoteke.
 
-+ Open this trinket: <a href="http://jumpto.cc/trumps-go" target="_blank">jumpto.cc/trumps-go</a>.
++ Otvori ovaj trinket: <a href="http://jumpto.cc/trumps-go" target="_blank">jumpto.cc/trumps-go</a>.
 
-+ Your starter project includes a `cards.txt` file which contains data about robots.
++ U tvom početnom projektu nalazi se datoteka `cards.txt` koja sadrži podatke o robotima.
     
-    Click on `cards.txt` to see the data:
+    Klikni na `cards.txt` za pregled podataka:
     
     ![screenshot](images/robotrumps-cards.png)
     
-    Each line has data about a robot. The data items are separated by commas.
+    Svaka linija sadrži podatke o jednom robotu. Podatci unutar linija odvojeni su zarezima.
     
-    Each line contains the following information:
+    Svaka linija sadrži sljedeće podatke:
     
-    name, intelligence rating, how long the battery lasts, image file name
+    ime, razinu inteligencije, izdrživost baterije, naziv slikovne datoteke
 
-+ Let's read the data in from the file so that you can use it.
++ Učitajmo podatke iz datoteke kako bismo ih mogli koristiti.
     
-    The first step is to open the `cards.txt` file in your script:
+    Prvo otvori datoteku `cards.txt` u svom programu:
     
     ![screenshot](images/robotrumps-open.png)
 
-+ Now you can read the data from the file:
++ Sada možeš učitati podatke iz datoteke:
     
     ![screenshot](images/robotrumps-read.png)
 
-+ You should always close a file when you have finished with it:
++ Uvijek zatvori datoteku nakon što završiš s njenim korištenjem:
     
     ![screenshot](images/robotrumps-close.png)
 
-+ That gives us the file as one string, you need to break it down into the individual pieces of data.
++ Time smo ispisali podatke kao jedan niz. Rastavimo ga na pojedinačne dijelove podataka.
     
-    First, you can split the file into a list of lines:
+    Prvo možeš ispisati podatke u obliku liste koja se sastoji od linija:
     
     ![screenshot](images/robotrumps-lines.png)
     
-    Look carefully at the output. There are three items in the list, each one is a line from the file.
+    Pažljivo pogledaj ispis. U listi se nalaze tri elementa, a svaki je element jedna linija iz datoteke.
 
-+ Now you can loop over those lines one at a time
++ Sada možeš petljom proći kroz svaku liniju posebno
     
     ![screenshot](images/robotrumps-loop.png)
 
-+ Instead of printing out the lines, read them in to variables:
++ Umjesto ispisivanja linija, pohrani ih u varijable:
     
     ![screenshot](images/robotrumps-variables.png)
 
-+ You want to be able to use this data later to look up the values for a particular robot. Let's use the robot's name as a key to a dictionary.
++ Želiš da ti ovi podatci budu i kasnije dostupni za pronalaženje vrijednosti određenog robota. Koristit ćemo ime robota kao ključ u rječniku.
     
-    Add a `robots` dictionary:
+    Kreiraj rječnik naziva `roboti`:
     
     ![screenshot](images/robotrumps-dict.png)
 
-+ Now let's add an entry to the robots dictionary for each robot.
++ Dodajmo sada unos za svakog robota u rječnik roboti.
     
-    The name is the key and the value is a list of data for that robot.
+    Ime robota je ključ, a lista podataka za tog robota je vrijednost.
     
-    Add the highlighted code:
+    Dodaj označeni kôd:
     
     ![screenshot](images/robotrumps-data.png)
     
-    You can remove `print robots` when you have tested your script.
+    Možeš maknuti naredbu `print roboti` nakon testiranja kôda.
