@@ -1,6 +1,6 @@
-## Introduction
+## Uvod
 
-In this project you will read data from a file to create robot trump cards. Then you can play Robo-Trumps with a friend.
+U ovom projektu učitavat ćeš podatke iz datoteke i kreirati karte za igru robotima. Zatim ćeš s prijateljem moći igrati Borbe robota.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/9ccc368bd5?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -8,77 +8,77 @@ In this project you will read data from a file to create robot trump cards. Then
   <img src="images/robotrumps-finished.png">
 </div>
 
-### Additional information for club leaders
+### Dodatne informacije za voditelje kluba
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/robo-trumps/print).
+Ako trebate ispisati ovaj projekt, koristite [verziju koja je prilagođena pisaču](https://projects.raspberrypi.org/en/projects/robo-trumps/print).
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title: Bilješke za voditelje Kluba
 
-## Introduction:
+## Uvod:
 
-In this project learners will read data from a file into a dictionary, to create robot trump cards. The cards can then be used to play Robo-Trumps with a friend.
+U ovom projektu djeca će učitavati podatke iz datoteke u rječnik te tako kreirati karte za igru robotima. Karte se zatim mogu koristiti za igranje Borba robota sa prijateljem.
 
-## Online Resources
+## Online izvori
 
-**This project uses Python 3.** We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
+**U ovom projektu koristi se Python 3.** Predlažemo korištenje [trinketa](https://trinket.io/) za online pisanje u Pythonu. Ovaj projekt sadrži sljedeće Trinkete:
 
-* ['Robotrumps' starting point -- jumpto.cc/trumps-go](http://jumpto.cc/trumps-go)
+* ['Robotrumps' početni materijal -- jumpto.cc/trumps-go](http://jumpto.cc/trumps-go)
 
-There is also a trinket containing a sample solution to the challenges:
+Također je uključen i trinket koji sadrži prijedlog rješenja izazova:
 
-* [‘Robotrumps’ Finished -- trinket.io/python/9ccc368bd5](https://trinket.io/python/9ccc368bd5)
+* [‘Robotrumps’ dovršeni projekt -- trinket.io/python/9ccc368bd5](https://trinket.io/python/9ccc368bd5)
 
-## Offline Resources
+## Offline izvori
 
-This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
+Ako želite, ovaj projekt možete [izraditi offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/). Materijalima projekta možete pristupiti klikom na poveznicu 'Project Materials'. Poveznica sadrži odjeljak 'Project Resources' u kojem se nalaze materijali koji će djeci biti potrebni za izradu projekta offline. Pobrinite se da svako dijete ima pristup kopiji ovih materijala. U odjeljku se nalaze sljedeće datoteke:
 
 * robotrumps/robotrumps.py
 * robotrumps/cards.txt
-* Several robot .gif images
+* Nekoliko .gif slika robota
 
-You can also find a completed version of this project's challenges in the 'Volunteer Resources' section, which contains:
+Dovršene verzije izazova projekta možete pronaći i u odjeljku 'Volunteer Resources' koji sadrži:
 
 * robotrumps-finished/robotrumps.py
 * robotrumps-finished/cards.txt
-* Several robot .gif images
+* Nekoliko .gif slika robota
 
-(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+(Svi spomenuti materijali nalaze se u materijalima projekta i materijalima za volontere, koje je moguće preuzeti kao `.zip` datoteke.)
 
-## Learning Objectives
+## Ishodi učenja
 
-* Consolidation: data structures, reading from file and turtle graphics;
-* Using images in turtle graphics;
-* Sharing trinket projects.
+* Sjedinjavanje: strukture podataka, učitavanje iz datoteke i turtle grafika;
+* Korištenje slika u turtle grafici;
+* Dijeljenje trinket projekata.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Ovaj projekt obuhvaća elemente iz sljedećih dijelova [ Raspberry Pi Digital Making](http://rpf.io/curriculum) nastavnog plana i programa:
 
-* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Uporaba različitih programskih struktura za rješavanje problema.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Challenges
+## Izazovi
 
-* Add more robots - Editing a .txt file and working with images;
-* Add more stats to the robots - handling data;
-* Play Robotrumps with a friend.
+* Dodaj još robota - Uređivanje .txt datoteke i rad s slikama;
+* Dodaj još karakteristika robotima - upravljanje podatcima;
+* Zaigraj Borbe robota sa prijateljem.
 
-## Frequently Asked Questions
+## Često postavljana pitanja
 
-* **Offline Python does not work with .png images. .gif images have been supplied for offline use.**
-* Note that this project uses both text input and turtle graphics, you can adjust the amount of space given to each in trinket.
-* You need to click in the trinket text window before typing.
-* Children can use the 'Share' option in trinket to get a link to their project. If they have access to email then they can email the link to a friend, otherwise they can just read it out, note it down on a piece of paper or save it in a text file on the local network.
+* **Offline verzija Pythona ne podržava .png format slika. .gif format slika omogućen je za offline korištenje.**
+* Primijetite da se u ovom projektu koriste tekstualni unos i turtle grafika. Možete podesiti veličinu prostora za svaki od njih u trinketu.
+* Potrebno je kliknuti u trinketov tekstualni prozor prije pisanja.
+* Djeca mogu koristiti opciju 'Share' u trinketu za dobivanje poveznice do svog projekta. Ako imaju pristup e-mailu, mogu tim putem poslati poveznicu prijatelju. U suprotnom, mogu jednostavno pročitati poveznicu, zapisati ju na papir ili spremiti u tekstualnoj datoteci na lokalnoj mreži.
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: Materijali projekta
 
-## Project resources
+## Resursi projekta
 
-* [.zip file containing all project resources](resources/robo-trumps-project-resources.zip)
-* [Online Trinket containing 'Robo-Trumps' starter resources](http://jumpto.cc/trumps-go)
+* [.zip datoteka koja sadrži sve materijale projekta](resources/robo-trumps-project-resources.zip)
+* [Online Trinket koji sadrži početne materijale projekta 'Borbe robota'](http://jumpto.cc/trumps-go)
 * [robo-trumps/robo-trumps.py](resources/robo-trumps-robo-trumps.py)
 * [robo-trumps/cards.txt](resources/robo-trumps-cards.txt)
 * [robo-trumps/space.gif](resources/robo-trumps-space.gif)
@@ -94,10 +94,10 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 * [robo-trumps/tv.gif](resources/robo-trumps-tv.gif)
 * [robo-trumps/yellow.gif](resources/robo-trumps-yellow.gif)
 
-## Club leader resources
+## Materijali za voditelja Kluba
 
-* [.zip file containing all completed project resources](resources/robotrumps-volunteer-resources.zip)
-* [Online completed Trinket project](https://trinket.io/python/9ccc368bd5)
+* [.zip datoteka koja sadrži sve dovršene materijale projekta](resources/robotrumps-volunteer-resources.zip)
+* [Dovršeni online Trinket projekt](https://trinket.io/python/9ccc368bd5)
 * [robo-trumps-finished/robo-trumps.py](resources/robo-trumps-finished-robo-trumps.py)
 * [robo-trumps-finished/cards.txt](resources/robo-trumps-finished-cards.txt)
 * [robo-trumps-finished/space.gif](resources/robo-trumps-finished-space.gif)
