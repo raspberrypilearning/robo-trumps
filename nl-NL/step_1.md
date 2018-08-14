@@ -14,7 +14,7 @@ Als je dit project wilt afdrukken, gebruik dan de [Printervriendelijke versie](h
 
 ## \--- collapse \---
 
-## titel: Clubleider notities
+## title: Clubleider notities
 
 ## Inleiding:
 
@@ -32,21 +32,21 @@ Er is ook een trinket met een voorbeeldoplossing voor de uitdagingen:
 
 ## Offline bronnen
 
-Dit project kan [offline worden voltooid](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) als dit de voorkeur heeft. Je kunt toegang krijgen tot de projectbronnen door op de koppeling 'Projectmaterialen' voor dit project te klikken. Deze link bevat een gedeelte 'Projectresources', dat bronnen bevat die kinderen nodig hebben om dit project offline te voltooien. Zorg ervoor dat elk kind toegang heeft tot een kopie van deze bronnen. Dit gedeelte bevat de volgende bestanden:
+Dit project kan [offline worden voltooid](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) als dit de voorkeur heeft. Je kunt toegang krijgen tot de projectbronnen door op de koppeling 'Projectmaterialen' voor dit project te klikken. Deze link bevat een 'Projectbronnen'-sectie die bronnen bevat om dit project offline te voltooien. Zorg ervoor dat elk kind toegang heeft tot een kopie van deze bronnen. Dit gedeelte bevat de volgende bestanden:
 
 * robotrumps/robotrumps.py
 * robotrumps/cards.txt
-* Verschillende robotgif-afbeeldingen
+* Verschillende robot.gif-afbeeldingen
 
 Je kunt ook een voltooide versie van de uitdagingen van dit project vinden in de sectie 'Vrijwilligersbronnen', die bevat:
 
 * robotrumps-finished/robotrumps.py
 * robotrumps-finished/cards.txt
-* Verschillende robot .gif-afbeeldingen
+* Verschillende robot.gif-afbeeldingen
 
 (Alle bovenstaande bronnen kunnen ook worden gedownload als project en als vrijwilliger `.zip` bestanden.)
 
-## leerdoelen
+## Leerdoelen
 
 * Consolidatie: gegevensstructuren, lezen van bestanden en turtle graphics;
 * Afbeeldingen gebruiken in turtle graphics;
@@ -73,9 +73,9 @@ Dit project behandelt elementen uit de volgende onderdelen van het [Raspberry Pi
 
 ## \--- collapse \---
 
-## titel: Projectmaterialen
+## title: Projectmaterialen
 
-## Project middelen
+## Projectbronnen
 
 * [.zip-bestand met alle projectbronnen](resources/robo-trumps-project-resources.zip)
 * [Online Trinket met 'Robo-Troef' start hulpmiddelen](http://jumpto.cc/trumps-go)
@@ -94,9 +94,9 @@ Dit project behandelt elementen uit de volgende onderdelen van het [Raspberry Pi
 * [robo-trumps/tv.gif](resources/robo-trumps-tv.gif)
 * [robo-trumps/yellow.gif](resources/robo-trumps-yellow.gif)
 
-## Club leider middelen
+## Clubleider bronnen
 
-* [.zip-bestand met alle voltooide projectresources](resources/robotrumps-volunteer-resources.zip)
+* [.zip-bestand met alle voltooide projectbronnen](resources/robotrumps-volunteer-resources.zip)
 * [Online voltooid Trinket-project](https://trinket.io/python/9ccc368bd5)
 * [robo-trumps-finished/robo-trumps.py](resources/robo-trumps-finished-robo-trumps.py)
 * [robo-trumps-finished/cards.txt](resources/robo-trumps-finished-cards.txt)
