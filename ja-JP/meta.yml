@@ -1,0 +1,33 @@
+---
+hero_image: images / robo-trumps.png
+theme: ターコイズ
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1、design-0、programming-1、phys-comp-0、製造-0、コミュニティ-0
+title: ロボトランプ
+description: ロボットのデータベースを作成し、友人とロボトランプを演奏する！
+original_url: https://codeclubprojects.org/en-GB/python/robo-trumps
+interests: ゲーム
+technologies: パイソン
+site_areas: プロジェクト
+hardware: ''
+software: パイソン
+version: 3
+last_tested: 2017-01-01
+steps:
+  - 
+    title: 前書き
+  - 
+    title: ファイルからロボットデータを読み込む
+  - 
+    title: データを表示する
+  - 
+    title: '課題：より多くのロボットを追加する'
+  - 
+    title: '課題：ロボットにさらに統計情報を追加する'
+  - 
+    title: ランダムなロボットを表示する
+  - 
+    title: 'チャレンジ：ロボットと友人とのトランプをプレイ'
