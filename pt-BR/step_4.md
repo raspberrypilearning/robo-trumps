@@ -1,13 +1,13 @@
-\--- desafio \---
+\--- challenge \---
 
-## Desafio: adicione mais robôs
+## Desafio: Adicione mais robôs
 
-Você pode adicionar dados sobre mais robôs a `cards.txt`.
+Você pode adicionar dados sobre mais robôs ao arquivo `cartas.txt`.
 
 Clique no botão de imagens para ver as imagens do robô que você pode usar.
 
 Você decide quanto de bateria e inteligência eles têm.
 
-![captura de tela](images/robotrumps-yellow.png)
+![screenshot](images/robotrumps-yellow.png)
 
-\--- / desafio \---
+\--- /challenge \---
