@@ -1,77 +1,77 @@
 ## Exibir os dados
 
-Agora você pode exibir os dados do robô de uma maneira mais interessante.
+Agora você pode exibir os infomarções do robô de uma maneira mais interessante.
 
-Vamos exibir um trunfo robótico com uma imagem e dados para sua inteligência e utilidade.
+Vamos exibir uma carta do Robô-Trunfo com uma imagem e as informações de inteligência e bateria.
 
 Quando você concluir essa etapa, poderá exibir robôs como este:
 
-![captura de tela](images/robotrumps-example.png)
+![screenshot](images/robotrumps-example.png)
 
 + Pergunte ao usuário qual robô eles gostariam de ver:
     
-    ![captura de tela](images/robotrumps-choose.png)
+    ![screenshot](images/robotrumps-choose.png)
 
 + Se o robô estiver no dicionário, pesquise seus dados:
     
-    ![captura de tela](images/robotrumps-if.png)
+    ![screenshot](images/robotrumps-if.png)
     
-    Teste seu código digitando um nome de robô.
+    Teste seu código digitando o nome de um robô.
 
-+ Se o robô não existir, dê um erro:
++ Se o robô não existir, aparecerá uma mensagem de erro:
     
-    ![captura de tela](images/robotrumps-else.png)
+    ![screenshot](images/robotrumps-else.png)
     
-    Teste seu código digitando um nome de robô que não esteja no dicionário.
+    Teste seu código digitando o nome de um robô que não esteja no dicionário.
 
-+ Agora você vai usar a tartaruga Python para exibir os dados do robô.
++ Agora você vai usar a turtle(tartaruga) no Python para exibir as informações do robô.
     
-    Importe a biblioteca de tartarugas no topo do seu script e configure a tela e a tartaruga:
+    Importe a biblioteca turtle no topo do seu script e configure a tela e a turtle(tartaruga):
     
-    ![captura de tela](images/robotrumps-turtle.png)
+    ![screenshot](images/robotrumps-turtle.png)
 
 + Agora adicione o código para que a tartaruga imprima o nome do robô:
     
-    ![captura de tela](images/robotrumps-name.png)
+    ![screenshot](images/robotrumps-name.png)
 
-+ Tente alterar a variável</code> do estilo `até que você esteja satisfeito com o texto.</p>
++ Tente alterar a variável</code>style` até que você esteja satisfeito com o texto.</p>
 
-<p>Em vez de <code>Arial` você poderia tentar: `Courier`, `Horários` ou `Verdana`.
+<p>Em vez de <code>Arial` você poderia tentar: `Courier`, `Times` ou `Verdana`.
     
-    Altere `14` para um número diferente para alterar o tamanho da fonte.
+    Para alterar o tamanho da fonte, altere de `14` para um número diferente.
     
-    Você pode alterar `negrito` para `normal` ou `itálico`.
+    Você pode alterar o texto para `bold(negrito)` para `normal` ou `italic(itálico)`.
 
-+ Armazene a lista de estatísticas do robô em uma variável em vez de imprimi-las:
++ Armazene a lista de informações do robô em uma variável em vez de imprimi-las:
     
-    ![captura de tela](images/robotrumps-stats.png)
+    ![screenshot](images/robotrumps-stats.png)
 
-+ Agora você pode acessar as estatísticas do robô como itens em uma lista:
++ Agora você pode acessar as informações do robô como itens em uma lista:
     
-    + `estatísticas[0]` é inteligência
-    + `stats[1]` é bateria
-    + `stats[2]` é o nome da imagem
+    + `informacoes[0]` é a inteligência
+    + `informacoes[1]` é a bateria
+    + `informacoes[2]` é o nome da imagem
     
-    Adicione o código para exibir as estatísticas de inteligência e bateria:
+    Adicione o código para exibir as informações de inteligência e bateria:
     
-    ![captura de tela](images/robotrumps-stats-2.png)
+    ![screenshot](images/robotrumps-stats-2.png)
 
-+ Oh céus! As estatísticas estão todas em cima umas das outras. Você precisará adicionar código para mover a tartaruga:
++ Oh céus! As informações estão todas em cima umas das outras. Você precisará adicionar código para mover a turtle(tartaruga):
     
-    ![captura de tela](images/robotrumps-stats-3.png)
+    ![screenshot](images/robotrumps-stats-3.png)
 
 + E finalmente, vamos adicionar a imagem do robô para completar a exibição.
     
-    Você precisará adicionar uma linha para registrar a imagem ao ler os dados de `cards.txt`:
+    Você precisará adicionar uma linha para registrar a imagem ao ler os dados do `cartas.txt`:
     
-    ![captura de tela](images/robotrumps-register.png)
+    ![screenshot](images/robotrumps-register.png)
 
-+ E adicione o código para posicionar e carimbar a imagem:
++ E adicione o código para posicionar e mostrar a imagem:
     
-    ![captura de tela](images/robotrumps-image.png)
+    ![screenshot](images/robotrumps-image.png)
 
 + Teste seu código digitando um robô e depois outro e você verá que eles são exibidos um em cima do outro!
     
     Você precisa limpar a tela antes de exibir um robô:
     
-    ![captura de tela](images/robotrumps-clear.png)
+    ![screenshot](images/robotrumps-clear.png)
