@@ -36,7 +36,7 @@ Quando você concluir essa etapa, poderá exibir robôs como este:
 
 + Tente alterar a variável</code>style` até que você esteja satisfeito com o texto.</p>
 
-<p>Em vez de <code>Arial` você poderia tentar: `Courier`, `Times` ou `Verdana`.
+<p>Em vez de `Arial` você poderia tentar: `Courier`, `Times` ou `Verdana`.
     
     Para alterar o tamanho da fonte, altere de `14` para um número diferente.
     

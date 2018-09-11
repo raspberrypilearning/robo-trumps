@@ -4,7 +4,7 @@ Geralmente é útil poder ler informações de um arquivo. Você pode alterar os
 
 + Abra este trinket: <a href="http://jumpto.cc/trumps-go" target="_blank">jumpto.cc/trumps-go</a>.
 
-+ Seu projeto inicial inclui um arquivo `cards.txt` que contém dados sobre os robôs. Será necessário alterar o nome deste arquivo para cartas.txt.
++ Seu projeto inicial inclui um arquivo `cartas.txt` que contém dados sobre os robôs. Será necessário alterar o nome deste arquivo para cartas.txt.
     
     Clique em `cartas.txt` para ver os dados:
     
