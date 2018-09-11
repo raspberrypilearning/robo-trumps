@@ -1,15 +1,15 @@
 ## Exibir um robô aleatório
 
-Vamos adicionar código para que você obtenha um robô aleatório ao digitar Aleatório em vez de um nome de robô.
+Vamos adicionar um código para que você obtenha um robô aleatório ao digitar sortear em vez de um nome de robô.
 
-+ Primeiro você precisa importar a função de escolha do módulo aleatório:
++ Primeiro você precisará importar a função 'choice' do módulo 'random':
     
-    ![captura de tela](images/robotrumps-random.png)
+    ![screenshot](images/robotrumps-random.png)
 
-+ Você pode usar `escolha` para escolher um nome de robô aleatório na lista de chaves do dicionário do robô.
++ Você pode usar `choice` para escolher um nome de robô aleatório na lista de chaves do dicionário do robô.
     
-    ![captura de tela](images/robotrumps-choice.png)
+    ![screenshot](images/robotrumps-choice.png)
 
-+ No Python 3, você precisa usar a `lista` para transformar os resultados das `chaves` em uma lista.
++ No Python 3, você precisa usar a `list(lista)` para transformar os resultados das `keys(chaves)` em uma lista.
     
-    Dica: verifique cuidadosamente seus suportes!
+    Dica: Verifique cuidadosamente seus colchetes!
