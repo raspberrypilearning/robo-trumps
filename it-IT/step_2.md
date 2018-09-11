@@ -1,63 +1,63 @@
-## Read robot data from a file
+## Leggi i dati dei robot da un file
 
-It's often useful to be able to read information from a file. You can then change the data in the file without having to change your code.
+Spesso è utile poter leggere delle informazioni da un file. Grazie a questo, puoi cambiare i dati senza dover modificare il codice.
 
-+ Open this trinket: <a href="http://jumpto.cc/trumps-go" target="_blank">jumpto.cc/trumps-go</a>.
++ Apri questo trinket: <a href="http://jumpto.cc/trumps-go" target="_blank">jumpto.cc/trumps-go</a>.
 
-+ Your starter project includes a `cards.txt` file which contains data about robots.
++ Il tuo progetto di partenza include il file `cards.txt` che contiene i dati sui robot.
     
-    Click on `cards.txt` to see the data:
+    Clicca su `cards.txt` per visualizzare i dati:
     
     ![screenshot](images/robotrumps-cards.png)
     
-    Each line has data about a robot. The data items are separated by commas.
+    Ogni riga contiene dati circa un robot. Le varie informazioni sono separati da virgole.
     
-    Each line contains the following information:
+    Ogni riga contiene le seguenti informazioni:
     
-    name, intelligence rating, how long the battery lasts, image file name
+    nome, indice di intelligenza, durata della batteria, nome del file della rispettiva immagine
 
-+ Let's read the data in from the file so that you can use it.
++ Prendiamo i dati dal file in modo da poterli usare.
     
-    The first step is to open the `cards.txt` file in your script:
+    Il primo passo è quello di aprire il file `cards.txt` nel codice:
     
     ![screenshot](images/robotrumps-open.png)
 
-+ Now you can read the data from the file:
++ Ora puoi leggere i dati dal file:
     
     ![screenshot](images/robotrumps-read.png)
 
-+ You should always close a file when you have finished with it:
++ È buona norma chiudere sempre il file una volta finito di usarlo:
     
     ![screenshot](images/robotrumps-close.png)
 
-+ That gives us the file as one string, you need to break it down into the individual pieces of data.
++ Questo codice ci dà il contenuto del file sotto forma di un'unica stringa, quindi dovrai scomporla nei singoli dati.
     
-    First, you can split the file into a list of lines:
+    Innanzitutto, dividi il contenuto del file in una lista di righe:
     
     ![screenshot](images/robotrumps-lines.png)
     
-    Look carefully at the output. There are three items in the list, each one is a line from the file.
+    Guarda attentamente l'output. Ci sono tre elementi nella lista, ognuno dei quali è una riga del file.
 
-+ Now you can loop over those lines one at a time
++ Ora puoi scorrere lungo quelle righe con un ciclo, una alla volta
     
     ![screenshot](images/robotrumps-loop.png)
 
-+ Instead of printing out the lines, read them in to variables:
++ Invece di stampare le righe a schermo, salviamole in una serie di variabili:
     
     ![screenshot](images/robotrumps-variables.png)
 
-+ You want to be able to use this data later to look up the values for a particular robot. Let's use the robot's name as a key to a dictionary.
++ Dovremo essere in grado di usare questi dati in un secondo momento per cercare i valori di un certo robot. Quindi, usiamo il nome del robot come chiave in un dizionario.
     
-    Add a `robots` dictionary:
+    Aggiungi un dizionario di nome `robots`:
     
     ![screenshot](images/robotrumps-dict.png)
 
-+ Now let's add an entry to the robots dictionary for each robot.
++ Ora aggiungiamo un elemento al dizionario per ogni robot.
     
-    The name is the key and the value is a list of data for that robot.
+    Il nome è la chiave, mentre il valore è la lista dei dati di quel robot.
     
-    Add the highlighted code:
+    Aggiungi il codice evidenziato:
     
     ![screenshot](images/robotrumps-data.png)
     
-    You can remove `print robots` when you have tested your script.
+    Puoi rimuovere il comando `print robots` dopo averlo usato per testare il tuo codice.
