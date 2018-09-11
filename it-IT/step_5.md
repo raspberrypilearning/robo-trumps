@@ -1,20 +1,20 @@
 \--- challenge \---
 
-## Challenge: Add more stats to the robots
+## Sfida: Aggiungi altre statistiche ai robot
 
-Can you think of more stats to add to the robots. You could add ‘speed’ or ‘usefulness’ or come up with your own ideas.
+Hai in mente altre statistiche da aggiungere ai robot? Potresti aggiungere 'velocità' o 'utilità', oppure usare altre tue idee.
 
-You’ll need to:
+Dovrai:
 
-+ Add data to the file for each new category 
-+ Add the new category to the code that read in the data
-+ Write the new category out when you display a trump card
++ Aggiungere i dati al file per ogni nuova categoria 
++ Aggiungere la nuova categoria al codice che legge i dati dal file
++ Mostra la nuova categoria quando mostri una carta robotica
 
-You could even add a colour and show the stats for robots in their own color.
+Potresti anche aggiungere un colore e mostrare le statistiche dei robot nel loro rispettivo colore.
 
-Hint: Use `color('red')` to change the turtle's text to red before writing.
+Suggerimento: Usa `color('red')` per colorare il testo di rosso prima di scrivere.
 
-Example:
+Esempio:
 
 ![screenshot](images/robotrumps-jet.png)
 
