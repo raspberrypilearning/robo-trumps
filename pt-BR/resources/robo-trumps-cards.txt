@@ -1,0 +1,3 @@
+colorido, 10, 34, rainbow.png
+avoado, 13, 28, space.gif
+ema, 6, 4, bird.gif
