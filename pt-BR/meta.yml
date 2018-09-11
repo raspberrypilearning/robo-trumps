@@ -1,0 +1,26 @@
+---
+hero_image: images/robo-trumps.png
+theme: turquoise
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: Robô-Trunfo
+description: Crie um banco de dados de robôs e jogue Robô-Trunfo com um amigo!
+original_url: https://codeclubprojects.org/en-GB/python/robo-trumps
+interests: games
+technologies: python
+site_areas: projects
+hardware: ''
+software: python
+version: 3
+last_tested: 2017-01-01
+steps:
+  - title: Introdução
+  - title: Ler dados do robô de um arquivo
+  - title: Exibir os dados
+  - title: 'Desafio: Adicione mais robôs'
+  - title: 'Desafio: Adicione mais informações aos robôs'
+  - title: Exibir um robô aleatório
+  - title: 'Desafio: Jogue Robô-Trunfo com um amigo'
