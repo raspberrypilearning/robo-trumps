@@ -4,60 +4,60 @@ Geralmente é útil poder ler informações de um arquivo. Você pode alterar os
 
 + Abra este trinket: <a href="http://jumpto.cc/trumps-go" target="_blank">jumpto.cc/trumps-go</a>.
 
-+ Seu projeto inicial inclui um arquivo `cards.txt` que contém dados sobre robôs.
++ Seu projeto inicial inclui um arquivo `cards.txt` que contém dados sobre os robôs. Será necessário alterar o nome deste arquivo para cartas.txt.
     
-    Clique em `cards.txt` para ver os dados:
+    Clique em `cartas.txt` para ver os dados:
     
-    ![captura de tela](images/robotrumps-cards.png)
+    ![screenshot](images/robotrumps-cards.png)
     
-    Cada linha tem dados sobre um robô. Os itens de dados são separados por vírgulas.
+    Em cada linha há dados sobre um robô. Os dados são separados por vírgulas.
     
     Cada linha contém as seguintes informações:
     
-    nome, classificação de inteligência, quanto tempo dura a bateria, nome do arquivo de imagem
+    Nome, classificação de inteligência, quanto tempo dura a bateria, nome do arquivo de imagem
 
 + Vamos ler os dados do arquivo para que você possa usá-lo.
     
-    O primeiro passo é abrir o arquivo `cards.txt` no seu script:
+    O primeiro passo é abrir o arquivo `cartas.txt` no seu script:
     
-    ![captura de tela](images/robotrumps-open.png)
+    ![screenshot](images/robotrumps-open.png)
 
 + Agora você pode ler os dados do arquivo:
     
-    ![captura de tela](images/robotrumps-read.png)
+    ![screenshot](images/robotrumps-read.png)
 
-+ Você deve sempre fechar um arquivo quando terminar:
++ Você deve sempre fechar um arquivo quando terminá-lo:
     
-    ![captura de tela](images/robotrumps-close.png)
+    ![screenshot](images/robotrumps-close.png)
 
 + Isso nos dá o arquivo como uma string, você precisa dividi-lo em partes individuais de dados.
     
     Primeiro, você pode dividir o arquivo em uma lista de linhas:
     
-    ![captura de tela](images/robotrumps-lines.png)
+    ![screenshot](images/robotrumps-lines.png)
     
     Olhe atentamente para a saída. Existem três itens na lista, cada um é uma linha do arquivo.
 
 + Agora você pode passar por cima dessas linhas uma de cada vez
     
-    ![captura de tela](images/robotrumps-loop.png)
+    ![screenshot](images/robotrumps-loop.png)
 
 + Em vez de imprimir as linhas, leia-as para as variáveis:
     
-    ![captura de tela](images/robotrumps-variables.png)
+    ![screenshot](images/robotrumps-variables.png)
 
 + Você quer poder usar esses dados mais tarde para procurar os valores de um determinado robô. Vamos usar o nome do robô como chave para um dicionário.
     
-    Adicione um `robôs` dicionário:
+    Adicione um dicionário `robos`:
     
-    ![captura de tela](images/robotrumps-dict.png)
+    ![screenshot](images/robotrumps-dict.png)
 
-+ Agora vamos adicionar uma entrada ao dicionário de robôs para cada robô.
++ Agora vamos adicionar uma entrada ao dicionário 'robos' para cada robô.
     
     O nome é a chave e o valor é uma lista de dados para esse robô.
     
     Adicione o código destacado:
     
-    ![captura de tela](images/robotrumps-data.png)
+    ![screenshot](images/robotrumps-data.png)
     
-    Você pode remover os `robôs de impressão` quando testar seu script.
+    Você pode remover o comando `print(robos)` depois de testar o seu script.
