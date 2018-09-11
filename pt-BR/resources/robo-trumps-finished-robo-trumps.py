@@ -3,48 +3,48 @@
 from turtle import *
 from random import choice
 
-screen = Screen()
-screen.bgcolor('white')
+tela = Screen()
+tela.bgcolor('white')
 penup()
 hideturtle()
-robots = {}
+robos = {}
 
-file = open('cards.txt', 'r')
+arquivo = open('cartas.txt', 'r')
 
-for line in file.read().splitlines():
-  name, battery, intelligence, usefulness, speed, image, colour = line.split(', ')
-  robots[name] = [battery, intelligence, usefulness, speed, image, colour]
-  screen.register_shape(image)
-file.close()
+for linha in arquivo.read().splitlines():
+  nome, bateria, inteligencia, utilidade, velocidade, imagem, cor = linha.split(', ')
+  robos[nome] = [bateria, inteligencia, utilidade, velocidade, imagem, cor]
+  tela.register_shape(imagem)
+arquivo.close()
 
-print('Robots: ', ', '.join(robots.keys()), ' (or random)')
+print('Robôs: ', ', '.join(robos.keys()), ' (ou sortear)')
 
 while True:
-  robot = input("Choose a robot: ")
-  if(robot == "random"):
-    robot = choice(robots.keys())
-    print(robot)
+  robo = input("Escolha um robô: ")
+  if(robot == "sortear"):
+    robo = choice(list(robos.keys()))
+    print(robo)
   
-  if robot in robots:
-    stats = robots[robot]
+  if robo in robos:
+    informacoes = robos[robo]
     style = ('Courier', 14, 'bold')
     clear()
-    color(stats[5])
+    color(informacoes[5])
     goto(0, 100)
-    shape(stats[4])
+    shape(informacoes[4])
     setheading(90)
     stamp()
     setheading(-90)
     forward(60)
-    write('Name: ' + robot, font=style, align='center')
+    write('Nome: ' + robo, font=fonte, align='center')
     forward(25)
-    write('Battery: ' + stats[0], font=style, align='center')
+    write('Bateria: ' + informacoes[0], font=fonte, align='center')
     forward(25)
-    write('Intelligence: ' + stats[1], font=style, align='center')
+    write('Inteligência: ' + informacoes[1], font=fonte, align='center')
     forward(25)
-    write('Usefulness: ' + stats[2], font=style, align='center')
+    write('Utilidade: ' + informacoes[2], font=fonte, align='center')
     forward(25)
-    write('Speed: ' + stats[3], font=style, align='center')
+    write('Velocidade: ' + informacoes[3], font=fonte, align='center')
     
   else:
-    print("Robot doesn't exist!")
+    print("Este robô não existe!")
