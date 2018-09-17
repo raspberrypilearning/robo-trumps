@@ -2,7 +2,7 @@
 
 Geralmente é útil poder ler informações de um arquivo. Você pode alterar os dados no arquivo sem precisar alterar seu código.
 
-+ Abra este trinket: <a href="http://jumpto.cc/trumps-go" target="_blank">jumpto.cc/trumps-go</a>.
++ Abra este trinket: <a href="http://trinket.io/python/8485e01af6" target="_blank">trinket.io/python/8485e01af6</a>.
 
 + Seu projeto inicial inclui um arquivo `cartas.txt` que contém dados sobre os robôs. Será necessário alterar o nome deste arquivo para cartas.txt.
     

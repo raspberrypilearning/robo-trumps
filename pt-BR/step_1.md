@@ -24,7 +24,7 @@ Neste projeto, os alunos lerão os dados de um arquivo em um dicionário, para a
 
 **Este projeto usa o Python 3.** Recomendamos usar o [trinket](https://trinket.io/) para programar em Python online. Este projeto contém os seguintes Trinkets:
 
-* [Ponto de partida 'Robô-Trunfo' - jumpto.cc/trumps-go](http://jumpto.cc/trumps-go)
+* [Ponto de partida 'Robô-Trunfo' - trinket.io/python/8485e01af6](http://trinket.io/python/8485e01af6)
 
 Há também um trinket contendo uma solução de amostra para os desafios:
 
@@ -78,7 +78,7 @@ title: Materiais do projeto
 ## Recursos do projeto
 
 * [arquivo .zip contendo todos os recursos do projeto](resources/robo-trumps-project-resources.zip)
-* [Trinket Online contendo recursos iniciais do 'Robô-Trunfo'](http://jumpto.cc/trumps-go)
+* [Trinket Online contendo recursos iniciais do 'Robô-Trunfo'](http://trinket.io/python/8485e01af6)
 * [robo-trumps/robo-trumps.py](resources/robo-trumps-robo-trumps.py)
 * [robo-trumps/cards.txt](resources/robo-trumps-cards.txt)
 * [robo-trumps/space.gif](resources/robo-trumps-space.gif)
