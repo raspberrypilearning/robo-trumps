@@ -1,6 +1,6 @@
-## Вступ
+## Introduction
 
-У цьому проекті ви будете читати дані з файлу, щоб створити робочі козирні картки. Тоді ви можете грати Robo-Trumps з другом.
+In this project you will read data from a file to create robot trump cards. Then you can play Robo-Trumps with a friend.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/9ccc368bd5?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -8,109 +8,109 @@
   <img src="images/robotrumps-finished.png">
 </div>
 
-### Додаткова інформація для лідерів клубу
+### Additional information for club leaders
 
-Якщо вам потрібно надрукувати цей проект, скористайтеся [Версія для друку](https://projects.raspberrypi.org/en/projects/robo-trumps/print).
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/robo-trumps/print).
 
-## \--- колапс \---
+## \--- collapse \---
 
-## title: Керівник клубу відзначає
+## title: Club leader notes
 
-## Введення:
+## Introduction:
 
-У цьому проекті учням буде зчитувати дані з файлу в словник, створити робочі козирні картки. Карти можуть бути використані для гри Robo-Trumps з другом.
+In this project learners will read data from a file into a dictionary, to create robot trump cards. The cards can then be used to play Robo-Trumps with a friend.
 
-## Інтернет-ресурси
+## Online Resources
 
-**Цей проект використовує Python 3.** Ми рекомендуємо використовувати [trinket](https://trinket.io/) для написання Python в Інтернеті. Цей проект містить наступні брелки:
+**This project uses Python 3.** We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
 
-* [Відправна точка 'Robotrumps' - jumpto.cc/trumps -go](http://jumpto.cc/trumps-go)
+* ['Robotrumps' starting point -- jumpto.cc/trumps-go](http://jumpto.cc/trumps-go)
 
-Існує також дрібничок, що містить вибіркове рішення для вирішення проблем:
+There is also a trinket containing a sample solution to the challenges:
 
-* ['Robotrumps' завершено - trinket.io/python/9ccc368bd5](https://trinket.io/python/9ccc368bd5)
+* [‘Robotrumps’ Finished -- trinket.io/python/9ccc368bd5](https://trinket.io/python/9ccc368bd5)
 
-## Офісні ресурси
+## Offline Resources
 
-Цей проект може бути [завершений автономно](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) , якщо воно є бажаним. Ви можете отримати доступ до ресурсів проекту, натиснувши посилання "Матеріали проекту" для цього проекту. Це посилання містить розділ "Ресурси проекту", який включає в себе ресурси, необхідні для завершення цього проекту в режимі офлайн. Переконайтеся, що кожна дитина має доступ до копії цих ресурсів. Цей розділ містить наступні файли:
+This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
 
-* robotrumps / robotrumps.py
-* robotrumps / cards.txt
-* Кілька роботів .gif-зображень
+* robotrumps/robotrumps.py
+* robotrumps/cards.txt
+* Several robot .gif images
 
-Ви також можете знайти завершену версію викликів цього проекту у розділі "Ресурси волонтерів", яка містить:
+You can also find a completed version of this project's challenges in the 'Volunteer Resources' section, which contains:
 
-* robotrumps-finished / robotrumps.py
-* robotrumps-finished / cards.txt
-* Кілька роботів .gif-зображень
+* robotrumps-finished/robotrumps.py
+* robotrumps-finished/cards.txt
+* Several robot .gif images
 
-(Всі вищезазначені ресурси також можна завантажувати як проекти та добровільні `.zip` файли.)
+(All of the resources above are also downloadable as project and volunteer `.zip` files.)
 
-## Мета навчання
+## Learning Objectives
 
-* Консолідація: структури даних, читання з графіки файлів і черепах;
-* Використання зображень у черепахової графіці;
-* Спільне використання брелоків проектів.
+* Consolidation: data structures, reading from file and turtle graphics;
+* Using images in turtle graphics;
+* Sharing trinket projects.
 
-Цей проект охоплює елементи з наступних напрямків програми [Малярка Пі-Бі-Сі.](http://rpf.io/curriculum):
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [Об'єднати конструктор програмування для вирішення проблеми.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Виклики
+## Challenges
 
-* Додати більше роботів - редагування файлу .txt та роботи з зображеннями;
-* Додайте більше статистичних даних роботам - обробка даних;
-* Грати в Robotrumps зі своїм другом.
+* Add more robots - Editing a .txt file and working with images;
+* Add more stats to the robots - handling data;
+* Play Robotrumps with a friend.
 
-## Питання що часто задаються
+## Frequently Asked Questions
 
-* **Offline Python не працює з зображеннями .png. .gif зображення були надані для використання в автономному режимі.**
-* Зауважте, що в цьому проекті використовуються як текстові введення, так і малюнки черепаху, ви можете налаштувати кількість вільного простору, наданого кожному в дрібничку.
-* Потрібно натиснути в текстовому вікні брелока перед введенням тексту.
-* Діти можуть використовувати параметр "Поділитися" в брелоку, щоб отримати посилання на свій проект. Якщо вони мають доступ до електронної пошти, вони можуть надіслати електронне повідомлення на адресу друзям, інакше вони можуть просто прочитати його, помітити його на папері або зберегти його в текстовому файлі в локальній мережі.
+* **Offline Python does not work with .png images. .gif images have been supplied for offline use.**
+* Note that this project uses both text input and turtle graphics, you can adjust the amount of space given to each in trinket.
+* You need to click in the trinket text window before typing.
+* Children can use the 'Share' option in trinket to get a link to their project. If they have access to email then they can email the link to a friend, otherwise they can just read it out, note it down on a piece of paper or save it in a text file on the local network.
 
-\--- / колапс \---
+\--- /collapse \---
 
-## \--- колапс \---
+## \--- collapse \---
 
-## title: Проектні матеріали
+## title: Project materials
 
-## Ресурси проекту
+## Project resources
 
-* [.zip-файл, що містить всі ресурси проекту](resources/robo-trumps-project-resources.zip)
-* [Інтернет-брелок з ресурсами для початківців "Robo-Trumps"](http://jumpto.cc/trumps-go)
-* [robo-trumps / robo-trumps.py](resources/robo-trumps-robo-trumps.py)
-* [robo-trumps / cards.txt](resources/robo-trumps-cards.txt)
-* [робо-козирі / space.gif](resources/robo-trumps-space.gif)
-* [робо-козирі / rainbow.gif](resources/robo-trumps-rainbow.gif)
-* [робо-козирі / bird.gif](resources/robo-trumps-bird.gif)
-* [робо-козирі / dog.gif](resources/robo-trumps-dog.gif)
-* [робо-козирі / jet.gif](resources/robo-trumps-jet.gif)
-* [робо-козирі / round.gif](resources/robo-trumps-round.gif)
-* [робо-козирі / brains.gif](resources/robo-trumps-brains.gif)
-* [робо-козирі / twoheads.gif](resources/robo-trumps-twoheads.gif)
-* [робо-козирі / shades.gif](resources/robo-trumps-shades.gif)
-* [робо-козирі / hair.gif](resources/robo-trumps-hair.gif)
-* [робо-козирі / tv.gif](resources/robo-trumps-tv.gif)
-* [робо-козирі / yellow.gif](resources/robo-trumps-yellow.gif)
+* [.zip file containing all project resources](resources/robo-trumps-project-resources.zip)
+* [Online Trinket containing 'Robo-Trumps' starter resources](http://jumpto.cc/trumps-go)
+* [robo-trumps/robo-trumps.py](resources/robo-trumps-robo-trumps.py)
+* [robo-trumps/cards.txt](resources/robo-trumps-cards.txt)
+* [robo-trumps/space.gif](resources/robo-trumps-space.gif)
+* [robo-trumps/rainbow.gif](resources/robo-trumps-rainbow.gif)
+* [robo-trumps/bird.gif](resources/robo-trumps-bird.gif)
+* [robo-trumps/dog.gif](resources/robo-trumps-dog.gif)
+* [robo-trumps/jet.gif](resources/robo-trumps-jet.gif)
+* [robo-trumps/round.gif](resources/robo-trumps-round.gif)
+* [robo-trumps/brains.gif](resources/robo-trumps-brains.gif)
+* [robo-trumps/twoheads.gif](resources/robo-trumps-twoheads.gif)
+* [robo-trumps/shades.gif](resources/robo-trumps-shades.gif)
+* [robo-trumps/hair.gif](resources/robo-trumps-hair.gif)
+* [robo-trumps/tv.gif](resources/robo-trumps-tv.gif)
+* [robo-trumps/yellow.gif](resources/robo-trumps-yellow.gif)
 
-## Керівник ресурсів Клубу
+## Club leader resources
 
-* [.zip-файл, що містить всі завершені ресурси проекту](resources/robotrumps-volunteer-resources.zip)
-* [Онлайн завершив проект "Брелок"](https://trinket.io/python/9ccc368bd5)
-* [робо-козирі-готові / robo-trumps.py](resources/robo-trumps-finished-robo-trumps.py)
-* [робо-козирі-готові / cards.txt](resources/robo-trumps-finished-cards.txt)
-* [робо-козирі-готові / space.gif](resources/robo-trumps-finished-space.gif)
-* [робо-козирі-готові / rainbow.gif](resources/robo-trumps-finished-rainbow.gif)
-* [Робо-козирі-закінчені / bird.gif](resources/robo-trumps-finished-bird.gif)
-* [робо-козирі-готові / dog.gif](resources/robo-trumps-finished-dog.gif)
-* [робо-козирі-готові / jet.gif](resources/robo-trumps-finished-jet.gif)
-* [робо-козирі-готові / round.gif](resources/robo-trumps-finished-round.gif)
-* [Робо-козирі-готові / brains.gif](resources/robo-trumps-finished-brains.gif)
-* [робо-козирі-закінчені / twoheads.gif](resources/robo-trumps-finished-twoheads.gif)
-* [робо-козирі-готові / shades.gif](resources/robo-trumps-finished-shades.gif)
-* [robo-trumps-finished / hair.gif](resources/robo-trumps-finished-hair.gif)
-* [Робо-козирі-готові / tv.gif](resources/robo-trumps-finished-tv.gif)
-* [робо-козирі-готово / yellow.gif](resources/robo-trumps-finished-yellow.gif)
+* [.zip file containing all completed project resources](resources/robotrumps-volunteer-resources.zip)
+* [Online completed Trinket project](https://trinket.io/python/9ccc368bd5)
+* [robo-trumps-finished/robo-trumps.py](resources/robo-trumps-finished-robo-trumps.py)
+* [robo-trumps-finished/cards.txt](resources/robo-trumps-finished-cards.txt)
+* [robo-trumps-finished/space.gif](resources/robo-trumps-finished-space.gif)
+* [robo-trumps-finished/rainbow.gif](resources/robo-trumps-finished-rainbow.gif)
+* [robo-trumps-finished/bird.gif](resources/robo-trumps-finished-bird.gif)
+* [robo-trumps-finished/dog.gif](resources/robo-trumps-finished-dog.gif)
+* [robo-trumps-finished/jet.gif](resources/robo-trumps-finished-jet.gif)
+* [robo-trumps-finished/round.gif](resources/robo-trumps-finished-round.gif)
+* [robo-trumps-finished/brains.gif](resources/robo-trumps-finished-brains.gif)
+* [robo-trumps-finished/twoheads.gif](resources/robo-trumps-finished-twoheads.gif)
+* [robo-trumps-finished/shades.gif](resources/robo-trumps-finished-shades.gif)
+* [robo-trumps-finished/hair.gif](resources/robo-trumps-finished-hair.gif)
+* [robo-trumps-finished/tv.gif](resources/robo-trumps-finished-tv.gif)
+* [robo-trumps-finished/yellow.gif](resources/robo-trumps-finished-yellow.gif)
 
-\--- / колапс \---
+\--- /collapse \---
