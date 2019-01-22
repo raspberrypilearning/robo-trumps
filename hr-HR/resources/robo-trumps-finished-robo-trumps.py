@@ -3,48 +3,48 @@
 from turtle import *
 from random import choice
 
-ekran = Screen()
-ekran.bgcolor('white')
+screen = Screen()
+screen.bgcolor('white')
 penup()
 hideturtle()
-roboti = {}
+robots = {}
 
-datoteka = open('cards.txt', 'r')
+file = open('cards.txt', 'r')
 
-for linija in datoteka.read().splitlines():
-  ime, baterija, inteligencija, korisnost, brzina, slika, boja = linija.split(', ')
-  roboti[ime] = [baterija, inteligencija, korisnost, brzina, slika, boja]
-  ekran.register_shape(slika)
-datoteka.close()
+for line in file.read().splitlines():
+  name, battery, intelligence, usefulness, speed, image, colour = line.split(', ')
+  robots[name] = [battery, intelligence, usefulness, speed, image, colour]
+  screen.register_shape(image)
+file.close()
 
-print('Roboti: ', ', '.join(roboti.keys()), ' (or random)')
+print('Robots: ', ', '.join(robots.keys()), ' (or random)')
 
 while True:
-  robot = input("Odaberi robota: ")
+  robot = input("Choose a robot: ")
   if(robot == "random"):
-    robot = choice(roboti.keys())
+    robot = choice(robots.keys())
     print(robot)
   
-  if robot in roboti:
-    karak = roboti[robot]
-    stil = ('Courier', 14, 'bold')
+  if robot in robots:
+    stats = robots[robot]
+    style = ('Courier', 14, 'bold')
     clear()
-    color(karak[5])
+    color(stats[5])
     goto(0, 100)
-    shape(karak[4])
+    shape(stats[4])
     setheading(90)
     stamp()
     setheading(-90)
     forward(60)
-    write('Ime: ' + robot, font=stil, align='center')
+    write('Name: ' + robot, font=style, align='center')
     forward(25)
-    write('Baterija: ' + karak[0], font=stil, align='center')
+    write('Battery: ' + stats[0], font=style, align='center')
     forward(25)
-    write('Inteligencija: ' + karak[1], font=stil, align='center')
+    write('Intelligence: ' + stats[1], font=style, align='center')
     forward(25)
-    write('Korisnost: ' + karak[2], font=stil, align='center')
+    write('Usefulness: ' + stats[2], font=style, align='center')
     forward(25)
-    write('Brzina: ' + karak[3], font=stil, align='center')
+    write('Speed: ' + stats[3], font=style, align='center')
     
   else:
-    print("Robot ne postoji!")
+    print("Robot doesn't exist!")
