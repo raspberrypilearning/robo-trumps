@@ -1,15 +1,15 @@
-## Mostrar un robot al azar
+## Display a random robot
 
-Agreguemos código para que obtengas un robot aleatorio cuando escribes Random en lugar del nombre de un robot.
+Let’s add code so that you get a random robot when you type Random instead of a robot name.
 
-+ Primero necesitarás importar la función choice desde el módulo random:
++ First you'll need to import the choice function from the random module:
     
-    ![captura de pantalla](images/robotrumps-random.png)
+    ![screenshot](images/robotrumps-random.png)
 
-+ Puede utilizar `choice` para elegir un nombre de robot al azar de la lista de las claves del diccionario de robots.
++ You can use `choice` to pick a random robot name from the list of keys from the robot dictionary.
     
-    ![captura de pantalla](images/robotrumps-choice.png)
+    ![screenshot](images/robotrumps-choice.png)
 
-+ En Python 3 necesitas utilizar `list` para convertir los resultados de `keys` en una lista.
++ In Python 3 you need to use `list` to turn the results of `keys` into a list.
     
-    Consejo: ¡Asegúrate de revisar cuidadosamente los paréntesis rectos!
+    Tip: Make sure you check your brackets carefully!
