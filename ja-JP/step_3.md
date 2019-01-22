@@ -1,77 +1,77 @@
-## データを表示する
+## Display the data
 
-これで、より興味深い方法でロボットデータを表示できます。
+Now you can display the robot data in a more interesting way.
 
-知性と有用性のために、画像とデータを含むロボットトランプカードを表示しましょう。
+Let’s display a robot trump card with an image and data for its intelligence and usefulness.
 
-この手順を完了すると、次のようなロボットを表示できます：
+When you've completed this step you'll be able to display robots like this:
 
-![スクリーンショット](images/robotrumps-example.png)
+![screenshot](images/robotrumps-example.png)
 
-+ どのロボットを見たいかをユーザに尋ねます：
++ Ask the user which robot they would like to see:
     
-    ![スクリーンショット](images/robotrumps-choose.png)
+    ![screenshot](images/robotrumps-choose.png)
 
-+ ロボットが辞書内にある場合は、そのデータを検索します。
++ If the robot is in the dictionary then lookup its data:
     
-    ![スクリーンショット](images/robotrumps-if.png)
+    ![screenshot](images/robotrumps-if.png)
     
-    ロボット名を入力してコードをテストします。
+    Test your code by entering a robot name.
 
-+ ロボットが存在しない場合はエラーを返します。
++ If the robot doesn't exist then give an error:
     
-    ![スクリーンショット](images/robotrumps-else.png)
+    ![screenshot](images/robotrumps-else.png)
     
-    辞書にないロボット名を入力して、コードをテストします。
+    Test your code by entering a robot name that isn't in the dictionary.
 
-+ 今度は、Pythonのカメを使用してロボットデータを表示します。
++ Now you're going to use the Python turtle to display the robot data.
     
-    スクリプトの一番上にあるタートルライブラリをインポートして、スクリーンとカメを設定します。
+    Import the turtle library at the top of your script and setup the screen and turtle:
     
-    ![スクリーンショット](images/robotrumps-turtle.png)
+    ![screenshot](images/robotrumps-turtle.png)
 
-+ タートルにロボットの名前を印刷させるコードを追加してください：
++ Now add code to get the turtle to print the name of the robot:
     
-    ![スクリーンショット](images/robotrumps-name.png)
+    ![screenshot](images/robotrumps-name.png)
 
-+ テキストに満足するまで `スタイル` 変数を変更してみてください。
++ Try changing the `style` variable until you are happy with the text.
     
-    代わりの `Arialの` あなたは試みることができる： `クーリエ`、 `回` または `のVerdana`。
+    Instead of `Arial` you could try: `Courier`, `Times` or `Verdana`.
     
-    `14` を別の番号に変更して、フォントのサイズを変更します。
+    Change `14` to a different number to change the size of the font.
     
-    あなたは変更することができます `大胆` への `通常の` または `イタリック`。
+    You can change `bold` to `normal` or `italic`.
 
-+ ロボットの統計情報のリストを印刷するのではなく変数に格納する：
++ Store the list of stats for the robot in a variable instead of printing them out:
     
-    ![スクリーンショット](images/robotrumps-stats.png)
+    ![screenshot](images/robotrumps-stats.png)
 
-+ これで、リストの項目としてロボットの統計にアクセスできます。
++ You can now access the stats for the robot as items in a list:
     
-    + `stats[0]` は知性です
-    + `stats[1]` はバッテリーです
-    + `stats[2]` イメージ名です
+    + `stats[0]` is intelligence
+    + `stats[1]` is battery
+    + `stats[2]` is the image name
     
-    インテリジェンスとバッテリーの統計情報を表示するコードを追加する：
+    Add code to display the intelligence and battery stats:
     
-    ![スクリーンショット](images/robotrumps-stats-2.png)
+    ![screenshot](images/robotrumps-stats-2.png)
 
-+ まあ！ 統計はすべて互いに上にある。 あなたはタートルを移動するコードを追加する必要があります：
++ Oh dear! The stats are all on top of each other. You'll need to add code to move the turtle:
     
-    ![スクリーンショット](images/robotrumps-stats-3.png)
+    ![screenshot](images/robotrumps-stats-3.png)
 
-+ 最後に、ロボット画像を追加してディスプレイを完成させましょう。
++ And finally, let's add the robot image to complete the display.
     
-    `からデータを読み込むときに画像を登録する行を追加する必要があります。cards.txt`：
+    You'll need to add a line to register the image when you read the data from `cards.txt`:
     
-    ![スクリーンショット](images/robotrumps-register.png)
+    ![screenshot](images/robotrumps-register.png)
 
-+ 画像を配置してスタンプするためのコードを追加します：
++ And add code to position and stamp the image:
     
-    ![スクリーンショット](images/robotrumps-image.png)
+    ![screenshot](images/robotrumps-image.png)
 
-+ 1つのロボットを入力して別のロボットを入力してコードをテストすると、互いの上に表示されます。
++ Test your code by entering one robot and then another and you'll see that they display on top of each other!
     
-    ロボットを表示する前に画面を消去する必要があります：
+    You need to clear the screen before displaying a robot:
     
-    ![スクリーンショット](images/robotrumps-clear.png)
+    ![screenshot](images/robotrumps-clear.png)
