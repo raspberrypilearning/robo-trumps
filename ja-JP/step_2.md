@@ -1,63 +1,63 @@
-## ファイルからロボットデータを読み込む
+## Read robot data from a file
 
-ファイルから情報を読み取ることはしばしば有用です。 その後、コードを変更することなく、ファイル内のデータを変更することができます。
+It's often useful to be able to read information from a file. You can then change the data in the file without having to change your code.
 
-+ この小物を開きます： <a href="http://jumpto.cc/trumps-go" target="_blank">jumpto.cc/trumps-go</a>。
++ Open this trinket: <a href="http://jumpto.cc/trumps-go" target="_blank">jumpto.cc/trumps-go</a>.
 
-+ あなたのスタータープロジェクトには、ロボットに関するデータを含む `cards.txt` ファイルが含まれています。
++ Your starter project includes a `cards.txt` file which contains data about robots.
     
-    `cards.txt` をクリックしてデータを表示します：
+    Click on `cards.txt` to see the data:
     
-    ![スクリーンショット](images/robotrumps-cards.png)
+    ![screenshot](images/robotrumps-cards.png)
     
-    各行にはロボットに関するデータがあります。 データ項目はコンマで区切られています。
+    Each line has data about a robot. The data items are separated by commas.
     
-    各行には次の情報が含まれています。
+    Each line contains the following information:
     
-    名前、インテリジェンスレーティング、バッテリーの持続時間、画像ファイル名
+    name, intelligence rating, how long the battery lasts, image file name
 
-+ ファイルからデータを読み込み、使用できるようにしましょう。
++ Let's read the data in from the file so that you can use it.
     
-    最初のステップは、あなたのスクリプトに `cards.txt` ファイルを開くことです：
+    The first step is to open the `cards.txt` file in your script:
     
-    ![スクリーンショット](images/robotrumps-open.png)
+    ![screenshot](images/robotrumps-open.png)
 
-+ これでファイルからデータを読み取ることができます：
++ Now you can read the data from the file:
     
-    ![スクリーンショット](images/robotrumps-read.png)
+    ![screenshot](images/robotrumps-read.png)
 
-+ 終了したら、ファイルを閉じる必要があります：
++ You should always close a file when you have finished with it:
     
-    ![スクリーンショット](images/robotrumps-close.png)
+    ![screenshot](images/robotrumps-close.png)
 
-+ それは私たちにファイルを1つの文字列として与え、個々のデータに分割する必要があります。
++ That gives us the file as one string, you need to break it down into the individual pieces of data.
     
-    まず、ファイルを行のリストに分割することができます。
+    First, you can split the file into a list of lines:
     
-    ![スクリーンショット](images/robotrumps-lines.png)
+    ![screenshot](images/robotrumps-lines.png)
     
-    出力を注意深く見てください。 リストには3つの項目があり、それぞれがファイルの行です。
+    Look carefully at the output. There are three items in the list, each one is a line from the file.
 
-+ 今度は、それらの行を一度に1つずつループすることができます
++ Now you can loop over those lines one at a time
     
-    ![スクリーンショット](images/robotrumps-loop.png)
+    ![screenshot](images/robotrumps-loop.png)
 
-+ 行を印刷する代わりに、変数を変数に読み込みます。
++ Instead of printing out the lines, read them in to variables:
     
-    ![スクリーンショット](images/robotrumps-variables.png)
+    ![screenshot](images/robotrumps-variables.png)
 
-+ このデータを後で使用して、特定のロボットの値を参照できるようにする必要があります。 ロボットの名前を辞書のキーとして使用しましょう。
++ You want to be able to use this data later to look up the values for a particular robot. Let's use the robot's name as a key to a dictionary.
     
-    `台のロボットを追加` 辞書：
+    Add a `robots` dictionary:
     
-    ![スクリーンショット](images/robotrumps-dict.png)
+    ![screenshot](images/robotrumps-dict.png)
 
-+ 次に、各ロボットのロボット辞書にエントリを追加しましょう。
++ Now let's add an entry to the robots dictionary for each robot.
     
-    名前はキーで、値はそのロボットのデータのリストです。
+    The name is the key and the value is a list of data for that robot.
     
-    強調表示されたコードを追加：
+    Add the highlighted code:
     
-    ![スクリーンショット](images/robotrumps-data.png)
+    ![screenshot](images/robotrumps-data.png)
     
-    あなたのスクリプトをテストしたときに、 `プリントロボット` 取り除くことができます。
+    You can remove `print robots` when you have tested your script.
