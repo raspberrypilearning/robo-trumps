@@ -1,10 +1,10 @@
 \--- challenge \---
 
-## Challenge: Play robot trumps with a friend
+## Izazov: Igraj Robo-karte sa prijateljem
 
-Share your project with a friend and play Robotrumps. Both use the same project so that it's fair! Player one requests a random robot and then chooses a category. Player 2 then requests a random robot and you check who has the highest score for the chosen category, then swap over.
+Podijeli svoj projekat sa prijateljem i igrajte Robo-karte. Koristite isti projekat da bude pravedno! Prvi igrač traži nasumičnog robota, a zatim bira kategoriju. Onda drugi igrač traži nasumičnog robota, a zatim provjeravate ko ima najviši rezultat za odabranu kategoriju. Nakon toga se zamjenjujete.
 
-The game works best if you both play with the same deck of cards. Share a link to your trinket project with a friend so you can both use the same deck.
+Igra bolje funkcioniše ako oboje igrate sa istim špilom karata. Podijeli link svog trinket projekta sa prijateljem kako biste oboje mogli da koristite isti špil.
 
 ![screenshot](images/robotrumps-play.png)
 
