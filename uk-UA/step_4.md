@@ -1,13 +1,13 @@
-\--- завдання \---
+\--- challenge \---
 
-## Виклик: додайте більше роботів
+## Challenge: Add more robots
 
-Чи можете ви додати дані про більше роботів до `cards.txt`.
+Can you add data about more robots to `cards.txt`.
 
-Натисніть кнопку зображень, щоб побачити зображення робота, які ви можете використовувати.
+Click on the images button to see the robot images that you can use.
 
-Ви дізнаєтесь, скільки батареї та інтелекту у них є.
+You get to decide how much battery and intelligence they have.
 
-![скріншот](images/robotrumps-yellow.png)
+![screenshot](images/robotrumps-yellow.png)
 
-\--- / виклик \---
+\--- /challenge \---
