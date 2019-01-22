@@ -1,20 +1,20 @@
 \--- challenge \---
 
-## Challenge: Add more stats to the robots
+## Izazov: Dodaj još podataka o robotima
 
-Can you think of more stats to add to the robots. You could add ‘speed’ or ‘usefulness’ or come up with your own ideas.
+Možeš li smisliti još podataka koje ćeš dodati robotima? Možeš da dodaš 'brzinu' ili 'korisnost' ili da koristiš svoje ideje.
 
-You’ll need to:
+Potrebno je da:
 
-+ Add data to the file for each new category 
-+ Add the new category to the code that read in the data
-+ Write the new category out when you display a trump card
++ Dodaš podatke u datoteku za svaku novu kategoriju 
++ Dodaš novu kategoriju u kôd koji učitava podatke
++ Ispišeš novu kategoriju pri prikazivanju karte robota
 
-You could even add a colour and show the stats for robots in their own color.
+Možeš da dodaš i boju i prikažeš podatke o svakom robotu u drugoj boji.
 
-Hint: Use `color('red')` to change the turtle's text to red before writing.
+Pomoć: Koristi `color('red')` da promijeniš boju kornjačinog teksta u crvenu prije pisanja.
 
-Example:
+Primjer:
 
 ![screenshot](images/robotrumps-jet.png)
 
