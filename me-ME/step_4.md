@@ -1,12 +1,12 @@
 \--- challenge \---
 
-## Challenge: Add more robots
+## Izazov: Dodaj još robota
 
-Can you add data about more robots to `cards.txt`.
+Možeš li u `cards.txt` dodati podatke za još robota?
 
-Click on the images button to see the robot images that you can use.
+Klikni na dugme za slike da vidiš slike robota koje možeš koristiti.
 
-You get to decide how much battery and intelligence they have.
+Ti odlučuješ koliko baterije i inteligencije će imati.
 
 ![screenshot](images/robotrumps-yellow.png)
 
