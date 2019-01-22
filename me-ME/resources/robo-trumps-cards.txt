@@ -1,3 +1,3 @@
-duga, 10, 34, rainbow.gif
-svemir, 13, 28, space.gif
-ptica, 6, 4, bird.gif
+rainbow, 10, 34, rainbow.gif
+space, 13, 28, space.gif
+bird, 6, 4, bird.gif
