@@ -18,16 +18,16 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Einführung
+    title: Einleitung
   - 
-    title: Lies die Roboter Daten aus einer Datei ab
+    title: Lies die Roboter Daten aus einer Datei
   - 
     title: Daten anzeigen
   - 
     title: 'Aufgabe: Füge noch mehr Roboter hinzu'
   - 
-    title: 'Aufgabe: Füge den Robotern weitere Statistiken hinzu'
+    title: 'Aufgabe: Füge den Robotern weitere Daten hinzu'
   - 
-    title: Einen beliebigen Roboter darstellen
+    title: Einen zufällig gewählten Roboter darstellen
   - 
     title: 'Aufgabe: Spiele Robot-Trumps mit einem Freund/einer Freundin'
