@@ -1,3 +1,4 @@
+---
 hero_image: images/robo-trumps.png
 theme: turquoise
 duration: 2
@@ -6,7 +7,7 @@ ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 title: Carte Robotiche
-description: Crea un database di robot e gioca a carte robotiche con un amico!
+description: Crea un database di robot e gioca a Carte Robotiche con un amico!
 original_url: https://codeclubprojects.org/en-GB/python/robo-trumps
 interests: games
 technologies: python
@@ -15,11 +16,11 @@ hardware: ''
 software: python
 version: 3
 last_tested: 2017-01-01
-steps: 
-- title: Introduzione
-- title: Leggi i dati robot da un file
-- title: Visualizza i dati
-- title: 'Sfida: Aggiungi altri robot'
-- title: 'Sfida: Aggiungi altre statistiche ai robot'
-- title: Visualizza un robot a caso
-- title: 'Sfida: Gioca a carte robotiche con un amico'
+steps:
+  - title: Introduzione
+  - title: Leggi i dati dei robot da un file
+  - title: Visualizza i dati sullo schermo
+  - title: 'Sfida: Aggiungi altri robot'
+  - title: 'Sfida: Aggiungi altre statistiche ai robot'
+  - title: Visualizza un robot a caso
+  - title: 'Sfida: Gioca a Carte Robotiche con un amico'

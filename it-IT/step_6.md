@@ -1,13 +1,15 @@
 ## Visualizza un robot a caso
 
-Aggiungiamo un codice in modo che tu ottenga un robot a caso quando digiti A Caso invece che il nome del robot.
+Aggiungiamo del codice per mostrare un robot a caso quando inserisci 'Random' al posto del nome di un robot.
 
-+ Per prima cosa, dovrai importare la funzione di selezione dal modulo a caso:
++ Come prima cosa dovrai importare la funzione 'choice' dal modulo 'random':
+    
+    ![screenshot](images/robotrumps-random.png)
 
-  ![screenshot](images/robotrumps-random.png)
++ Puoi usare `choice` per prendere un nome di robot casuale dalla lista di chiavi del dizionario 'robots'.
+    
+    ![screenshot](images/robotrumps-choice.png)
 
-+ Puoi usare 'choice' (scelta) per scegliere un nome a caso per il robot dalla lista di chiavi dal dizionario del robot.
-
-  ![screenshot](images/robotrumps-choice.png)
-
-
++ In Python 3 devi usare `list` per trasformare i risultati di `keys` in una lista.
+    
+    Suggerimento: Assicurati di controllare bene le parentesi!

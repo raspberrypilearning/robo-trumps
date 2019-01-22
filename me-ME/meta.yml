@@ -1,0 +1,26 @@
+---
+hero_image: images/robo-trumps.png
+theme: turquoise
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: Robo-karte
+description: Kreiraj bazu podataka o robotima i igraj Robo-karte sa prijateljem!
+original_url: https://codeclubprojects.org/en-GB/python/robo-trumps
+interests: games
+technologies: python
+site_areas: projects
+hardware: ''
+software: python
+version: 3
+last_tested: 2017-01-01
+steps:
+  - title: Uvod
+  - title: Učitaj podatke o robotu iz datoteke
+  - title: Prikaži podatke
+  - title: 'Izazov: Dodaj još robota'
+  - title: 'Izazov: Dodaj još podataka o robotima'
+  - title: Prikaži nasumičnog robota
+  - title: 'Izazov: Igraj Robo-karte sa prijateljem'

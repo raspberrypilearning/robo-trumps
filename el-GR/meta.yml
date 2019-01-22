@@ -1,0 +1,26 @@
+---
+hero_image: images/robo-trumps.png
+theme: turquoise
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: Ρομπο-Κάρτες
+description: Δημιούργησε μια βάση δεδομένων με ρομπότ και παίξε Ρομπο-Κάρτες με έναν φίλο!
+original_url: https://codeclubprojects.org/en-GB/python/robo-trumps
+interests: games
+technologies: python
+site_areas: projects
+hardware: ''
+software: python
+version: 3
+last_tested: 2017-01-01
+steps:
+  - title: Εισαγωγή
+  - title: Διάβασε τα στοιχεία των ρομπότ από ένα αρχείο
+  - title: Εμφάνισε τα στοιχεία
+  - title: 'Πρόκληση: Πρόσθεσε περισσότερα ρομπότ'
+  - title: 'Πρόκληση: Πρόσθεσε περισσότερα στατιστικά στοιχεία στα ρομπότ'
+  - title: Εμφάνισε ένα τυχαίο ρομπότ
+  - title: 'Πρόκληση: Παίξε Ρομπο-Κάρτες με έναν φίλο'
