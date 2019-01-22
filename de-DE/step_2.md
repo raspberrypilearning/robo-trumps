@@ -1,63 +1,63 @@
-## Lies die Roboter Daten aus einer Datei
+## Read robot data from a file
 
-Es ist oft nützlich, Informationen aus einer Datei lesen zu können. Du kannst dann die Daten in der Datei ändern, ohne deinen Code ändern zu müssen.
+It's often useful to be able to read information from a file. You can then change the data in the file without having to change your code.
 
-+ Öffne diesen Trinket: <a href="http://jumpto.cc/trumps-go" target="_blank">jumpto.cc/trumps-go</a>.
++ Open this trinket: <a href="http://jumpto.cc/trumps-go" target="_blank">jumpto.cc/trumps-go</a>.
 
-+ Dein Starterprojekt enthält eine Datei namens `cards.txt`, die Daten zu Robotern enthält.
++ Your starter project includes a `cards.txt` file which contains data about robots.
     
-    Klicken Sie auf den Reiter `cards.txt` um die Daten zu sehen:
+    Click on `cards.txt` to see the data:
     
     ![screenshot](images/robotrumps-cards.png)
     
-    Jede Zeile enthält Daten über einen Roboter. Die Datenelemente sind durch Kommas getrennt.
+    Each line has data about a robot. The data items are separated by commas.
     
-    Jede Zeile enthält folgende Informationen:
+    Each line contains the following information:
     
-    Name, Intelligenzbewertung, Lebensdauer der Batterie, Dateiname des Bildes
+    name, intelligence rating, how long the battery lasts, image file name
 
-+ Lass uns die Daten aus der Datei lesen, damit du sie verwenden kannst.
++ Let's read the data in from the file so that you can use it.
     
-    Der erste Schritt ist das Öffnen der Datei `cards.txt` in deinem Skript:
+    The first step is to open the `cards.txt` file in your script:
     
     ![screenshot](images/robotrumps-open.png)
 
-+ Jetzt kannst du die Daten aus der Datei lesen:
++ Now you can read the data from the file:
     
     ![screenshot](images/robotrumps-read.png)
 
-+ Du solltest eine Datei immer schließen, wenn du damit fertig bist:
++ You should always close a file when you have finished with it:
     
     ![screenshot](images/robotrumps-close.png)
 
-+ Damit erhalten wir den ganzen Inhalt der Datei als eine Zeichenfolge. Du musst sie in die einzelnen Datenelemente aufteilen.
++ That gives us the file as one string, you need to break it down into the individual pieces of data.
     
-    Zunächst kannst du die Datei in eine Liste von Zeilen aufteilen:
+    First, you can split the file into a list of lines:
     
     ![screenshot](images/robotrumps-lines.png)
     
-    Sieh dir die Ausgabe genau an. Es gibt drei Elemente in der Liste, in denen sich jeweils eine Zeile aus der Datei befindet.
+    Look carefully at the output. There are three items in the list, each one is a line from the file.
 
-+ Jetzt kannst du diese Zeilen mit einer Schleife durchlaufen
++ Now you can loop over those lines one at a time
     
     ![screenshot](images/robotrumps-loop.png)
 
-+ Statt die Zeilen auszudrucken, lies sie in Variablen ein:
++ Instead of printing out the lines, read them in to variables:
     
     ![screenshot](images/robotrumps-variables.png)
 
-+ Du möchtest diese Daten später verwenden können, um die Werte für einen bestimmten Roboter abzurufen. Verwenden wir den Namen des Roboters als Schlüssel zu einem dictionary.
++ You want to be able to use this data later to look up the values for a particular robot. Let's use the robot's name as a key to a dictionary.
     
-    Füge ein dictionary namens `roboter` hinzu:
+    Add a `robots` dictionary:
     
     ![screenshot](images/robotrumps-dict.png)
 
-+ Jetzt fügen wir einen Eintrag zum Roboter-dictionary für jeden Roboter hinzu.
++ Now let's add an entry to the robots dictionary for each robot.
     
-    Der Name ist der Schlüssel und der Wert ist eine Liste von Daten für diesen Roboter.
+    The name is the key and the value is a list of data for that robot.
     
-    Füge den markierten Code hinzu:
+    Add the highlighted code:
     
     ![screenshot](images/robotrumps-data.png)
     
-    Du kannst `print roboter` entfernen, wenn du dein Skript getestet hast.
+    You can remove `print robots` when you have tested your script.
