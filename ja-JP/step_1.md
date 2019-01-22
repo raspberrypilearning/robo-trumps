@@ -1,6 +1,6 @@
-## 前書き
+## Introduction
 
-このプロジェクトでは、ファイルからデータを読み込んでロボットトランプカードを作成します。 その後、あなたは友人と一緒にロボトランプをプレイすることができます。
+In this project you will read data from a file to create robot trump cards. Then you can play Robo-Trumps with a friend.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/9ccc368bd5?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -8,109 +8,109 @@
   <img src="images/robotrumps-finished.png">
 </div>
 
-### クラブ指導者のための追加情報
+### Additional information for club leaders
 
-あなたはこのプロジェクトを印刷する必要がある場合は、使用してください [プリンターに優しいバージョン](https://projects.raspberrypi.org/en/projects/robo-trumps/print)。
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/robo-trumps/print).
 
-## \---崩壊\---
+## \--- collapse \---
 
-## title：クラブリーダーノート
+## title: Club leader notes
 
-## 前書き：
+## Introduction:
 
-このプロジェクトでは、学習者はファイルから辞書にデータを読み込んで、ロボットトランプカードを作成します。 このカードを使用して、友人とRobo-Trumpsをプレイすることができます。
+In this project learners will read data from a file into a dictionary, to create robot trump cards. The cards can then be used to play Robo-Trumps with a friend.
 
-## オンラインリソース
+## Online Resources
 
-**このプロジェクトではPython 3を使用しています** [装飾](https://trinket.io/) を使ってPythonをオンラインで書くことをお勧めします。 このプロジェクトには、次の装飾品が含まれています：
+**This project uses Python 3.** We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
 
-* ['Robotrumps'の出発点 - jumpto.cc/trumps-go](http://jumpto.cc/trumps-go)
+* ['Robotrumps' starting point -- jumpto.cc/trumps-go](http://jumpto.cc/trumps-go)
 
-挑戦のサンプルソリューションを含む小物もあります：
+There is also a trinket containing a sample solution to the challenges:
 
-* ['Robotrumps'が完了しました - trinket.io/python/9ccc368bd5](https://trinket.io/python/9ccc368bd5)
+* [‘Robotrumps’ Finished -- trinket.io/python/9ccc368bd5](https://trinket.io/python/9ccc368bd5)
 
-## オフラインリソース
+## Offline Resources
 
-このプロジェクトは、することができます [オフライン完成](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) 好まます。 このプロジェクトの[プロジェクトマテリアル]リンクをクリックすると、プロジェクトリソースにアクセスできます。 このリンクには、「プロジェクトリソース」セクションがあります。このセクションには、このプロジェクトをオフラインで完了するために必要なリソースが含まれています。 各子供がこれらのリソースのコピーにアクセスできることを確認してください。 このセクションには、次のファイルが含まれています。
+This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
 
-* robotrumps / robotrumps.py
-* robotrumps / cards.txt
-* いくつかのロボット.gif画像
+* robotrumps/robotrumps.py
+* robotrumps/cards.txt
+* Several robot .gif images
 
-このプロジェクトの課題の完成版は、次の内容を含む「ボランティアリソース」セクションでも見つけることができます。
+You can also find a completed version of this project's challenges in the 'Volunteer Resources' section, which contains:
 
-* ロボット浪費 - 完成/ロボット浪費.py
-* robotrumps-finished / cards.txt
-* いくつかのロボット.gif画像
+* robotrumps-finished/robotrumps.py
+* robotrumps-finished/cards.txt
+* Several robot .gif images
 
-（上記のリソースはすべて、プロジェクトとしてダウンロード可能で、 `.zip` ファイルをボランティアします）。
+(All of the resources above are also downloadable as project and volunteer `.zip` files.)
 
-## 学習目標
+## Learning Objectives
 
-* 統合：データ構造、ファイルおよびカメのグラフィックスからの読み込み、
-* 亀のグラフィックスで画像を使用する。
-* 小物プロジェクトの共有。
+* Consolidation: data structures, reading from file and turtle graphics;
+* Using images in turtle graphics;
+* Sharing trinket projects.
 
-このプロジェクトでは、以下の要素を網羅しています [ラズベリーパイデジタルメイクカリキュラム](http://rpf.io/curriculum)：
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [プログラミング構造を組み合わせて問題を解決する。](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## 課題
+## Challenges
 
-* ロボットの追加 - .txtファイルの編集と画像の操作
-* ロボットにデータを処理するための統計情報を追加する。
-* 友人とロボットを一緒に遊ぶ。
+* Add more robots - Editing a .txt file and working with images;
+* Add more stats to the robots - handling data;
+* Play Robotrumps with a friend.
 
-## よくある質問
+## Frequently Asked Questions
 
-* **オフラインPythonは.pngイメージでは動作しません。 .gif画像はオフラインで使用するために提供されています。**
-* このプロジェクトでは、テキスト入力とカメのグラフィックの両方を使用しているので、それぞれの装身具に与えられるスペースの量を調整できます。
-* 入力する前に小品のテキストウィンドウをクリックする必要があります。
-* 子どもたちは自分のプロジェクトへのリンクを得るために、小売りで「共有」オプションを使うことができます。 彼らは電子メールにアクセスできれば、友人へのリンクをメールで送ることができます。そうでなければ、読んだり、紙に書き留めたり、ローカルネットワーク上のテキストファイルに保存することができます。
+* **Offline Python does not work with .png images. .gif images have been supplied for offline use.**
+* Note that this project uses both text input and turtle graphics, you can adjust the amount of space given to each in trinket.
+* You need to click in the trinket text window before typing.
+* Children can use the 'Share' option in trinket to get a link to their project. If they have access to email then they can email the link to a friend, otherwise they can just read it out, note it down on a piece of paper or save it in a text file on the local network.
 
-\--- /崩壊\---
+\--- /collapse \---
 
-## \---崩壊\---
+## \--- collapse \---
 
-## title：プロジェクト資料
+## title: Project materials
 
-## プロジェクトリソース
+## Project resources
 
-* [すべてのプロジェクトリソースを含む.zipファイル](resources/robo-trumps-project-resources.zip)
-* ['Robo-Trumps'スターターリソースを含むオンライン小物](http://jumpto.cc/trumps-go)
-* [robo-trumps / robo-trumps.py](resources/robo-trumps-robo-trumps.py)
-* [robo-trumps / cards.txt](resources/robo-trumps-cards.txt)
-* [robo-trumps / space.gif](resources/robo-trumps-space.gif)
-* [ロボトランプ/ rainbow.gif](resources/robo-trumps-rainbow.gif)
-* [robo-trumps / bird.gif](resources/robo-trumps-bird.gif)
-* [robo-trumps / dog.gif](resources/robo-trumps-dog.gif)
-* [robo-trumps / jet.gif](resources/robo-trumps-jet.gif)
-* [robo-trumps / round.gif](resources/robo-trumps-round.gif)
-* [robo-trumps / brains.gif](resources/robo-trumps-brains.gif)
-* [ロボトランプ/ twoheads.gif](resources/robo-trumps-twoheads.gif)
-* [robo-trumps / shades.gif](resources/robo-trumps-shades.gif)
-* [ロボトランプ/ hair.gif](resources/robo-trumps-hair.gif)
-* [ロボトランプ/ tv.gif](resources/robo-trumps-tv.gif)
-* [robo-trumps / yellow.gif](resources/robo-trumps-yellow.gif)
+* [.zip file containing all project resources](resources/robo-trumps-project-resources.zip)
+* [Online Trinket containing 'Robo-Trumps' starter resources](http://jumpto.cc/trumps-go)
+* [robo-trumps/robo-trumps.py](resources/robo-trumps-robo-trumps.py)
+* [robo-trumps/cards.txt](resources/robo-trumps-cards.txt)
+* [robo-trumps/space.gif](resources/robo-trumps-space.gif)
+* [robo-trumps/rainbow.gif](resources/robo-trumps-rainbow.gif)
+* [robo-trumps/bird.gif](resources/robo-trumps-bird.gif)
+* [robo-trumps/dog.gif](resources/robo-trumps-dog.gif)
+* [robo-trumps/jet.gif](resources/robo-trumps-jet.gif)
+* [robo-trumps/round.gif](resources/robo-trumps-round.gif)
+* [robo-trumps/brains.gif](resources/robo-trumps-brains.gif)
+* [robo-trumps/twoheads.gif](resources/robo-trumps-twoheads.gif)
+* [robo-trumps/shades.gif](resources/robo-trumps-shades.gif)
+* [robo-trumps/hair.gif](resources/robo-trumps-hair.gif)
+* [robo-trumps/tv.gif](resources/robo-trumps-tv.gif)
+* [robo-trumps/yellow.gif](resources/robo-trumps-yellow.gif)
 
-## クラブリーダーのリソース
+## Club leader resources
 
-* [完了したすべてのプロジェクトリソースを含む.zipファイル](resources/robotrumps-volunteer-resources.zip)
-* [オンラインで完成したTrinketプロジェクト](https://trinket.io/python/9ccc368bd5)
-* [robo-trumps-finished / robo-trumps.py](resources/robo-trumps-finished-robo-trumps.py)
-* [robo-trumps-finished / cards.txt](resources/robo-trumps-finished-cards.txt)
-* [robo-trumps-finished / space.gif](resources/robo-trumps-finished-space.gif)
-* [ロボトランプスーツ/ rainbow.gif](resources/robo-trumps-finished-rainbow.gif)
-* [robo-trumps-finished / bird.gif](resources/robo-trumps-finished-bird.gif)
-* [robo-trumps-finished / dog.gif](resources/robo-trumps-finished-dog.gif)
-* [robo-trumps-finished / jet.gif](resources/robo-trumps-finished-jet.gif)
-* [robo-trumps-finished / round.gif](resources/robo-trumps-finished-round.gif)
-* [robo-trumps-finished / brains.gif](resources/robo-trumps-finished-brains.gif)
-* [robo-trumps-finished / twoheads.gif](resources/robo-trumps-finished-twoheads.gif)
-* [robo-trumps-finished / shades.gif](resources/robo-trumps-finished-shades.gif)
-* [robo-trumps-finished / hair.gif](resources/robo-trumps-finished-hair.gif)
-* [ロボトランプスティル/ tv.gif](resources/robo-trumps-finished-tv.gif)
-* [robo-trumps-finished / yellow.gif](resources/robo-trumps-finished-yellow.gif)
+* [.zip file containing all completed project resources](resources/robotrumps-volunteer-resources.zip)
+* [Online completed Trinket project](https://trinket.io/python/9ccc368bd5)
+* [robo-trumps-finished/robo-trumps.py](resources/robo-trumps-finished-robo-trumps.py)
+* [robo-trumps-finished/cards.txt](resources/robo-trumps-finished-cards.txt)
+* [robo-trumps-finished/space.gif](resources/robo-trumps-finished-space.gif)
+* [robo-trumps-finished/rainbow.gif](resources/robo-trumps-finished-rainbow.gif)
+* [robo-trumps-finished/bird.gif](resources/robo-trumps-finished-bird.gif)
+* [robo-trumps-finished/dog.gif](resources/robo-trumps-finished-dog.gif)
+* [robo-trumps-finished/jet.gif](resources/robo-trumps-finished-jet.gif)
+* [robo-trumps-finished/round.gif](resources/robo-trumps-finished-round.gif)
+* [robo-trumps-finished/brains.gif](resources/robo-trumps-finished-brains.gif)
+* [robo-trumps-finished/twoheads.gif](resources/robo-trumps-finished-twoheads.gif)
+* [robo-trumps-finished/shades.gif](resources/robo-trumps-finished-shades.gif)
+* [robo-trumps-finished/hair.gif](resources/robo-trumps-finished-hair.gif)
+* [robo-trumps-finished/tv.gif](resources/robo-trumps-finished-tv.gif)
+* [robo-trumps-finished/yellow.gif](resources/robo-trumps-finished-yellow.gif)
 
-\--- /崩壊\---
+\--- /collapse \---
