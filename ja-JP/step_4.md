@@ -1,13 +1,13 @@
-\---挑戦\---
+\--- challenge \---
 
-## 課題：より多くのロボットを追加する
+## Challenge: Add more robots
 
-あなたはより多くのロボットについてのデータを追加することができます `cards.txt`。
+Can you add data about more robots to `cards.txt`.
 
-画像ボタンをクリックすると、使用できるロボット画像が表示されます。
+Click on the images button to see the robot images that you can use.
 
-どれだけのバッテリーとインテリジェンスがあるかを判断することができます。
+You get to decide how much battery and intelligence they have.
 
-![スクリーンショット](images/robotrumps-yellow.png)
+![screenshot](images/robotrumps-yellow.png)
 
-\--- /チャレンジ\---
+\--- /challenge \---
