@@ -1,13 +1,13 @@
 ---
-hero_image: imagens / robo-trumps.png
-theme: turquesa
+hero_image: images/robo-trumps.png
+theme: turquoise
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 title: Robo-Trumps
-description: Crie um banco de dados de robôs e jogue Robo-Trumps com um amigo!
+description: Create a database of robots and play Robo-Trumps with a friend!
 original_url: https://codeclubprojects.org/en-GB/python/robo-trumps
 interests: games
 technologies: python
@@ -18,16 +18,16 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introdução
+    title: Introduction
   - 
-    title: Ler dados do robô de um arquivo
+    title: Read robot data from a file
   - 
-    title: Exibir os dados
+    title: Display the data
   - 
-    title: 'Desafio: adicione mais robôs'
+    title: 'Challenge: Add more robots'
   - 
-    title: 'Desafio: adicione mais estatísticas aos robôs'
+    title: 'Challenge: Add more stats to the robots'
   - 
-    title: Exibir um robô aleatório
+    title: Display a random robot
   - 
-    title: 'Desafio: Jogue com o robô em um amigo'
+    title: 'Challenge: Play robot trumps with a friend'
