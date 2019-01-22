@@ -1,77 +1,77 @@
-## Wyświetl dane
+## Display the data
 
-Teraz możesz wyświetlać dane robota w bardziej interesujący sposób.
+Now you can display the robot data in a more interesting way.
 
-Pokażmy kartę atutową robota z obrazem i danymi, aby uzyskać informacje na temat jej inteligencji i użyteczności.
+Let’s display a robot trump card with an image and data for its intelligence and usefulness.
 
-Po ukończeniu tego kroku będziesz mógł wyświetlać roboty w następujący sposób:
+When you've completed this step you'll be able to display robots like this:
 
-![zrzut ekranu](images/robotrumps-example.png)
+![screenshot](images/robotrumps-example.png)
 
-+ Zapytaj użytkownika, który robot chciałby zobaczyć:
++ Ask the user which robot they would like to see:
     
-    ![zrzut ekranu](images/robotrumps-choose.png)
+    ![screenshot](images/robotrumps-choose.png)
 
-+ Jeśli robot znajduje się w słowniku, sprawdź jego dane:
++ If the robot is in the dictionary then lookup its data:
     
-    ![zrzut ekranu](images/robotrumps-if.png)
+    ![screenshot](images/robotrumps-if.png)
     
-    Przetestuj swój kod, wpisując nazwę robota.
+    Test your code by entering a robot name.
 
-+ Jeśli robot nie istnieje, to daj błąd:
++ If the robot doesn't exist then give an error:
     
-    ![zrzut ekranu](images/robotrumps-else.png)
+    ![screenshot](images/robotrumps-else.png)
     
-    Przetestuj swój kod, wprowadzając nazwę robota, której nie ma w słowniku.
+    Test your code by entering a robot name that isn't in the dictionary.
 
-+ Teraz będziesz używał żółwia Python do wyświetlania danych robota.
++ Now you're going to use the Python turtle to display the robot data.
     
-    Zaimportuj bibliotekę żółwich u góry skryptu i ustaw ekran i żółwia:
+    Import the turtle library at the top of your script and setup the screen and turtle:
     
-    ![zrzut ekranu](images/robotrumps-turtle.png)
+    ![screenshot](images/robotrumps-turtle.png)
 
-+ Teraz dodaj kod, aby żółw wydrukował nazwę robota:
++ Now add code to get the turtle to print the name of the robot:
     
-    ![zrzut ekranu](images/robotrumps-name.png)
+    ![screenshot](images/robotrumps-name.png)
 
-+ Spróbuj zmienić zmienną `w stylu` , dopóki nie będziesz zadowolony z tekstu.
++ Try changing the `style` variable until you are happy with the text.
     
-    Zamiast `Arial` możesz spróbować: `Kurier`, `Czasy` lub `Verdana`.
+    Instead of `Arial` you could try: `Courier`, `Times` or `Verdana`.
     
-    Zmień `14` na inną liczbę, aby zmienić rozmiar czcionki.
+    Change `14` to a different number to change the size of the font.
     
-    Możesz zmienić `pogrubiony` na `normalny` lub `kursywę`.
+    You can change `bold` to `normal` or `italic`.
 
-+ Przechowuj listę statystyk robota w zmiennej zamiast ich drukowania:
++ Store the list of stats for the robot in a variable instead of printing them out:
     
-    ![zrzut ekranu](images/robotrumps-stats.png)
+    ![screenshot](images/robotrumps-stats.png)
 
-+ Teraz możesz uzyskać dostęp do statystyk robota jako elementów na liście:
++ You can now access the stats for the robot as items in a list:
     
-    + `statystyki[0]` to inteligencja
-    + `statystyki[1]` jest bateria
-    + `statystyki[2]` to nazwa obrazu
+    + `stats[0]` is intelligence
+    + `stats[1]` is battery
+    + `stats[2]` is the image name
     
-    Dodaj kod, aby wyświetlić statystyki dotyczące inteligencji i baterii:
+    Add code to display the intelligence and battery stats:
     
-    ![zrzut ekranu](images/robotrumps-stats-2.png)
+    ![screenshot](images/robotrumps-stats-2.png)
 
-+ O jej! Statystyki są umieszczone jeden na drugim. Aby przenieść żółwia, musisz dodać kod:
++ Oh dear! The stats are all on top of each other. You'll need to add code to move the turtle:
     
-    ![zrzut ekranu](images/robotrumps-stats-3.png)
+    ![screenshot](images/robotrumps-stats-3.png)
 
-+ Na koniec dodajmy obraz robota, aby ukończyć wyświetlanie.
++ And finally, let's add the robot image to complete the display.
     
-    Będziesz musiał dodać linię, aby zarejestrować obraz po przeczytaniu danych z `cards.txt`:
+    You'll need to add a line to register the image when you read the data from `cards.txt`:
     
-    ![zrzut ekranu](images/robotrumps-register.png)
+    ![screenshot](images/robotrumps-register.png)
 
-+ I dodaj kod do położenia i stempla obrazu:
++ And add code to position and stamp the image:
     
-    ![zrzut ekranu](images/robotrumps-image.png)
+    ![screenshot](images/robotrumps-image.png)
 
-+ Przetestuj swój kod, wprowadzając jednego robota, a potem drugiego, a zobaczysz, że wyświetlają się jeden na drugim!
++ Test your code by entering one robot and then another and you'll see that they display on top of each other!
     
-    Musisz wyczyścić ekran przed wyświetleniem robota:
+    You need to clear the screen before displaying a robot:
     
-    ![zrzut ekranu](images/robotrumps-clear.png)
+    ![screenshot](images/robotrumps-clear.png)
