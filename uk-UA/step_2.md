@@ -1,63 +1,63 @@
-## Читайте дані робота з файлу
+## Read robot data from a file
 
-Часто корисно вміти читати інформацію з файлу. Після цього ви можете змінити дані у файлі без зміни коду.
+It's often useful to be able to read information from a file. You can then change the data in the file without having to change your code.
 
-+ Відкрийте цю дрібничку: <a href="http://jumpto.cc/trumps-go" target="_blank">jumpto.cc/trumps-go</a>.
++ Open this trinket: <a href="http://jumpto.cc/trumps-go" target="_blank">jumpto.cc/trumps-go</a>.
 
-+ Ваш стартовий проект містить `файл files.txt` , який містить дані про роботів.
++ Your starter project includes a `cards.txt` file which contains data about robots.
     
-    Натисніть `maps.txt` , щоб переглянути дані:
+    Click on `cards.txt` to see the data:
     
-    ![скріншот](images/robotrumps-cards.png)
+    ![screenshot](images/robotrumps-cards.png)
     
-    Кожен рядок містить дані про робота. Елементи даних розділені комами.
+    Each line has data about a robot. The data items are separated by commas.
     
-    Кожен рядок містить таку інформацію:
+    Each line contains the following information:
     
-    ім'я, рейтинг розвідки, тривалість роботи акумулятора, назва файлу зображення
+    name, intelligence rating, how long the battery lasts, image file name
 
-+ Давайте читаємо дані з файлу, щоб ви могли його використовувати.
++ Let's read the data in from the file so that you can use it.
     
-    Першим кроком буде відкрити файл `cards.txt` у вашому сценарії:
+    The first step is to open the `cards.txt` file in your script:
     
-    ![скріншот](images/robotrumps-open.png)
+    ![screenshot](images/robotrumps-open.png)
 
-+ Тепер ви можете прочитати дані з файлу:
++ Now you can read the data from the file:
     
-    ![скріншот](images/robotrumps-read.png)
+    ![screenshot](images/robotrumps-read.png)
 
-+ Ви завжди повинні закрити файл, коли ви закінчите з ним:
++ You should always close a file when you have finished with it:
     
-    ![скріншот](images/robotrumps-close.png)
+    ![screenshot](images/robotrumps-close.png)
 
-+ Це дає нам файл як один рядок, потрібно розбити його на окремі фрагменти даних.
++ That gives us the file as one string, you need to break it down into the individual pieces of data.
     
-    По-перше, ви можете розділити файл на список рядків:
+    First, you can split the file into a list of lines:
     
-    ![скріншот](images/robotrumps-lines.png)
+    ![screenshot](images/robotrumps-lines.png)
     
-    Подивіться уважно на виході. У списку є три пункти, кожна з яких - це рядок з файлу.
+    Look carefully at the output. There are three items in the list, each one is a line from the file.
 
-+ Тепер ви можете цикл по цих лініях по одному за раз
++ Now you can loop over those lines one at a time
     
-    ![скріншот](images/robotrumps-loop.png)
+    ![screenshot](images/robotrumps-loop.png)
 
-+ Замість того, щоб друкувати рядки, прочитайте їх у змінні:
++ Instead of printing out the lines, read them in to variables:
     
-    ![скріншот](images/robotrumps-variables.png)
+    ![screenshot](images/robotrumps-variables.png)
 
-+ Ви хочете мати можливість використовувати ці дані пізніше, щоб переглянути значення для певного робота. Давайте використовувати ім'я робота як ключ до словника.
++ You want to be able to use this data later to look up the values for a particular robot. Let's use the robot's name as a key to a dictionary.
     
-    Додайте `робот` словник:
+    Add a `robots` dictionary:
     
-    ![скріншот](images/robotrumps-dict.png)
+    ![screenshot](images/robotrumps-dict.png)
 
-+ Тепер давайте додамо запис у словник роботів для кожного робота.
++ Now let's add an entry to the robots dictionary for each robot.
     
-    Ім'я - це ключ, а значення - це список даних для цього робота.
+    The name is the key and the value is a list of data for that robot.
     
-    Додати виділений код:
+    Add the highlighted code:
     
-    ![скріншот](images/robotrumps-data.png)
+    ![screenshot](images/robotrumps-data.png)
     
-    Ви можете видалити `друкованих роботів` , коли ви перевірили свій сценарій.
+    You can remove `print robots` when you have tested your script.
