@@ -1,13 +1,13 @@
 ---
-hero_image: images / robo-trumps.png
-theme: бірюза
+hero_image: images/robo-trumps.png
+theme: turquoise
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Роботи-Козирки
-description: Створіть базу даних роботів і грайте в Robo-Trumps з другом!
+title: Robo-Trumps
+description: Create a database of robots and play Robo-Trumps with a friend!
 original_url: https://codeclubprojects.org/en-GB/python/robo-trumps
 interests: games
 technologies: python
@@ -18,16 +18,16 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Вступ
+    title: Introduction
   - 
-    title: Читайте дані робота з файлу
+    title: Read robot data from a file
   - 
-    title: Відображення даних
+    title: Display the data
   - 
-    title: 'Виклик: додайте більше роботів'
+    title: 'Challenge: Add more robots'
   - 
-    title: 'Виклик: додайте більше статистичних даних роботам'
+    title: 'Challenge: Add more stats to the robots'
   - 
-    title: Відображати випадковий робот
+    title: Display a random robot
   - 
-    title: 'Виклик: грайте в робот козир з другом'
+    title: 'Challenge: Play robot trumps with a friend'
