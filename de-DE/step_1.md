@@ -1,6 +1,6 @@
-## Einleitung
+## Introduction
 
-In diesem Projekt liest du die Daten zum Erstellen von Robo-Trump Karten aus einer Datei. Dann kannst du Robo-Trumps mit einem Freund spielen.
+In this project you will read data from a file to create robot trump cards. Then you can play Robo-Trumps with a friend.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/9ccc368bd5?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -8,77 +8,77 @@ In diesem Projekt liest du die Daten zum Erstellen von Robo-Trump Karten aus ein
   <img src="images/robotrumps-finished.png">
 </div>
 
-### Zusätzliche Informationen für Club-Leiter
+### Additional information for club leaders
 
-Falls Sie dieses Projekt ausdrucken müssen, verwenden Sie bitte die [druckfreundliche Version](https://projects.raspberrypi.org/en/projects/robo-trumps/print).
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/robo-trumps/print).
 
 ## \--- collapse \---
 
-## title: Hinweise für Club-Leiter
+## title: Club leader notes
 
-## Einleitung:
+## Introduction:
 
-In diesem Projekt lesen die Lernenden die Daten zum Erstellen von Robo-Trump Karten aus einer Datei. Dann kann man mit einem Freund/einer Freundin Robo-Trumps spielen.
+In this project learners will read data from a file into a dictionary, to create robot trump cards. The cards can then be used to play Robo-Trumps with a friend.
 
-## Online-Ressourcen
+## Online Resources
 
-**Dieses Projekt verwendet Python 3.** Wir empfehlen die Verwendung von [trinket](https://trinket.io/), um Python-Programme online zu schreiben. Dieses Projekt enthält die folgenden Trinkets:
+**This project uses Python 3.** We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
 
-* ['Robotrumps' Ausgangspunkt - jumpto.cc/trumps-go](http://jumpto.cc/trumps-go)
+* ['Robotrumps' starting point -- jumpto.cc/trumps-go](http://jumpto.cc/trumps-go)
 
-Es gibt auch ein Trinket mit einer Beispiellösung für die zusätzlichen Aufgaben:
+There is also a trinket containing a sample solution to the challenges:
 
-* ['Robotrumps' fertiggestellt - trinket.io/python/9ccc368bd5](https://trinket.io/python/9ccc368bd5)
+* [‘Robotrumps’ Finished -- trinket.io/python/9ccc368bd5](https://trinket.io/python/9ccc368bd5)
 
-## Offline-Ressourcen
+## Offline Resources
 
-Dieses Projekt kann, falls gewünscht, auch [offline bearbeitet](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) werden. Sie können auf die Projektressourcen zugreifen, indem Sie auf den Link "Projektmaterial" für dieses Projekt klicken. Dieser Link enthält einen Abschnitt "Projektressourcen" mit Ressourcen, die die Kinder benötigen, um das Projekt offline abschließen zu können. Stelle sicher, dass jedes Kind Zugriff auf eine Kopie dieser Ressourcen hat. Dieser Abschnitt enthält die folgenden Dateien:
+This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
 
 * robotrumps/robotrumps.py
 * robotrumps/cards.txt
-* einige .gif-Bilder von Robotern
+* Several robot .gif images
 
-Eine vollständige Version dieses Projekts finden Sie auch im Abschnitt "Ressourcen für Freiwillige". Diese enthält:
+You can also find a completed version of this project's challenges in the 'Volunteer Resources' section, which contains:
 
 * robotrumps-finished/robotrumps.py
 * robotrumps-finished/cards.txt
-* einige .gif-Bilder von Robotern
+* Several robot .gif images
 
-(Alle oben genannten Ressourcen können auch als `.zip`-Dateien für Projekte und für Freiwillige heruntergeladen werden.)
+(All of the resources above are also downloadable as project and volunteer `.zip` files.)
 
-## Lernziele
+## Learning Objectives
 
-* Konsolidierung: Datenstrukturen, Lesen aus Dateien und Schildkrötengrafik;
-* Verwenden von Bildern in Schildkrötengrafiken;
-* Teilen von Trinket-Projekten.
+* Consolidation: data structures, reading from file and turtle graphics;
+* Using images in turtle graphics;
+* Sharing trinket projects.
 
-Dieses Projekt umfasst Elemente aus den folgenden Zweigen des [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [Verschiedene Programmierkonstrukte kombinieren um ein Problem zu lösen.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Aufgaben
+## Challenges
 
-* Hinzufügen weiterer Roboter - Bearbeiten einer .txt-Datei und Arbeiten mit Bildern;
-* Hinzufügen weiterer Daten zu den Robotern - Umgang mit Daten;
-* Spiele Robotrumps mit einem Freund.
+* Add more robots - Editing a .txt file and working with images;
+* Add more stats to the robots - handling data;
+* Play Robotrumps with a friend.
 
-## Häufig Gestellte Fragen
+## Frequently Asked Questions
 
-* **Offline-Python kann nicht mit .png-Bildern arbeiten. Für die Offline-Verwendung wurden .gif-Bilder bereitgestellt.**
-* Beachten Sie, dass dieses Projekt sowohl Texteingaben als auch Schildkrötengrafiken verwendet. Sie können den Platz anpassen, der jedem Teil in Trinket zugewiesen wird.
-* Sie müssen vor dem Eingeben in das Trinket-Textfenster klicken.
-* Kinder können die Option "Teilen" in Trinket verwenden, um einen Link zu ihrem Projekt zu erhalten. Wenn sie Zugriff auf E-Mails haben, können sie den Link per E-Mail an einen Freund senden, andernfalls können sie ihn einfach auslesen, auf einem Blatt Papier notieren oder in einer Textdatei im lokalen Netzwerk speichern.
+* **Offline Python does not work with .png images. .gif images have been supplied for offline use.**
+* Note that this project uses both text input and turtle graphics, you can adjust the amount of space given to each in trinket.
+* You need to click in the trinket text window before typing.
+* Children can use the 'Share' option in trinket to get a link to their project. If they have access to email then they can email the link to a friend, otherwise they can just read it out, note it down on a piece of paper or save it in a text file on the local network.
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Projektmaterial
+## title: Project materials
 
-## Projektressourcen
+## Project resources
 
-* [.zip-Datei mit allen Projektressourcen](resources/robo-trumps-project-resources.zip)
-* [Online Trinket mit allen Ressourcen des 'Robo Trumps'-Projekts](http://jumpto.cc/trumps-go)
+* [.zip file containing all project resources](resources/robo-trumps-project-resources.zip)
+* [Online Trinket containing 'Robo-Trumps' starter resources](http://jumpto.cc/trumps-go)
 * [robo-trumps/robo-trumps.py](resources/robo-trumps-robo-trumps.py)
 * [robo-trumps/cards.txt](resources/robo-trumps-cards.txt)
 * [robo-trumps/space.gif](resources/robo-trumps-space.gif)
@@ -94,10 +94,10 @@ Dieses Projekt umfasst Elemente aus den folgenden Zweigen des [Raspberry Pi Digi
 * [robo-trumps/tv.gif](resources/robo-trumps-tv.gif)
 * [robo-trumps/yellow.gif](resources/robo-trumps-yellow.gif)
 
-## Ressourcen für Clubleiter
+## Club leader resources
 
-* [.zip-Datei mit allen fertig gestellten Projektressourcen](resources/robotrumps-volunteer-resources.zip)
-* [Vollständiges Trinket-Projekt (online)](https://trinket.io/python/9ccc368bd5)
+* [.zip file containing all completed project resources](resources/robotrumps-volunteer-resources.zip)
+* [Online completed Trinket project](https://trinket.io/python/9ccc368bd5)
 * [robo-trumps-finished/robo-trumps.py](resources/robo-trumps-finished-robo-trumps.py)
 * [robo-trumps-finished/cards.txt](resources/robo-trumps-finished-cards.txt)
 * [robo-trumps-finished/space.gif](resources/robo-trumps-finished-space.gif)
