@@ -1,20 +1,20 @@
 \--- challenge \---
 
-## Aufgabe: Füge den Robotern weitere Daten hinzu
+## Challenge: Add more stats to the robots
 
-Kannst du dir weitere Daten vorstellen, die du zu den Robotern hinzufügen könntest? Du könntest 'Geschwindigkeit' oder 'Nützlichkeit' hinzufügen oder eigene Ideen entwickeln.
+Can you think of more stats to add to the robots. You could add ‘speed’ or ‘usefulness’ or come up with your own ideas.
 
-Du musst:
+You’ll need to:
 
-+ Füge der Datei für jede neue Kategorie Daten hinzu 
-+ Fügen Sie dem Code, der die Daten einliest, die neue Kategorie hinzu
-+ Schreibe die neue Kategorie hin, wenn du eine Trumpfkarte anzeigst
++ Add data to the file for each new category 
++ Add the new category to the code that read in the data
++ Write the new category out when you display a trump card
 
-Du könntest sogar eine Farbe hinzufügen und die Daten für Roboter in ihrer eigenen Farbe anzeigen.
+You could even add a colour and show the stats for robots in their own color.
 
-Hinweis: Verwende die `color('red')` um den Text der Schildkröte vor dem Schreiben auf Rot zu ändern.
+Hint: Use `color('red')` to change the turtle's text to red before writing.
 
-Beispiel:
+Example:
 
 ![screenshot](images/robotrumps-jet.png)
 
