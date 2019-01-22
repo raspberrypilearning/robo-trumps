@@ -1,15 +1,15 @@
-## ランダムなロボットを表示する
+## Display a random robot
 
-ロボット名の代わりにランダムを入力するとランダムなロボットを得るようにコードを追加しましょう。
+Let’s add code so that you get a random robot when you type Random instead of a robot name.
 
-+ まずランダムモジュールからchoice関数をインポートする必要があります：
++ First you'll need to import the choice function from the random module:
     
-    ![スクリーンショット](images/robotrumps-random.png)
+    ![screenshot](images/robotrumps-random.png)
 
-+ `選択肢` を使用して、ロボット辞書からのキーのリストからランダムなロボット名を選択することができます。
++ You can use `choice` to pick a random robot name from the list of keys from the robot dictionary.
     
-    ![スクリーンショット](images/robotrumps-choice.png)
+    ![screenshot](images/robotrumps-choice.png)
 
-+ Pythonの3では、あなたが使用する必要が `リスト` 結果オンにする `キー` リストに。
++ In Python 3 you need to use `list` to turn the results of `keys` into a list.
     
-    ヒント：括弧を注意深くチェックしてください！
+    Tip: Make sure you check your brackets carefully!
