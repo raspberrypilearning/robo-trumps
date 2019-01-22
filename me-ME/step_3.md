@@ -1,77 +1,77 @@
-## Display the data
+## Prikaži podatke
 
-Now you can display the robot data in a more interesting way.
+Sada možeš da prikažeš podatke o robotu na zanimljiviji način.
 
-Let’s display a robot trump card with an image and data for its intelligence and usefulness.
+Prikažimo kartu sa slikom robota i podacima o njegovoj inteligenciji i korisnosti.
 
-When you've completed this step you'll be able to display robots like this:
+Kada to napraviš, moći ćeš ovako da prikažeš robote:
 
 ![screenshot](images/robotrumps-example.png)
 
-+ Ask the user which robot they would like to see:
++ Pitaj korisnika kojeg robota želi da vidi:
     
     ![screenshot](images/robotrumps-choose.png)
 
-+ If the robot is in the dictionary then lookup its data:
++ Ako se robot nalazi u rječniku, potraži njegove podatke:
     
     ![screenshot](images/robotrumps-if.png)
     
-    Test your code by entering a robot name.
+    Isprobaj svoj kôd unošenjem robotovog imena.
 
-+ If the robot doesn't exist then give an error:
++ Ako robot ne postoji, prikaži poruku o grešci:
     
     ![screenshot](images/robotrumps-else.png)
     
-    Test your code by entering a robot name that isn't in the dictionary.
+    Isprobaj svoj kôd unošenjem imena robota koji se ne nalazi u rječniku.
 
-+ Now you're going to use the Python turtle to display the robot data.
++ Sada ćeš koristiti Python kornjaču za prikazivanje podataka o robotu.
     
-    Import the turtle library at the top of your script and setup the screen and turtle:
+    Uvezi biblioteku 'turtle' na početku svoje skripte i podesi ekran i kornjaču (turtle):
     
     ![screenshot](images/robotrumps-turtle.png)
 
-+ Now add code to get the turtle to print the name of the robot:
++ Sada dodaj kôd da kornjača ispiše ime robota:
     
     ![screenshot](images/robotrumps-name.png)
 
-+ Try changing the `style` variable until you are happy with the text.
++ Probaj da mijenjaš promjenljivu `stil` dok ne budeš zadovoljan/zadovoljna tekstom.
     
-    Instead of `Arial` you could try: `Courier`, `Times` or `Verdana`.
+    Umjesto `Arial` možeš isprobati: `Courier`, `Times` ili `Verdana`.
     
-    Change `14` to a different number to change the size of the font.
+    Promijeni `14` u neki drugi broj da izmijeniš veličinu fonta.
     
-    You can change `bold` to `normal` or `italic`.
+    Možeš promijeniti `bold` u `normal` ili `italic`.
 
-+ Store the list of stats for the robot in a variable instead of printing them out:
++ Smjesti listu podataka o robotu u promjenljivu, umjesto da je ispisuješ:
     
     ![screenshot](images/robotrumps-stats.png)
 
-+ You can now access the stats for the robot as items in a list:
++ Sada možeš pristupati podacima o robotu kao elementima u listi:
     
-    + `stats[0]` is intelligence
-    + `stats[1]` is battery
-    + `stats[2]` is the image name
+    + `podaci[0]` je inteligencija
+    + `podaci[1]` je baterija
+    + `podaci[2]` je naziv slike
     
-    Add code to display the intelligence and battery stats:
+    Dodaj kôd za prikazivanje podataka o inteligenciji i bateriji:
     
     ![screenshot](images/robotrumps-stats-2.png)
 
-+ Oh dear! The stats are all on top of each other. You'll need to add code to move the turtle:
++ O, ne! Podaci su ispisani jedan preko drugog. Moraš dodati kôd za pomjeranje kornjače:
     
     ![screenshot](images/robotrumps-stats-3.png)
 
-+ And finally, let's add the robot image to complete the display.
++ I na kraju, dovršimo prikaz dodajući sliku robota.
     
-    You'll need to add a line to register the image when you read the data from `cards.txt`:
+    Treba da dodaš red za registrovanje slike pri učitavanju podataka iz `cards.txt`:
     
     ![screenshot](images/robotrumps-register.png)
 
-+ And add code to position and stamp the image:
++ Dodaj i kôd za pozicioniranje i prikazivanje slike:
     
     ![screenshot](images/robotrumps-image.png)
 
-+ Test your code by entering one robot and then another and you'll see that they display on top of each other!
++ Isprobaj svoj kôd tako što ćeš unijeti jednog robota, a zatim drugog. Vidjećeš da se prikazuju jedan preko drugog!
     
-    You need to clear the screen before displaying a robot:
+    Treba da obrišeš ekran prije prikazivanja robota:
     
     ![screenshot](images/robotrumps-clear.png)
