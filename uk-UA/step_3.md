@@ -1,77 +1,77 @@
-## Відображення даних
+## Display the data
 
-Тепер ви можете відображати дані робота більш цікавим способом.
+Now you can display the robot data in a more interesting way.
 
-Покажімо робочу козирну карту з зображенням та даними для її інтелекту та корисності.
+Let’s display a robot trump card with an image and data for its intelligence and usefulness.
 
-Коли ви виконаєте цей крок, ви зможете показувати такі роботи:
+When you've completed this step you'll be able to display robots like this:
 
-![скріншот](images/robotrumps-example.png)
+![screenshot](images/robotrumps-example.png)
 
-+ Попросіть користувача, якого робота вони хотіли б побачити:
++ Ask the user which robot they would like to see:
     
-    ![скріншот](images/robotrumps-choose.png)
+    ![screenshot](images/robotrumps-choose.png)
 
-+ Якщо робот знаходиться в словнику, то знайдіть його дані:
++ If the robot is in the dictionary then lookup its data:
     
-    ![скріншот](images/robotrumps-if.png)
+    ![screenshot](images/robotrumps-if.png)
     
-    Перевірте свій код, ввівши ім'я робота.
+    Test your code by entering a robot name.
 
-+ Якщо робота не існує, дайте помилку:
++ If the robot doesn't exist then give an error:
     
-    ![скріншот](images/robotrumps-else.png)
+    ![screenshot](images/robotrumps-else.png)
     
-    Перевірте свій код, ввівши ім'я робота, яке відсутнє в словнику.
+    Test your code by entering a robot name that isn't in the dictionary.
 
-+ Тепер ви збираєтеся використовувати черепаху Python, щоб відобразити дані робота.
++ Now you're going to use the Python turtle to display the robot data.
     
-    Імпортуйте бібліотеку черепаху у верхній частині вашого скрипту та встановіть екран та черепаху:
+    Import the turtle library at the top of your script and setup the screen and turtle:
     
-    ![скріншот](images/robotrumps-turtle.png)
+    ![screenshot](images/robotrumps-turtle.png)
 
-+ Тепер додайте код, щоб черепаха друкувала ім'я робота:
++ Now add code to get the turtle to print the name of the robot:
     
-    ![скріншот](images/robotrumps-name.png)
+    ![screenshot](images/robotrumps-name.png)
 
-+ Спробуйте змінити `стиль` змінного, поки ви не задоволені текстом.
++ Try changing the `style` variable until you are happy with the text.
     
-    Замість `Arial` можна спробувати: `Courier`, `Times` або `Verdana`.
+    Instead of `Arial` you could try: `Courier`, `Times` or `Verdana`.
     
-    Змініть `14` на інше число, щоб змінити розмір шрифту.
+    Change `14` to a different number to change the size of the font.
     
-    Ви можете змінити `напівжирний` на `звичайний` або `курсив`.
+    You can change `bold` to `normal` or `italic`.
 
-+ Зберігайте список статистичних даних робота в змінній, а не друкуйте їх:
++ Store the list of stats for the robot in a variable instead of printing them out:
     
-    ![скріншот](images/robotrumps-stats.png)
+    ![screenshot](images/robotrumps-stats.png)
 
-+ Тепер ви можете отримати доступ до статистики робота як елементи списку:
++ You can now access the stats for the robot as items in a list:
     
-    + `статистика[0]` інтелект
-    + `статистика[1]` - це акумулятор
-    + `статистика[2]` це ім'я зображення
+    + `stats[0]` is intelligence
+    + `stats[1]` is battery
+    + `stats[2]` is the image name
     
-    Додайте код, щоб відобразити дані про інтелект та акумулятор:
+    Add code to display the intelligence and battery stats:
     
-    ![скріншот](images/robotrumps-stats-2.png)
+    ![screenshot](images/robotrumps-stats-2.png)
 
-+ О Боже! Статистика - все на вершині один одного. Вам потрібно буде додати код для переміщення черепахи:
++ Oh dear! The stats are all on top of each other. You'll need to add code to move the turtle:
     
-    ![скріншот](images/robotrumps-stats-3.png)
+    ![screenshot](images/robotrumps-stats-3.png)
 
-+ І, нарешті, давайте додамо зображення робота для завершення відображення.
++ And finally, let's add the robot image to complete the display.
     
-    Вам потрібно буде додати рядок для реєстрації зображення, коли ви читаєте дані з `cards.txt`:
+    You'll need to add a line to register the image when you read the data from `cards.txt`:
     
-    ![скріншот](images/robotrumps-register.png)
+    ![screenshot](images/robotrumps-register.png)
 
-+ І додати код до позиції та штампувати зображення:
++ And add code to position and stamp the image:
     
-    ![скріншот](images/robotrumps-image.png)
+    ![screenshot](images/robotrumps-image.png)
 
-+ Перевірте свій код, ввівши одного робота, а потім іншого, і ви побачите, що вони відображаються на вершині один одного!
++ Test your code by entering one robot and then another and you'll see that they display on top of each other!
     
-    Перед виведенням робота потрібно очистити екран:
+    You need to clear the screen before displaying a robot:
     
-    ![скріншот](images/robotrumps-clear.png)
+    ![screenshot](images/robotrumps-clear.png)
