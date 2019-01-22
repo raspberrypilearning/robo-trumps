@@ -1,15 +1,13 @@
 --- challenge ---
+
 ## Sfida: Aggiungi altri robot
 
-Puoi aggiungere dati a 'cards.txt' sugli altri robot?
+Riesci ad aggiungere i dati di altri robot in `cards.txt`?
 
-Clicca sul tasto immagini per vedere le immagini del robot che puoi usare.
+Clicca sul bottone per le immagine per vedere le immagini di robot che puoi usare.
 
-Sarai tu a decidere quanta batteria e intelligenza avranno.
+Dovrai anche decidere il loro livello di batteria e intelligenza.
 
 ![screenshot](images/robotrumps-yellow.png)
-
-
-
 
 --- /challenge ---

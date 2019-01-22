@@ -1,64 +1,63 @@
-## Leggi i dati robot da un file
+## Leggi i dati dei robot da un file
 
-Spesso è utile poter leggere informazioni da un file. Puoi ora cambiare i dati in un file senza dover cambiare il tuo codice.
+Spesso è utile poter leggere delle informazioni da un file. Grazie a questo, puoi cambiare i dati senza dover modificare il codice.
 
-+ Apri questo trinket: <a href="http://jumpto.cc/trumps-go" target="_blank">jumpto.cc/trumps-go</a>.
++ Apri questo trinket: <a href="http://trinket.io/python/a83033cca0" target="_blank">trinket.io/python/a83033cca0</a>.
 
-+ Il tuo progetto d'inizio include un file 'cards.txt' che contiene dati sui robot.
++ Il tuo progetto di partenza include il file `cards.txt` che contiene i dati sui robot.
+    
+    Clicca su `cards.txt` per visualizzare i dati:
+    
+    ![screenshot](images/robotrumps-cards.png)
+    
+    Ogni riga contiene dati circa un robot. Le varie informazioni sono separati da virgole.
+    
+    Ogni riga contiene le seguenti informazioni:
+    
+    nome, indice di intelligenza, durata della batteria, nome del file della rispettiva immagine
 
-  Clicca su 'cards.txt' per vedere i dati:
++ Prendiamo i dati dal file in modo da poterli usare.
+    
+    Il primo passo è quello di aprire il file `cards.txt` nel codice:
+    
+    ![screenshot](images/robotrumps-open.png)
 
-  ![screenshot](images/robotrumps-cards.png)
++ Ora puoi leggere i dati dal file:
+    
+    ![screenshot](images/robotrumps-read.png)
 
-  Ogni linea ha dati su un robot. Gli oggetti nei dati sono separati da virgole.
++ È buona norma chiudere sempre il file una volta finito di usarlo:
+    
+    ![screenshot](images/robotrumps-close.png)
 
-  Ogni linea contiene le seguenti informazioni:
++ Questo codice ci dà il contenuto del file sotto forma di un'unica stringa, quindi dovrai scomporla nei singoli dati.
+    
+    Innanzitutto, dividi il contenuto del file in una lista di righe:
+    
+    ![screenshot](images/robotrumps-lines.png)
+    
+    Guarda attentamente l'output. Ci sono tre elementi nella lista, ognuno dei quali è una riga del file.
 
-  nome, indice d'intelligenza, durata di vita della batteria, nome del file dell'immagine
++ Ora puoi scorrere lungo quelle righe con un ciclo, una alla volta
+    
+    ![screenshot](images/robotrumps-loop.png)
 
++ Invece di stampare le righe a schermo, salviamole in una serie di variabili:
+    
+    ![screenshot](images/robotrumps-variables.png)
 
-+ Leggiamo i dati dal file in modo che tu possa usarli.
++ Dovremo essere in grado di usare questi dati in un secondo momento per cercare i valori di un certo robot. Quindi, usiamo il nome del robot come chiave in un dizionario.
+    
+    Aggiungi un dizionario di nome `robots`:
+    
+    ![screenshot](images/robotrumps-dict.png)
 
-  Il primo passo è di aprire nel tuo script il file 'cards.txt':
-
-  ![screenshot](images/robotrumps-open.png)
-
-+ Ora puoi leggere i dati dal file.
-
-  ![screenshot](images/robotrumps-read.png)
-
-+ Quando hai finito, dovresti sempre chiudere un file:
-
-  ![screenshot](images/robotrumps-close.png)
-
-+ Questo ci dà il file come una sequenza, dovrai romperla in pezzi di dati individuali.
-
-  Innanzitutto, puoi dividere il file in una lista di linee:
-
-  ![screenshot](images/robotrumps-lines.png)
-
-  Guarda attentamente l'uscita. Ci sono tre oggetti nella lista, ciascuno è una linea da un file.
-
-+ Ora puoi girare su quelle linee una alla volta.
-
-  ![screenshot](images/robotrumps-loop.png)
-
-+ Invece di stampare le linee, leggile in variabili:
-
-  ![screenshot](images/robotrumps-variables.png)
-
-+ Vuoi essere in grado di usare questi dati in un secondo momento per controllare i valori di un particolare robot. Usiamo il nome del robot come chiave di un dizionario.
-
-  Aggiungi un dizionario 'robots':
-
-  ![screenshot](images/robotrumps-dict.png)
-
-+ Ora aggiungiamo una voce al dizionario per ciascun robot.
-
-  Il nome è la chiave e il valore è una lista di dati per quel robot.
-
-  Aggiungi il codice evidenziato:
-
-  ![screenshot](images/robotrumps-data.png)
-
-  Puoi rimuovere 'print robots' quando hai provato il tuo script.
++ Ora aggiungiamo un elemento al dizionario per ogni robot.
+    
+    Il nome è la chiave, mentre il valore è la lista dei dati di quel robot.
+    
+    Aggiungi il codice evidenziato:
+    
+    ![screenshot](images/robotrumps-data.png)
+    
+    Puoi rimuovere il comando `print robots` dopo averlo usato per testare il tuo codice.

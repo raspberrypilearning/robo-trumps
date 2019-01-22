@@ -1,79 +1,77 @@
-## Visualizza i dati
+## Visualizza i dati sullo schermo
 
-Ora puoi visualizzare i dati del robot in un modo più iinteressante.
+Ora puoi mostrare i dati del robot in un modo più interessante.
 
-Visualizziamo una carta robotica con un'immagine e i dati per la sua intelligenza e utilità.
+Mostriamo un carta robotica con un'immagine e i dati sulla sua intelligenza e sulla sua utilità.
 
-Quando hai completato questo passo, sarai capace di visualizzare robot come questo:
+Una volta completato questo passaggio, potrai mostrare robot come questo:
 
 ![screenshot](images/robotrumps-example.png)
 
 + Chiedi all'utente quale robot vorrebbe vedere:
+    
+    ![screenshot](images/robotrumps-choose.png)
 
-  ![screenshot](images/robotrumps-choose.png)
++ Se il robot è nel dizionario, cerca i suoi dati:
+    
+    ![screenshot](images/robotrumps-if.png)
+    
+    Prova il tuo codice inserendo il nome di un robot.
 
-+ Se il robot è nel dizionario, allora controlla i suoi dati:
++ Se il robot non esiste, restituisci un errore:
+    
+    ![screenshot](images/robotrumps-else.png)
+    
+    Prova il tuo codice inserendo un nome che non è nel dizionario.
 
-  ![screenshot](images/robotrumps-if.png)
++ Ora utilizzerai il modulo "turtle graphic" di Python per visualizzare i dati dei robot.
+    
+    Importa la libreria turtle in cima al tuo codice e imposta lo schermo e le proprietà della turtle:
+    
+    ![screenshot](images/robotrumps-turtle.png)
 
-  Prova il tuo codice inserendo il nome di un robot.
++ Ora aggiungi il codice per usare la turtle per mostrare il nome del robot:
+    
+    ![screenshot](images/robotrumps-name.png)
 
++ Prova a cambiare la variabile `stile` finchè non sei soddisfatto.
+    
+    Invece di `Arial` puoi provare `Courier`, `Times` o `Verdana`.
+    
+    Modifica la dimensione del carattere con un numero diverso da `14`.
+    
+    Puoi cambiare `bold` in `normal` o `italic`.
 
-+ Se il robot non esiste, allora darà un errore:
++ Salva la lista di statistiche del robot in una variabile invece di visualizzarla a schermo:
+    
+    ![screenshot](images/robotrumps-stats.png)
 
-  ![screenshot](images/robotrumps-else.png)
++ Ora puoi accedere alle statistiche del robot come con gli elementi di una lista:
+    
+    + `statistiche[0]` rappresenta l'intelligenza
+    + `statistiche[1]` rappresenta la batteria
+    + `statistiche[2]` rappresenta il nome dell'immagine
+    
+    Aggiungi il codice per mostrare i livelli di intelligenza e batteria:
+    
+    ![screenshot](images/robotrumps-stats-2.png)
 
- Prova il tuo codice inserendo il nome di un robot che non è nel dizionario.
++ Diamine! Le statistiche sono tutte sovrapposte. Dovrai aggiungere del codice per spostarle:
+    
+    ![screenshot](images/robotrumps-stats-3.png)
 
-+ Ora userai la tartaruga Python per visualizzare i dati del robot.
++ Infine, aggiungiamo l'immagine del robot per completare.
+    
+    Dovrai aggiungere una linea di codice per registrare l'immagine, quando leggi i dati da `cards.txt`:
+    
+    ![screenshot](images/robotrumps-register.png)
 
-  Importa la libreria della tartaruga in cima al tuo script e configura lo schermo e la tartaruga:
++ E aggiungi il codice per posizionare e mostrare l'immagine:
+    
+    ![screenshot](images/robotrumps-image.png)
 
-  ![screenshot](images/robotrumps-turtle.png)
-
-+ Ora aggiungi il codice per fare in modo che la tartaruga stampi il nome del robot:
-
-  ![screenshot](images/robotrumps-name.png)
-
-+ Prova a cambiare la variabile 'style' fino a raggiungere il testo desiderato.
-
-  Invece di 'Arial' puoi provare: `Courier`, `Times` o `Verdana`.
-
-  Cambia '14' a un numero diverso per cambiare la dimensione del carattere.
-
-  Puoi cambiare 'bold' per 'normal' o 'italic'.
-
-+ Conserva la lista di statistiche per il robot in una variabile invece di stamparla.
-
-  ![screenshot](images/robotrumps-stats.png)
-
-+ Ora puoi accedere alle statistiche per il robot come oggetti in una lista:
-
-  + `stats[0]` è l'intelligenza
-  + `stats[1]` è la batteria
-  + `stats[2]` è il nome dell'immagine
-
-  Aggiungi un codice per visualizzare le statistiche dell'intelligenza e della batteria:
-
-  ![screenshot](images/robotrumps-stats-2.png)
-
-
-+ Accidenti! Le statistiche sono sovrapposte. Dovrai aggiungere un codice per muovere la tartaruga:
-
-   ![screenshot](images/robotrumps-stats-3.png)
-
-+ E per finire, aggiungiamo l'immagine del robot per completare lo schermo.
-
-  Dovrai aggiungere una linea per registrare l'immagine quando leggi i dati da 'cards.txt':
-
-  ![screenshot](images/robotrumps-register.png)
-
-+ E aggiungi un codice per posizionare e timbrare l'immagine:
-
-  ![screenshot](images/robotrumps-image.png)
-
-+ Prova il tuo codice inserendo un robot e poi un altro e vedrai che vengono visualizzati uno sopra l'altro!
-
-  Dovrai ripulire lo schermo prima di visualizzare un robot:
-
-  ![screenshot](images/robotrumps-clear.png)
++ Prova il tuo codice inserendo un robot e poi un altro, e vedrai che verranno mostrati uno sull'altro!
+    
+    Dovrai resettare lo schermo prima di mostrare un robot:
+    
+    ![screenshot](images/robotrumps-clear.png)

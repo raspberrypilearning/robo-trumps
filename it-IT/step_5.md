@@ -1,23 +1,21 @@
 --- challenge ---
+
 ## Sfida: Aggiungi altre statistiche ai robot
-Ti vengono in mente altre statistiche da aggiungere ai robot? Potresti aggiungere 'speed' (velocità) o 'usefulness' (utilità) o pensare a qualcos'altro.
+
+Hai in mente altre statistiche da aggiungere ai robot? Potresti aggiungere 'velocità' o 'utilità', oppure usare altre tue idee.
 
 Dovrai:
 
-+ Aggiungere dati al file per ogni nuova categoria
-+ Aggiungere la nuova categoria al codice che legge i dati.
-+ Scrivere la nuova categoria quando visualizzi una carta
++ Aggiungere i dati al file per ogni nuova categoria 
++ Aggiungere la nuova categoria al codice che legge i dati dal file
++ Mostra la nuova categoria quando mostri una carta robotica
 
-Potresti perfino aggiungere un colore e mostrare le statistiche per i robot con il loro colore.
+Potresti anche aggiungere un colore e mostrare le statistiche dei robot nel loro rispettivo colore.
 
-Suggerimento: Usa `color('red')` per cambiare il testo della tartaruga a rosso prima di scrivere.
+Suggerimento: Usa `color('red')` per colorare il testo di rosso prima di scrivere.
 
 Esempio:
 
 ![screenshot](images/robotrumps-jet.png)
-
-
-
-
 
 --- /challenge ---
