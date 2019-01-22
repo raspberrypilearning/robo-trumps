@@ -6,8 +6,8 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Borbe robota
-description: U ovom projektu učitavat ćeš podatke iz datoteke i kreirati karte za igru robotima.
+title: Robo-Trumps
+description: Create a database of robots and play Robo-Trumps with a friend!
 original_url: https://codeclubprojects.org/en-GB/python/robo-trumps
 interests: games
 technologies: python
@@ -18,16 +18,16 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Borbe robota
+    title: Introduction
   - 
-    title: Učitaj podatke o robotu iz datoteke
+    title: Read robot data from a file
   - 
-    title: Prikaži podatke
+    title: Display the data
   - 
-    title: 'Izazov: Dodaj još robota'
+    title: 'Challenge: Add more robots'
   - 
-    title: 'Izazov: Dodaj još karakteristika robotima'
+    title: 'Challenge: Add more stats to the robots'
   - 
-    title: Prikaži nasumičnog robota
+    title: Display a random robot
   - 
-    title: 'Izazov: Igraj Borbe robota s prijateljem'
+    title: 'Challenge: Play robot trumps with a friend'
