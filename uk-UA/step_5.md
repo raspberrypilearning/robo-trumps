@@ -1,21 +1,21 @@
-\--- завдання \---
+\--- challenge \---
 
-## Виклик: додайте більше статистичних даних роботам
+## Challenge: Add more stats to the robots
 
-Чи можете ви думати про більше статистики, щоб додати роботів. Ви можете додати "швидкість" або "корисність" або придумати свої власні ідеї.
+Can you think of more stats to add to the robots. You could add ‘speed’ or ‘usefulness’ or come up with your own ideas.
 
-Вам потрібно буде:
+You’ll need to:
 
-+ Додайте дані до файлу для кожної нової категорії 
-+ Додайте нову категорію до коду, який читається в даних
-+ Напишіть нову категорію, коли ви побачите козирну картку
++ Add data to the file for each new category 
++ Add the new category to the code that read in the data
++ Write the new category out when you display a trump card
 
-Ви навіть можете додати колір та показувати статистику для роботів у своєму власному кольорі.
+You could even add a colour and show the stats for robots in their own color.
 
-Підказка: використовуйте `color ('red')` , щоб змінити текст черепахи на червоний перед написанням.
+Hint: Use `color('red')` to change the turtle's text to red before writing.
 
-Приклад:
+Example:
 
-![скріншот](images/robotrumps-jet.png)
+![screenshot](images/robotrumps-jet.png)
 
-\--- / виклик \---
+\--- /challenge \---
