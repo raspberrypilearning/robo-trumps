@@ -1,13 +1,13 @@
-\--- desafio \---
+\--- challenge \---
 
-## Desafio: adicione mais robôs
+## Challenge: Add more robots
 
-Você pode adicionar dados sobre mais robôs a `cards.txt`.
+Can you add data about more robots to `cards.txt`.
 
-Clique no botão de imagens para ver as imagens do robô que você pode usar.
+Click on the images button to see the robot images that you can use.
 
-Você decide quanto de bateria e inteligência eles têm.
+You get to decide how much battery and intelligence they have.
 
-![captura de tela](images/robotrumps-yellow.png)
+![screenshot](images/robotrumps-yellow.png)
 
-\--- / desafio \---
+\--- /challenge \---
