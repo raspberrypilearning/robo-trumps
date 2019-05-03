@@ -8,6 +8,9 @@ Quando você concluir essa etapa, poderá exibir robôs como este:
 
 ![screenshot](images/robotrumps-example.png)
 
+
+
+
 + Pergunte ao usuário qual robô eles gostariam de ver:
     
     ![screenshot](images/robotrumps-choose.png)
@@ -18,13 +21,14 @@ Quando você concluir essa etapa, poderá exibir robôs como este:
     
     Teste seu código digitando o nome de um robô.
 
+
 + Se o robô não existir, aparecerá uma mensagem de erro:
     
     ![screenshot](images/robotrumps-else.png)
     
     Teste seu código digitando o nome de um robô que não esteja no dicionário.
 
-+ Agora você vai usar a turtle(tartaruga) no Python para exibir as informações do robô.
++ Agora você vai usar a turtle (tartaruga) no Python para exibir as informações do robô.
     
     Importe a biblioteca turtle no topo do seu script e configure a tela e a turtle(tartaruga):
     
@@ -55,6 +59,7 @@ Quando você concluir essa etapa, poderá exibir robôs como este:
     Adicione o código para exibir as informações de inteligência e bateria:
     
     ![screenshot](images/robotrumps-stats-2.png)
+
 
 + Oh céus! As informações estão todas em cima umas das outras. Você precisará adicionar código para mover a turtle (tartaruga):
     
