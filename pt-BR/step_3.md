@@ -56,7 +56,7 @@ Quando você concluir essa etapa, poderá exibir robôs como este:
     
     ![screenshot](images/robotrumps-stats-2.png)
 
-+ Oh céus! As informações estão todas em cima umas das outras. Você precisará adicionar código para mover a turtle(tartaruga):
++ Oh céus! As informações estão todas em cima umas das outras. Você precisará adicionar código para mover a turtle (tartaruga):
     
     ![screenshot](images/robotrumps-stats-3.png)
 
