@@ -10,6 +10,6 @@ Vamos adicionar um código para que você obtenha um robô aleatório ao digitar
     
     ![screenshot](images/robotrumps-choice.png)
 
-+ No Python 3, você precisa usar a `list(lista)` para transformar os resultados das `keys(chaves)` em uma lista.
++ No Python 3, você precisa usar a `list (lista)` para transformar os resultados das `keys (chaves)` em uma lista.
     
     Dica: Verifique cuidadosamente seus colchetes!

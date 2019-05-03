@@ -21,7 +21,7 @@ print('Robôs: ', ', '.join(robos.keys()), ' (ou sortear)')
 
 while True:
   robo = input("Escolha um robô: ")
-  if(robot == "sortear"):
+  if(robo == "sortear"):
     robo = choice(list(robos.keys()))
     print(robo)
   
