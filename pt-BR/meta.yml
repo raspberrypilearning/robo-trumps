@@ -18,7 +18,7 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - title: Introdução
-  - title: Ler dados dos robôs a partir de um arquivo
+  - title: Ler dados do robô de um arquivo
   - title: Exibir os dados
   - title: 'Desafio: Adicione mais robôs'
   - title: 'Desafio: Adicione mais informações aos robôs'

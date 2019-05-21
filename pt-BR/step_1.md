@@ -29,7 +29,7 @@ Neste projeto, os alunos lerão os dados de um arquivo em um dicionário, para a
 
 Há também um trinket contendo uma solução de amostra para os desafios:
 
-* ['Robô-Trunfo' concluído - trinket.io/python/9ccc368bd5](https://trinket.io/python/9ccc368bd5)
+* ['Robô-Trunfo' concluído - trinket.io/python/9ccc368bd5](https://trinket.io/python/83fc81c35a)
 
 ## Recursos offline
 
