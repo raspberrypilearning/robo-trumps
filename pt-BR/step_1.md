@@ -3,7 +3,7 @@
 Neste projeto, você vai ler os dados de um arquivo para criar um jogo de cartas trunfo de robôs. Então você poderá jogar Robô-Trunfo com um amigo.
 
 <div class="trinket">
-  <iframe src="https://trinket.io/embed/python/fb5be0b00a?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  <iframe src="https://trinket.io/embed/python/83fc81c35a?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
   <img src="images/robotrumps-finished.png">
 </div>
@@ -16,6 +16,7 @@ Se você precisar imprimir este projeto, use a [versão para impressão](https:/
 ---
 title: Notas do líder do clube
 ---
+
 ## Introdução:
 
 Neste projeto, os alunos lerão os dados de um arquivo em um dicionário, para as cartas trunfo dos robôs. As cartas podem então ser usados ​​para jogar Robô-Trunfo com um amigo.
@@ -24,11 +25,11 @@ Neste projeto, os alunos lerão os dados de um arquivo em um dicionário, para a
 
 **Este projeto usa o Python 3.** Recomendamos usar o [trinket](https://trinket.io/) para programar em Python online. Este projeto contém os seguintes Trinkets:
 
-* [Ponto de partida 'Robô-Trunfo' - trinket.io/python/8485e01af6](http://trinket.io/python/8485e01af6)
+* [Ponto de partida 'Robô-Trunfo' - jumpto.cc/trumps-go](http://jumpto.cc/trumps-go)
 
 Há também um trinket contendo uma solução de amostra para os desafios:
 
-* ['Robô-Trunfo' concluído - trinket.io/python/fb5be0b00a](https://trinket.io/python/fb5be0b00a)
+* ['Robô-Trunfo' concluído - trinket.io/python/9ccc368bd5](https://trinket.io/python/83fc81c35a)
 
 ## Recursos offline
 
@@ -75,10 +76,11 @@ Este projeto abrange elementos das seguintes vertentes do [Currículo de Criaç�
 ---
 title: Materiais do projeto
 ---
+
 ## Recursos do projeto
 
 * [arquivo .zip contendo todos os recursos do projeto](resources/robo-trumps-project-resources.zip)
-* [Trinket Online contendo recursos iniciais do 'Robô-Trunfo'](http://trinket.io/python/8485e01af6)
+* [Trinket Online contendo recursos iniciais do 'Robô-Trunfo'](http://jumpto.cc/trumps-go)
 * [robo-trumps/robo-trumps.py](resources/robo-trumps-robo-trumps.py)
 * [robo-trumps/cards.txt](resources/robo-trumps-cards.txt)
 * [robo-trumps/space.gif](resources/robo-trumps-space.gif)
@@ -97,7 +99,7 @@ title: Materiais do projeto
 ## Recursos do líder do clube
 
 * [arquivo .zip contendo todos os recursos do projeto concluídos](resources/robotrumps-volunteer-resources.zip)
-* [Projeto Trinket concluído online](https://trinket.io/python/fb5be0b00a)
+* [Projeto Trinket concluído online](https://trinket.io/python/83fc81c35a)
 * [robo-trumps-finished/robo-trumps.py](resources/robo-trumps-finished-robo-trumps.py)
 * [robo-trumps-finished/cards.txt](resources/robo-trumps-finished-cards.txt)
 * [robo-trumps-finished/space.gif](resources/robo-trumps-finished-space.gif)

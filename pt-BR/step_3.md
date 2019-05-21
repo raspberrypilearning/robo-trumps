@@ -8,6 +8,9 @@ Quando você concluir essa etapa, poderá exibir robôs como este:
 
 ![screenshot](images/robotrumps-example.png)
 
+
+
+
 + Pergunte ao usuário qual robô eles gostariam de ver:
     
     ![screenshot](images/robotrumps-choose.png)
@@ -18,13 +21,14 @@ Quando você concluir essa etapa, poderá exibir robôs como este:
     
     Teste seu código digitando o nome de um robô.
 
+
 + Se o robô não existir, aparecerá uma mensagem de erro:
     
     ![screenshot](images/robotrumps-else.png)
     
     Teste seu código digitando o nome de um robô que não esteja no dicionário.
 
-+ Agora você vai usar a turtle(tartaruga) no Python para exibir as informações do robô.
++ Agora você vai usar a turtle (tartaruga) no Python para exibir as informações do robô.
     
     Importe a biblioteca turtle no topo do seu script e configure a tela e a turtle(tartaruga):
     
@@ -34,13 +38,13 @@ Quando você concluir essa etapa, poderá exibir robôs como este:
     
     ![screenshot](images/robotrumps-name.png)
 
-+ Tente alterar a variável</code>style` até que você esteja satisfeito com o texto.</p>
++ Tente alterar a variável `style` até que você esteja satisfeito com o texto.
 
-<p>Em vez de `Arial` você poderia tentar: `Courier`, `Times` ou `Verdana`.
+    Em vez de `Arial` você poderia tentar: `Courier`, `Times` ou `Verdana`.
     
     Para alterar o tamanho da fonte, altere de `14` para um número diferente.
     
-    Você pode alterar o texto para `bold(negrito)` para `normal` ou `italic(itálico)`.
+    Você pode alterar o texto para `bold (negrito)` para `normal` ou `italic (itálico)`.
 
 + Armazene a lista de informações do robô em uma variável em vez de imprimi-las:
     
@@ -56,7 +60,8 @@ Quando você concluir essa etapa, poderá exibir robôs como este:
     
     ![screenshot](images/robotrumps-stats-2.png)
 
-+ Oh céus! As informações estão todas em cima umas das outras. Você precisará adicionar código para mover a turtle(tartaruga):
+
++ Oh céus! As informações estão todas em cima umas das outras. Você precisará adicionar código para mover a turtle (tartaruga):
     
     ![screenshot](images/robotrumps-stats-3.png)
 
