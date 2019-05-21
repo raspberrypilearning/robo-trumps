@@ -13,8 +13,9 @@ Neste projeto, você vai ler os dados de um arquivo para criar um jogo de cartas
 Se você precisar imprimir este projeto, use a [versão para impressão](https://projects.raspberrypi.org/pt-BR/projects/robo-trumps/print).
 
 --- collapse ---
-
-## título: Notas do líder do clube
+---
+title: Notas do líder do clube
+---
 
 ## Introdução:
 
@@ -72,8 +73,9 @@ Este projeto abrange elementos das seguintes vertentes do [Currículo de Criaç�
 --- /collapse ---
 
 --- collapse ---
-
-## Título: Materiais do projeto
+---
+title: Materiais do projeto
+---
 
 ## Recursos do projeto
 
