@@ -1,0 +1,3 @@
+무지개, 10, 34, rainbow.gif
+우주, 13, 28, space.gif
+새, 6, 4, bird.gif

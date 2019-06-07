@@ -1,0 +1,26 @@
+---
+hero_image: images/robo-trumps.png
+theme: turquoise
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: 로봇 트럼프
+description: 로봇에 대한 데이터베이스를 만들고 로봇 트럼프 게임을 친구와 함께 즐겨보세요!
+original_url: https://codeclubprojects.org/en-GB/python/robo-trumps
+interests: games
+technologies: python
+site_areas: projects
+hardware: ''
+software: python
+version: 3
+last_tested: 2017-01-01
+steps:
+  - title: 소개
+  - title: 파일에서 로봇 데이터 읽기
+  - title: 데이터 표시
+  - title: '과제: 더 많은 로봇 추가'
+  - title: '과제: 로봇에 더 많은 데이터 추가'
+  - title: 랜덤한 로봇 표시
+  - title: '과제: 친구와 함께하는 로봇 트럼프 게임!'
