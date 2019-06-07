@@ -1,21 +1,21 @@
 \--- challenge \---
 
-## Challenge: Add more stats to the robots
+## 과제: 로봇에 더 많은 데이터 추가
 
-Can you think of more stats to add to the robots. You could add ‘speed’ or ‘usefulness’ or come up with your own ideas.
+로봇에 더 많은 데이터를 추가 할 수 있나요? '속도' 또는 '사용가치'를 추가하거나 다른 데이터를 추가해 보세요.
 
-You’ll need to:
+아래와 같은 작업이 필요합니다:
 
-+ Add data to the file for each new category 
-+ Add the new category to the code that read in the data
-+ Write the new category out when you display a trump card
++ 새로운 데이터마다 각 줄(로봇) 에 데이터 추가 
++ 데이터를 읽는 코드에 새 데이터를 읽도록 설정하기
++ 트럼프 카드를 표시 할 때 새 카테고리 제작
 
-You could even add a colour and show the stats for robots in their own color.
+색상을 추가하고 로봇의 데이터를 자신의 색상으로 표시 할 수도 있습니다.
 
-Hint: Use `color('red')` to change the turtle's text to red before writing.
+힌트: 텍스트를 빨간색으로 변경하려면 `color('red')` 를 사용하세요.
 
-Example:
+예시:
 
-![screenshot](images/robotrumps-jet.png)
+![스크린샷](images/robotrumps-jet.png)
 
 \--- /challenge \---
