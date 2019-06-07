@@ -1,63 +1,63 @@
-## Read robot data from a file
+## 파일에서 로봇 데이터 읽기
 
-It's often useful to be able to read information from a file. You can then change the data in the file without having to change your code.
+파일에서 정보를 읽는 것이 유용한 경우가 많습니다. 파일에서 정보를 읽으면 코드를 수정하지 않아도 정보를 변경할 수 있습니다.
 
-+ Open this trinket: <a href="http://jumpto.cc/trumps-go" target="_blank">jumpto.cc/trumps-go</a>.
++ 다음 Trinket 파일을 열어주세요. <a href="http://jumpto.cc/trumps-go" target="_blank">jumpto.cc/trumps-go</a>.
 
-+ Your starter project includes a `cards.txt` file which contains data about robots.
++ 시작하는 프로젝트에는 로봇에 대한 데이터를 담고 있는 `cards.txt` 파일이 포함되어 있습니다.
     
-    Click on `cards.txt` to see the data:
+    `cards.txt`를 클릭하여 데이터를 볼 수 있습니다:
     
-    ![screenshot](images/robotrumps-cards.png)
+    ![스크린샷](images/robotrumps-cards.png)
     
-    Each line has data about a robot. The data items are separated by commas.
+    각 라인에는 로봇에 대한 데이터가 있습니다. 데이터 항목은 쉼표로 구분됩니다.
     
-    Each line contains the following information:
+    각 행은 다음 정보를 포함합니다:
     
-    name, intelligence rating, how long the battery lasts, image file name
+    이름, 지능 레벨, 배터리 잔량, 이미지 파일 이름
 
-+ Let's read the data in from the file so that you can use it.
++ 파일에서 데이터를 읽어서 사용할 수 있도록 하세요.
     
-    The first step is to open the `cards.txt` file in your script:
+    첫 번째 단계는 스크립트에서 `cards.txt` 파일을 여는 것입니다:
     
-    ![screenshot](images/robotrumps-open.png)
+    ![스크린샷](images/robotrumps-open.png)
 
-+ Now you can read the data from the file:
++ 이제 파일에서 데이터를 읽도록 합니다:
     
-    ![screenshot](images/robotrumps-read.png)
+    ![스크린샷](images/robotrumps-read.png)
 
-+ You should always close a file when you have finished with it:
++ 프로그램이 끝날 때 꼭 파일 함수를 종료해야 합니다:
     
-    ![screenshot](images/robotrumps-close.png)
+    ![스크린샷](images/robotrumps-close.png)
 
-+ That gives us the file as one string, you need to break it down into the individual pieces of data.
++ 파일의 텍스트는 하나의 문자열로 제공되기 때문에, 특수 문자를 기준으로 각각의 데이터로 나누어야 합니다.
     
-    First, you can split the file into a list of lines:
+    먼저 파일의 텍스트를 리스트로 표현할 수 있습니다.
     
-    ![screenshot](images/robotrumps-lines.png)
+    ![스크린샷](images/robotrumps-lines.png)
     
-    Look carefully at the output. There are three items in the list, each one is a line from the file.
+    출력 결과를 자세히 보세요. 목록에 세 개의 항목이 있으며 각 항목은 파일의 한 줄입니다.
 
-+ Now you can loop over those lines one at a time
++ 이제 한 줄의 내용을 한번에 출력할 수 있습니다.
     
     ![screenshot](images/robotrumps-loop.png)
 
-+ Instead of printing out the lines, read them in to variables:
++ 텍스트를 출력하는 대신, 내용을 변수에 저장합니다:
     
-    ![screenshot](images/robotrumps-variables.png)
+    ![스크린샷](images/robotrumps-variables.png)
 
-+ You want to be able to use this data later to look up the values for a particular robot. Let's use the robot's name as a key to a dictionary.
++ 나중에 이 데이터를 사용하여 특정 로봇의 데이터를 조회할 수 있어야 하기 때문에, 로봇의 이름을 딕셔너리의 키로 사용합시다.
     
-    Add a `robots` dictionary:
+    `robots` 딕셔너리 변수를 선언합니다:
     
-    ![screenshot](images/robotrumps-dict.png)
+    ![스크린샷](images/robotrumps-dict.png)
 
-+ Now let's add an entry to the robots dictionary for each robot.
++ 이제 각 로봇에 대한 데이터를 딕셔너리 별로 추가해 보겠습니다.
     
-    The name is the key and the value is a list of data for that robot.
+    이름이 키이고 변수는 각 로봇의 데이터들입니다.
     
-    Add the highlighted code:
+    아래에 표시한 코드를 추가하세요.
     
-    ![screenshot](images/robotrumps-data.png)
+    ![스크린샷](images/robotrumps-data.png)
     
-    You can remove `print robots` when you have tested your script.
+    스크립트를 테스트 한 후 `print robots` 코드를 제거하도록 합니다.
