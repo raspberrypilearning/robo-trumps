@@ -17,10 +17,10 @@ for line in file.read().splitlines():
   screen.register_shape(image)
 file.close()
 
-print('Robots: ', ', '.join(robots.keys()), ' (or random)')
+print('로봇: ', ', '.join(robots.keys()), ' (or random)')
 
 while True:
-  robot = input("Choose a robot: ")
+  robot = input("로봇을 선택하세요: ")
   if(robot == "random"):
     robot = choice(robots.keys())
     print(robot)
@@ -36,15 +36,15 @@ while True:
     stamp()
     setheading(-90)
     forward(60)
-    write('Name: ' + robot, font=style, align='center')
+    write('이름: ' + robot, font=style, align='center')
     forward(25)
-    write('Battery: ' + stats[0], font=style, align='center')
+    write('배터리: ' + stats[0], font=style, align='center')
     forward(25)
-    write('Intelligence: ' + stats[1], font=style, align='center')
+    write('지능도: ' + stats[1], font=style, align='center')
     forward(25)
-    write('Usefulness: ' + stats[2], font=style, align='center')
+    write('사용가치: ' + stats[2], font=style, align='center')
     forward(25)
-    write('Speed: ' + stats[3], font=style, align='center')
+    write('속도: ' + stats[3], font=style, align='center')
     
   else:
-    print("Robot doesn't exist!")
+    print("로봇이 존재하지 않습니다!")
