@@ -1,77 +1,77 @@
-## Display the data
+## 데이터 표시
 
-Now you can display the robot data in a more interesting way.
+이제 로봇 데이터를 보다 재미있는 방식으로 표시 할 수 있습니다.
 
-Let’s display a robot trump card with an image and data for its intelligence and usefulness.
+지능도와 사용가치를 이해하기 위해 이미지와 데이터가 있는 로봇 트럼프 카드가 보이도록 프로그래밍해 봅시다.
 
-When you've completed this step you'll be able to display robots like this:
+이 단계를 완료하면 다음과 같이 로봇을 출력할 수 있습니다.
 
-![screenshot](images/robotrumps-example.png)
+![스크린샷](images/robotrumps-example.png)
 
-+ Ask the user which robot they would like to see:
++ 사용자에게 어떤 로봇을 보고 싶은지 묻습니다:
     
-    ![screenshot](images/robotrumps-choose.png)
+    ![스크린샷](images/robotrumps-choose.png)
 
-+ If the robot is in the dictionary then lookup its data:
++ 로봇이 딕셔너리에 있으면 데이터를 검색합니다:
     
-    ![screenshot](images/robotrumps-if.png)
+    ![스크린샷](images/robotrumps-if.png)
     
-    Test your code by entering a robot name.
+    로봇 이름을 입력하여 코드를 테스트해 보세요.
 
-+ If the robot doesn't exist then give an error:
++ 로봇이 존재하지 않으면 오류가 일어나지 않도록 아래와 같이 메시지를 출력해야 합니다:
     
-    ![screenshot](images/robotrumps-else.png)
+    ![스크린샷](images/robotrumps-else.png)
     
-    Test your code by entering a robot name that isn't in the dictionary.
+    딕셔너리에 없는 로봇 이름을 입력하여 코드를 테스트해 보세요.
 
-+ Now you're going to use the Python turtle to display the robot data.
++ 이제 Python 거북이를 사용하여 로봇 데이터를 표시해 보겠습니다.
     
-    Import the turtle library at the top of your script and setup the screen and turtle:
+    스크립트 상단에 거북이 라이브러리를 불러오고, screen, turtle을 설정하세요.
     
-    ![screenshot](images/robotrumps-turtle.png)
+    ![스크린샷](images/robotrumps-turtle.png)
 
-+ Now add code to get the turtle to print the name of the robot:
++ 아래와 같이 로봇의 이름을 출력하는 코드를 작성하세요.
     
-    ![screenshot](images/robotrumps-name.png)
+    ![스크린샷](images/robotrumps-name.png)
 
-+ Try changing the `style` variable until you are happy with the text.
++ 텍스트가 만족스러울 때까지 `style` 변수를 변경하십시오.
     
-    Instead of `Arial` you could try: `Courier`, `Times` or `Verdana`.
+    이 문서에서 제공되는 폰트는 `Arial`이나 한글이 작게 표시된다는 장점이 있습니다. `Courier`, `Times`, `Verdana` 등의 폰트를 사용해 보세요.
     
-    Change `14` to a different number to change the size of the font.
+    글씨가 너무 작다면 `14` 를 다른 숫자로 변경합니다.
     
-    You can change `bold` to `normal` or `italic`.
+    `bold`를 `normal`로 변경하거나, `italic`을 사용하여 폰트가 기울도록 변경할 수 있습니다.
 
-+ Store the list of stats for the robot in a variable instead of printing them out:
++ 로봇에 대한 데이터를 출력하는 대신 변수에 저장하세요.
     
     ![screenshot](images/robotrumps-stats.png)
 
-+ You can now access the stats for the robot as items in a list:
++ 이제 로봇 데이터에 리스트로 접근할 수 있습니다.
     
-    + `stats[0]` is intelligence
-    + `stats[1]` is battery
-    + `stats[2]` is the image name
+    + `stats[0]`는 지능도를 의미합니다.
+    + `stats[1]` 는 배터리 잔량을 의미합니다.
+    + `stats[2]`는 이미지 이름을 의미합니다.
     
-    Add code to display the intelligence and battery stats:
+    지능도 및 배터리 잔량을 표시하는 코드를 추가하세요:
     
-    ![screenshot](images/robotrumps-stats-2.png)
+    ![스크린샷](images/robotrumps-stats-2.png)
 
-+ Oh dear! The stats are all on top of each other. You'll need to add code to move the turtle:
++ 이런! 텍스트가 겹쳐 있습니다. 거북이를 이동하는 코드를 추가해야 합니다:
     
-    ![screenshot](images/robotrumps-stats-3.png)
+    ![스크린샷](images/robotrumps-stats-3.png)
 
-+ And finally, let's add the robot image to complete the display.
++ 마지막으로, 로봇 이미지를 추가해 보도록 하겠습니다.
     
-    You'll need to add a line to register the image when you read the data from `cards.txt`:
+    `cards.txt`의 데이터를 읽어 올 때 이미지를 등록하는 라인을 추가합니다:
     
-    ![screenshot](images/robotrumps-register.png)
+    ![스크린샷](images/robotrumps-register.png)
 
-+ And add code to position and stamp the image:
++ 이미지를 배치하는 코드를 추가하세요:
     
-    ![screenshot](images/robotrumps-image.png)
+    ![스크린샷](images/robotrumps-image.png)
 
-+ Test your code by entering one robot and then another and you'll see that they display on top of each other!
++ 하나의 로봇을 불러오고, 다른 로봇을 불러와 코드를 테스트하면 기존 로봇이 사라지지 않고 그냥 위에 표시되는 것을 볼 수 있습니다!
     
-    You need to clear the screen before displaying a robot:
+    새로운 로봇을 표시하기 전에 기존 로봇을 지워야 합니다.
     
-    ![screenshot](images/robotrumps-clear.png)
+    ![스크린샷](images/robotrumps-clear.png)
