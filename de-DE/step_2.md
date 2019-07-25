@@ -1,64 +1,63 @@
-## Lies die Roboter Daten aus einer Datei ab
+## Lies die Roboter Daten aus einer Datei
 
-Es ist oft sehr hilfreich, wenn man Informationen aus einer Datei ablesen kann. Du kannst dann die Daten in der Datei ändern, ohne deinen Code ändern zu müssen. 
+Es ist oft nützlich, Informationen aus einer Datei lesen zu können. Du kannst dann die Daten in der Datei ändern, ohne deinen Code ändern zu müssen.
 
-+ Dieses Trinket öffnen: <a href="http://jumpto.cc/trumps-go" target="_blank">jumpto.cc/trumps-go</a>. 
++ Öffne diesen Trinket: <a href="http://jumpto.cc/trumps-go" target="_blank">jumpto.cc/trumps-go</a>.
 
-+ Dein Starter-Projekt beinhaltet eine Datei namens `cards.txt`, welche Daten über die Roboter enthält. 
++ Dein Starterprojekt enthält eine Datei namens `cards.txt`, die Daten zu Robotern enthält.
+    
+    Klicke auf den Reiter `cards.txt` um die Daten zu sehen:
+    
+    ![Screenshot](images/robotrumps-cards.png)
+    
+    Jede Zeile enthält Daten über einen Roboter. Die Datenelemente sind durch Kommas getrennt.
+    
+    Jede Zeile enthält folgende Informationen:
+    
+    Name, Intelligenzbewertung, Lebensdauer der Batterie, Dateiname des Bildes
 
-  Klicke auf `cards.txt`, um diese Daten sehen zu können:
++ Lass uns die Daten aus der Datei lesen, damit du sie verwenden kannst.
+    
+    Der erste Schritt ist das Öffnen der Datei `cards.txt` in deinem Skript:
+    
+    ![Screenshot](images/robotrumps-open.png)
 
-  ![screenshot](images/robotrumps-cards.png)
++ Jetzt kannst du die Daten aus der Datei lesen:
+    
+    ![screenshot](images/robotrumps-read.png)
 
-  Jede Zeile beinhaltet Daten über einen Roboter. Die Datenposten werden durch ein Komma getrennt. 
++ Du solltest eine Datei immer schließen, wenn du damit fertig bist:
+    
+    ![screenshot](images/robotrumps-close.png)
 
-  Jede Zeile enthält die folgenden Informationen:
++ Damit erhalten wir den ganzen Inhalt der Datei als eine Zeichenfolge. Du musst sie in die einzelnen Datenelemente aufteilen.
+    
+    Zunächst kannst du die Datei in eine Liste von Zeilen aufteilen:
+    
+    ![Screenshot](images/robotrumps-lines.png)
+    
+    Sieh dir die Ausgabe genau an. Es gibt drei Elemente in der Liste, in denen sich jeweils eine Zeile aus der Datei befindet.
 
-  Name, Intelligenzpunktzahl, wie lange die Batterie geladen bleibt, Bilddateiname
++ Jetzt kannst du diese Zeilen mit einer Schleife durchlaufen
+    
+    ![Screenshot](images/robotrumps-loop.png)
 
++ Statt die Zeilen auszudrucken, lies sie in Variablen ein:
+    
+    ![Screenshot](images/robotrumps-variables.png)
 
-+ Lass uns die Daten von der Datei einlesen, damit wir sie benutzen können. 
++ Du möchtest diese Daten später verwenden können, um die Werte für einen bestimmten Roboter abzurufen. Verwenden wir den Namen des Roboters als Schlüssel zu einem dictionary (englisch für Wörterbuch).
+    
+    Füge ein dictionary namens `roboter` hinzu:
+    
+    ![Screenshot](images/robotrumps-dict.png)
 
-  Der erste Schritt ist, die `cards.txt` Datei in deinem Script zu öffnen:
-  
-  ![screenshot](images/robotrumps-open.png)
-  
-+ Jetzt kannst du die Daten von der Datei ablesen:
-
-  ![screenshot](images/robotrumps-read.png)
-  
-+ Wenn du damit fertig bist, solltest du die benutzte Datei immer sofort schließen:
-
-  ![screenshot](images/robotrumps-close.png)
-
-+ Dies zeigt uns die Datei als eine Zeichenkette, du musst sie in die einzelnen Datenstücke aufteilen. 
-
-  Als erstes kannst du die Datei in eine Liste von Zeilen teilen:
-
-  ![screenshot](images/robotrumps-lines.png)
-  
-  Achte sorgfältig auf die Ausgabe. Es gibt drei Posten in der Liste, jeder davon ist eine Zeile aus der Datei. 
-  
-+ Jetzt kannst du, eins nach dem anderen, eine Schleife über diese Zeilen ziehen
-
-  ![screenshot](images/robotrumps-loop.png)
-  
-+ Anstatt die Zeilen auszudrucken, kannst du sie in Variable lesen:
-
-  ![screenshot](images/robotrumps-variables.png)
-  
-+ Du willst in der Lage sein, diese Daten zu einem späteren Zeitpunkt zu benutzen, um die Werte für einen bestimmten Roboter nachschlagen zu können. Lass uns den Namen des Roboters als Schlüssel für ein Wörterbuch benutzen. 
-
-  Füge ein `robots` (Roboter) Wörterbuch hinzu:
-
-  ![screenshot](images/robotrumps-dict.png)
-  
-+ Lass uns jetzt einen Eintrag für jeden einzelnen Roboter in das Roboter-Wörterbuch hinzufügen. 
-
-  Der Name ist der Schlüssel und der Wert ist eine Liste an Daten für diesen Roboter. 
-
-  Füge den markierten Code hinzu:
- 
-  ![screenshot](images/robotrumps-data.png)
-  
-  Du kannst `print robots` (Roboter drucken) entfernen, nachdem du dein Script getestet hast. 
++ Jetzt fügen wir einen Eintrag zum Roboter-dictionary für jeden Roboter hinzu.
+    
+    Der Name ist der Schlüssel und der Wert ist eine Liste von Daten für diesen Roboter.
+    
+    Füge den markierten Code hinzu:
+    
+    ![Screenshot](images/robotrumps-data.png)
+    
+    Du kannst `print roboter` entfernen, wenn du dein Skript getestet hast.

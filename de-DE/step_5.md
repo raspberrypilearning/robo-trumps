@@ -1,23 +1,21 @@
 --- challenge ---
-## Aufgabe: Füge den Robotern weitere Statistiken hinzu
-Kannst du dir noch weitere Statistiken ausdenken, die du deinen Robotern hinzufügen kannst?. Du könntest z. B. â€˜speedâ€™ (Geschwindigkeit) oder â€˜usefulnessâ€™ (Nützlichkeit) hinzufügen oder dir ganz was Neues ausdenken. 
+
+## Aufgabe: Füge den Robotern weitere Daten hinzu
+
+Kannst du dir weitere Daten vorstellen, die du zu den Robotern hinzufügen könntest? Du könntest 'Geschwindigkeit' oder 'Nützlichkeit' hinzufügen oder eigene Ideen entwickeln.
 
 Du musst:
 
-+ Daten zur Datei für jede neue Kategorie hinzufügen 
-+ Die neue Kategorie zum Code hinzufügen, der die Daten abliest
-+ Schreibe die neue Kategorie aus, wenn du eine Trump-Karte anzeigen willst
++ Der Datei für jede neue Kategorie Daten hinzufügen 
++ Die neue Kategorie den Code hinzufügen, der die Daten einliest
++ Die neue Kategorie anzeigen, wenn du eine Trumpfkarte anzeigst
 
-Du kannst sogar auch eine Farbe hinzufügen und die Statistiken für die Roboter in ihrer eigenen Farbe darstellen. 
+Du könntest sogar eine Farbe hinzufügen und die Daten für Roboter in ihrer eigenen Farbe anzeigen.
 
-Tipp: Benutze `color('red')` (Farbe (rot)), um den Text der Schildkröte vor dem Schreiben zu „rot“ zu ändern. 
+Hinweis: Verwende `color('red')` um den Text der Turtle vor dem Schreiben auf Rot zu ändern.
 
-Beispiel: 
+Beispiel:
 
-![screenshot](images/robotrumps-jet.png) 
-
-
-
-
+![Screenshot](images/robotrumps-jet.png)
 
 --- /challenge ---

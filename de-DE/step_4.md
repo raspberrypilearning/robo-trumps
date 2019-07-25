@@ -1,16 +1,13 @@
 --- challenge ---
-## Aufgabe: Füge noch mehr Roboter hinzu 
 
-Kannst du noch mehr Daten für weitere Roboter zu der Datei `cards.txt` hinzufügen? 
+## Aufgabe: Füge noch mehr Roboter hinzu
 
-Klicke auf die Bilder-Schaltfläche, um die Roboter-Bilder zu sehen, die du hierfür benutzen kannst. 
+Kannst du Daten über mehr Robotern zu `cards.txt` hinzufügen.
 
-Du darfst entscheiden, wie viel Batteriestrom und Intelligenz sie haben.
+Klicke auf die Schaltfläche Bilder, um die Roboterbilder anzuzeigen, die du verwenden kannst.
 
-![screenshot](images/robotrumps-yellow.png)
+Du kannst entscheiden, wie viel Batterie und Intelligenz sie haben.
 
-
-
-
+![Screenshot](images/robotrumps-yellow.png)
 
 --- /challenge ---
