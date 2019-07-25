@@ -1,12 +1,15 @@
-## Einen beliebigen Roboter darstellen
+## Einen zufällig gewählten Roboter darstellen
 
-Lass uns den Code hinzufügen, sodass du einen zufällig ausgewählten Roboter erhältst, wenn du „Random“ (zufällig ausgewählt) anstelle des Roboternamens eintippst.
+Lass uns Code hinzufügen, damit du einen zufällig gewählten Roboter erhältst, wenn du anstelle eines Roboternamens "Zufall" eingibst.
 
-+ Als erstes muss du die Wahl-Funktion vom „Random-Modul“ importieren:
++ Zuerst musst du die Auswahlfunktion (choise) aus dem Zufallsmodul (random) importieren:
+    
+    ![Screenshot](images/robotrumps-random.png)
 
-  ![screenshot](images/robotrumps-random.png)
-  
-+ Du kannst `choice` (Wahl) benutzen, um einen zufällig ausgesuchten Roboternamen von der Liste an Schlüsseln aus dem Roboter-Wörterbuch auszuwählen. 
++ Du kannst die Funktion `choice` verwenden um einen zufälligen Roboternamen aus der Liste der Schlüssel aus dem Roboter-dictionary auszuwählen.
+    
+    ![screenshot](images/robotrumps-choice.png)
 
-  ![screenshot](images/robotrumps-choice.png)
-
++ In Python 3 musst du `list` verwenden um aus den Ergebnissen des Befehls `keys` eine Liste zu machen.
+    
+    Tipp: Überprüfe deine Klammern sorgfältig!
