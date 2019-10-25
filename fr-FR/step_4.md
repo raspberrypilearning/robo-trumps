@@ -1,14 +1,13 @@
 --- challenge ---
-## Défi : Ajoute d'autres robots 
 
-Saurais-tu ajouter les informations concernant d'autres robots au fichier `cards.txt` ?
+## Défi: ajoute d'autres robots
 
-Clique sur le bouton des images pour voir les images des robots que tu peux utiliser.
+Peux-tu ajouter des données sur plus de robots dans `cards.txt`.
 
-C'est toi qui décide le niveau d'autonomie et d'intelligence de chaque robot.
+Clique sur le bouton images pour voir les images de robot que tu peux utiliser.
+
+Tu décides combien de batterie et d'intelligence ils ont.
 
 ![capture d'écran](images/robotrumps-yellow.png)
-
-
 
 --- /challenge ---

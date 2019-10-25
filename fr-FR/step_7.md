@@ -1,12 +1,18 @@
 --- challenge ---
-## Défi : Joue à Robot-Atout avec un ami 
-Partage ton projet avec un amis et jouez à Robot-Atout. Les deux joueurs devraient utiliser le même projet pour que ça soit juste pour tout le monde ! Joueur 1 demande un robot aléatoire, puis il choisit une catégorie. Ensuite Joueur 2 demande un robot aléatoire et vous vérifiez qui de vous deux a le score le plus élèvé pour la catégorie choisie, puis vous inversez les rôles.
 
-Le jeu se déroule au mieux si vous jouez tous les deux avec le même jeu de cartes. Partage le lien vers ton projet Trinket avec un ami pour pouvoir utiliser le même jeu de cartes.
+## Défi: joue à Robot-Atout avec un ami
+
+Partage ton projet avec un ami et joue à Roboatout. Les deux utilisent le même projet pour que ce soit juste! Le joueur 1 demande un robot au hasard, puis choisit une catégorie. Le joueur 2 demande alors à un robot au hasard de vérifier qui a le score le plus élevé pour la catégorie choisie, puis échangez dessus.
+
+Le jeu fonctionne mieux si vous jouez tous les deux avec le même jeu de cartes. Partage un lien vers ton projet trinket avec un ami pour pouvoir utiliser tout les deux le même jeu.
 
 ![capture d'écran](images/robotrumps-play.png)
 
-
-
-
 --- /challenge ---
+
+
+**Traduction de la communauté**
+
+Ce projet a été traduit par **Jonathan Vannieuwkerke** et vérifié par **Michel Arnols**.
+
+Nos incroyables bénévoles de traduction nous aident à donner aux enfants du monde entier la chance d'apprendre à coder. Vous pouvez nous aider à atteindre plus d'enfants en traduisant nos projets - en savoir plus sur [rpf.io/translate](https://rpf.io/translate).

@@ -1,13 +1,15 @@
 ## Afficher un robot de façon aléatoire
 
-Ajoutons du code pour qu'un robot selectionné aléatoirement s'affiche quand tu tapes Random au lieu du nom d'un robot.
+Ajoutons du code afin que tu obtiennes un robot aléatoire lorsque tu tapes Random au lieu du nom du robot.
 
-+ D'abord tu auras besoin d'importer la fonction de choix du module "random" :
++ Tu devras d’abord importer la fonction choice du module random:
+    
+    ![capture d'écran](images/robotrumps-random.png)
 
-  ![capture d'écran](images/robotrumps-random.png)
++ Tu peux utiliser `choice` pour choisir un nom de robot au hasard dans la liste des clés du dictionnaire du robot.
+    
+    ![captures d'écran](images/robotrumps-choice.png)
 
-+ Tu peux utiliser `choice` pour choisir un nom de robot aléatoire de la liste des clés du dictionnaire robot.
-
-  ![capture d'écran](images/robotrumps-choice.png)
-
-
++ En Python 3, tu devras utiliser `list` pour activer les résultats des `clés` dans une liste.
+    
+    Astuce: Assure-toi de vérifier tes supports avec soin!

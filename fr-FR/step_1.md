@@ -1,66 +1,118 @@
 ## Introduction
 
-Dans ce projet tu vas lire des données d'un fichier pour créer des cartes de jeu atout avec un thème robotique. Ensuite tu peux jouer "Robot-Atout" avec un ami.
+Dans ce projet, tu vas lire les données à partir d’un fichier pour créer des atouts de robot. Ensuite, tu peux jouer à Robo-Atout avec un ami.
 
 <div class="trinket">
-  <iframe src="https://trinket.io/embed/python/9ccc368bd5?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  <iframe src="https://trinket.io/embed/python/398c1b5c2a?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
   <img src="images/robotrumps-finished.png">
 </div>
 
+### Informations complémentaires pour les responsables de club
+
+Si vous avez besoin d'imprimer ce projet, merci d'utiliser la [Version imprimable](https://projects.raspberrypi.org/fr-FR/projects/robo-trumps/print).
 
 --- collapse ---
 ---
-title: Notes pour le leader du club
+title: Notes pour le responsable de club
 ---
 
-
 ## Introduction:
-Dans ce projet les apprentis-codeurs vont lire des données d'un fichier vers un dictionaire, afin de créer des cartes de jeu "robot-atout". Les cartes peuvent par la suite être utilisées pour jouer à Robot-Atout avec un ami.
 
-## Ressources en ligne
+Dans ce projet, vous allez lire les données à partir d’un fichier pour créer des atouts de robot. Les cartes peuvent ensuite être utilisées pour jouer à Robo-Atout avec un ami.
 
-__Ce projet utilise Python 3.__ Nous vous conseillons d'utiliser [trinket](https://trinket.io/) pour écrire du Python en ligne. Ce projet contient les Trinkets suivants :
+## Ressources en-ligne
 
-+ ['Robot-Atout' point de départ -- jumpto.cc/trumps-go](http://jumpto.cc/trumps-go)
+**Ce projet utilise Python 3.** Nous recommandons l'utilisation de [Trinket](https://trinket.io/) pour écrire du code Python en-ligne. Ce projet contient les Trinkets suivants :
 
-Il y a également un trinket qui contient un exemple de solution aux défis :
+* [Point de départ "Roboatout" - trinket.io/python/9c0dbdc99c](https://trinket.io/python/9c0dbdc99c)
 
-+ [‘Robo-Atout’ terminé -- trinket.io/python/9ccc368bd5](https://trinket.io/python/9ccc368bd5)
+Il y a aussi un Trinket contenant un exemple de solution pour les défis:
+
+* ['Roboatout' terminé - trinket.io/python/398c1b5c2a](https://trinket.io/python/398c1b5c2a)
 
 ## Ressources hors-ligne
-Ce projet pourrait être [complété hors-ligne](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) si préférable. Vous pouvez accéder aux ressources du projet en cliquant sur 'Matériaux du Projet'. Ce lien contient une section 'Ressources du projet', y compris vers des ressources dont les enfants auraient besoin pour compléter le projet hors-ligne. Vérifiez que chaque enfant ait accès à une copie de ces ressources. Cette section comporte les fichiers suivants :
 
-+ robotrumps/robotrumps.py
-+ robotrumps/cards.txt
-+ Plusieurs images .gif de robots
+Ce projet peut être [terminé hors-ligne](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) si désiré. Vous pouvez accéder aux ressources du projet en cliquant sur le lien "Matériels du projet". Ce lien contient une section "Ressources du projet" qui inclut les ressources dont les enfants auront besoin pour terminer le projet hors-ligne. Assurez-vous que les enfants ont accès à une copie de ces ressources. Cette section inclut les fichiers suivants:
 
-Vous pouvez aussi trouver une version finalisée des défis de ce projet dans la section 'Ressources du volontaire', qui contient :
+* robotrumps/robotrumps.py
+* robotrumps/cards.txt
+* Plusieurs images .gif de robot
 
-+ robotrumps-finished/robotrumps.py
-+ robotrumps-finished/cards.txt
-+ Plusieurs images .gif de robots
+Vous pouvez aussi trouver une version terminée du projet dans la section "Ressources du bénévole" qui contient:
 
-(Toutes les ressources ci-dessus sont également téléchargeables comme des fichiers `.zip` pour le projet et les volontaires.)
+* robotrumps-finished/robotrumps.py
+* robotrumps-finished/cards.txt
+* Plusieurs images .gif de robot
 
-## Objectifs pédagogiques
-+ Consolidation: structures de données, lire à partir d'un fichier et "turtle graphics" (interface graphique de la "tortue");
-+ Utiliser des images avec "turtle graphics";
-+ Partager des projets trinket.
+(Toutes les ressources ci-dessus peuvent aussi être téléchargées dans les fichiers `.zip` projet et bénévole)
 
-Ce projet couvre des élements des parcours suivants du [Programme de Créativité Numérique Raspberry Pi](http://rpf.io/curriculum) :
+## Objectifs d'apprentissage
 
-+ [Combiner des structures de programmation afin de résoudre des problèmes.](https://www.raspberrypi.org/curriculum/programming/builder)
+* Consolidation: structures de données, lecture à partir de fichier et graphiques turtle;
+* Utiliser des images dans les graphiques turtle;
+* Partage de projets trinket.
+
+Ce projet traite les éléments suivants du [Programme Raspberry Pi de Création Numérique](http://rpf.io/curriculum):
+
+* [Combiner des constructions de programmation pour résoudre un problème.](https://www.raspberrypi.org/curriculum/programming/builder)
 
 ## Défis
-+ Ajoute d'autres robots - En éditant un fichier .txt et travaillant avec des images ;
-+ Ajoute plus de stats concernant les robots - manipulation des données ;
-+ Joue à Robot-Atout avec un ami.
 
-## Foire à questions
-+ __Python hors-ligne ne marche pas avec des images .png. .gif images ont été fournies pour une utilisation hors-ligne.__
-+ A noter que ce projet utilise l'entrée de texte et les images 'turtle', vous pouvez ajuster l'espace donnée à chacune dans trinket.
-+ Tu devrais cliquer dans la fenêtre texte de trinket avant de commencer à taper.
-+ Les enfants peuvent utiliser l'option 'Share' dans trinket pour accèder à un lien vers leur projet. S'ils ont accès à un adresse mail ils peuvent envoyer le lien à un ami par mail, sinon ils pourraient tout simplement le lire à haute voix, le noter sur une feuille de papier ou l'enregistrer dans un fichier texte sur le réseau local.
+* Ajouter plus de robots - Éditer un fichier .txt et travailler avec des images;
+* Ajouter plus de statistiques aux robots - traitement des données;
+* Jouer à Roboatout avec un ami.
+
+## Foire aux questions
+
+* **Python hors-ligne ne fonctionne pas avec les images .png. Les images .gif ont été fournies pour une utilisation hors ligne.**
+* Notez que ce projet utilise à la fois la saisie de texte et les graphiques turtle, vous pouvez ajuster la quantité d'espace donnée de chacun dans trinket.
+* Vous devez cliquer dans la fenêtre de texte du trinket avant de taper.
+* Les enfants peuvent utiliser l'option «Partager» dans trinket pour obtenir un lien vers leur projet. S'ils ont accès au courrier électronique, ils peuvent ensuite envoyer le lien par courrier électronique à un ami. Sinon, ils peuvent simplement le lire, le noter sur un morceau de papier ou l'enregistrer dans un fichier texte sur le réseau local.
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Matériels pour le projet
+---
+
+## Ressources du projet
+
+* [Fichier .zip contenant toutes les ressources du projet](resources/robo-trumps-project-resources.zip)
+* [Trinket en ligne contenant les ressources de démarrage de 'Robo-Atout](https://trinket.io/python/9c0dbdc99c)
+* [robo-trumps/robo-trumps.py](resources/robo-trumps-robo-trumps.py)
+* [robo-trumps/cards.txt](resources/robo-trumps-cards.txt)
+* [robo-trumps/space.gif](resources/robo-trumps-space.gif)
+* [robo-trumps/rainbow.gif](resources/robo-trumps-rainbow.gif)
+* [robo-trumps/bird.gif](resources/robo-trumps-bird.gif)
+* [robo-trumps/dog.gif](resources/robo-trumps-dog.gif)
+* [robo-trumps/jet.gif](resources/robo-trumps-jet.gif)
+* [robo-trumps/round.gif](resources/robo-trumps-round.gif)
+* [robo-trumps/brains.gif](resources/robo-trumps-brains.gif)
+* [robo-trumps/twoheads.gif](resources/robo-trumps-twoheads.gif)
+* [robo-trumps/shades.gif](resources/robo-trumps-shades.gif)
+* [robo-trumps/hair.gif](resources/robo-trumps-hair.gif)
+* [robo-trumps/tv.gif](resources/robo-trumps-tv.gif)
+* [robo-trumps/yellow.gif](resources/robo-trumps-yellow.gif)
+
+## Ressources pour le responsable de club
+
+* [Fichier .zip contenant toutes les ressources du projet terminé](resources/robotrumps-volunteer-resources.zip)
+* [Projet Trinket en-ligne terminé](https://trinket.io/python/398c1b5c2a)
+* [robo-trumps-finished/robo-trumps.py](resources/robo-trumps-finished-robo-trumps.py)
+* [robo-trumps-finished/cards.txt](resources/robo-trumps-finished-cards.txt)
+* [robo-trumps-finished/space.gif](resources/robo-trumps-finished-space.gif)
+* [robo-trumps-finished/rainbow.gif](resources/robo-trumps-finished-rainbow.gif)
+* [robo-trumps-finished/bird.gif](resources/robo-trumps-finished-bird.gif)
+* [robo-trumps-finished/dog.gif](resources/robo-trumps-finished-dog.gif)
+* [robo-trumps-finished/jet.gif](resources/robo-trumps-finished-jet.gif)
+* [robo-trumps-finished/round.gif](resources/robo-trumps-finished-round.gif)
+* [robo-trumps-finished/brains.gif](resources/robo-trumps-finished-brains.gif)
+* [robo-trumps-finished/twoheads.gif](resources/robo-trumps-finished-twoheads.gif)
+* [robo-trumps-finished/shades.gif](resources/robo-trumps-finished-shades.gif)
+* [robo-trumps-finished/hair.gif](resources/robo-trumps-finished-hair.gif)
+* [robo-trumps-finished/tv.gif](resources/robo-trumps-finished-tv.gif)
+* [robo-trumps-finished/yellow.gif](resources/robo-trumps-finished-yellow.gif)
 
 --- /collapse ---
