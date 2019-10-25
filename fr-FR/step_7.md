@@ -1,11 +1,11 @@
 \--- challenge \---
 
-## Challenge: Play robot trumps with a friend
+## Défi : Joue à Robot-Atout avec un ami
 
-Share your project with a friend and play Robotrumps. Both use the same project so that it's fair! Player one requests a random robot and then chooses a category. Player 2 then requests a random robot and you check who has the highest score for the chosen category, then swap over.
+Partage ton projet avec un ami et joue à Roboatout. Les deux utilisent le même projet pour que ce soit juste! Le joueur 1 demande un robot au hasard, puis choisit une catégorie. Le joueur 2 demande alors à un robot au hasard de vérifier qui a le score le plus élevé pour la catégorie choisie, puis échangez dessus.
 
-The game works best if you both play with the same deck of cards. Share a link to your trinket project with a friend so you can both use the same deck.
+Le jeu fonctionne mieux si vous jouez tous les deux avec le même jeu de cartes. Partage un lien vers ton projet trinket avec un ami pour pouvoir utiliser tout les deux le même jeu.
 
-![screenshot](images/robotrumps-play.png)
+![capture d'écran](images/robotrumps-play.png)
 
 \--- /challenge \---
