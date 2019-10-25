@@ -6,9 +6,9 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Robo-Trumps
-description: Create a database of robots and play Robo-Trumps with a friend!
-original_url: https://codeclubprojects.org/en-GB/python/robo-trumps
+title: Robo-Atout
+description: Créer une base de données et jouer à Robo-Atout avec un ami !
+original_url: https://codeclubprojects.org/fr-FR/python/robo-trumps/
 interests: games
 technologies: python
 site_areas: projects
@@ -20,14 +20,14 @@ steps:
   - 
     title: Introduction
   - 
-    title: Read robot data from a file
+    title: Lire les données des robots à partir d'un fichier
   - 
-    title: Display the data
+    title: Afficher les données
   - 
-    title: 'Challenge: Add more robots'
+    title: 'Défi : Ajoute d''autres robots'
   - 
-    title: 'Challenge: Add more stats to the robots'
+    title: 'Défi : Ajoute plus de stats aux robots'
   - 
-    title: Display a random robot
+    title: Afficher un robot de façon aléatoire
   - 
-    title: 'Challenge: Play robot trumps with a friend'
+    title: 'Défi : Joue à Robot-Atout avec un ami'
