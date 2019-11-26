@@ -2,7 +2,7 @@
 
 Tu peux maintenant afficher les données du robot de manière plus intéressante.
 
-Montrons un atout de robot avec une image et des données pour son intelligence et son utilité.
+Affichons un atout du robot avec une image et des données pour son intelligence et son utilité.
 
 Une fois cette étape terminée, tu pourras afficher les robots comme suit:
 
