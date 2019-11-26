@@ -1,3 +1,4 @@
+---
 hero_image: images/robo-trumps.png
 theme: turquoise
 duration: 2
@@ -15,5 +16,11 @@ hardware: ''
 software: python
 version: 3
 last_tested: 2017-01-01
-steps: 
-- title: Borbe robota
+steps:
+  - title: Uvod
+  - title: Učitaj podatke o robotu iz datoteke
+  - title: Prikaži podatke
+  - title: 'Izazov: Dodaj još robota'
+  - title: 'Izazov: Dodaj još karakteristika robotima'
+  - title: Prikaži nasumičnog robota
+  - title: 'Izazov: Igraj Borbe robota s prijateljem'
