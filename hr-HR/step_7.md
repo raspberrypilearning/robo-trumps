@@ -8,7 +8,7 @@ Igra najbolje funkcionira ako oboje igrate sa istim špilom karata. Podijeli lin
 
 ![screenshot](images/robotrumps-play.png)
 
---- challenge ---
+--- /challenge ---
 
 ***
 
