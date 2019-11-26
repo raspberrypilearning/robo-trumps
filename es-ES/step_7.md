@@ -1,10 +1,10 @@
 \--- challenge \---
 
-## Challenge: Play robot trumps with a friend
+## Desafío: Juega a Cartas robóticas con un amigo
 
-Share your project with a friend and play Robotrumps. Both use the same project so that it's fair! Player one requests a random robot and then chooses a category. Player 2 then requests a random robot and you check who has the highest score for the chosen category, then swap over.
+Comparte tu proyecto con un amigo y juega a Cartas Robóticas. ¡Usad el mismo proyecto para que sea justo! El jugador uno solicita un robot aleatorio y luego elige una categoría. Después el jugador 2 solicita un robot aleatorio y comprueba quién tiene la puntuación más alta para la categoría elegida, luego los jugadores se alternan.
 
-The game works best if you both play with the same deck of cards. Share a link to your trinket project with a friend so you can both use the same deck.
+El juego funciona mejor si ambos jugáis con la misma baraja de cartas. Comparte un enlace a tu proyecto de trinket con un amigo para que ambos podáis usar la misma baraja.
 
 ![screenshot](images/robotrumps-play.png)
 
