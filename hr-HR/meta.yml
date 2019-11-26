@@ -17,7 +17,7 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: Sretan rođendan
+  - title: Uvod
   - title: Učitaj podatke o robotu iz datoteke
   - title: Prikaži podatke
   - title: 'Izazov: Dodaj još robota'
