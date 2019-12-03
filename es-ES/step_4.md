@@ -1,15 +1,13 @@
 --- challenge ---
-## Reto: Añadir más robots 
 
-¿Puedes añadir datos de más robots en `cards.txt`? 
+## Desafío: Añadir más robots
 
-Haz clic sobre el botón de imágenes para ver las imágenes de los robots que puedes usar. 
+¿Puedes agregar datos sobre más robots a `cards.txt`?
 
-Debes decidir cuánta batería e inteligencia tienen.
+Haz clic en el botón de imágenes para ver las imágenes de robot que puedes utilizar.
+
+Tienes que decidir cuánta batería e inteligencia tienen.
 
 ![screenshot](images/robotrumps-yellow.png)
-
-
-
 
 --- /challenge ---

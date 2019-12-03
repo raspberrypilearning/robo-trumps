@@ -1,22 +1,21 @@
 --- challenge ---
-## Reto: Añadir más estadísticas a los robots
-¿Se te ocurren más estadísticas que puedas añadir a los robots? Puedes añadir `speed` o `usefulness` o cualquier otra idea que se te ocurra. 
 
-Necesitarás:
+## Desafío: Añadir más estadísticas a los robots
+
+¿Se te ocurren más estadísticas para añadir a los robots? Puedes agregar 'velocidad' o 'utilidad' o añadir tus propias ideas.
+
+Tendrás que:
 
 + Añadir datos al archivo para cada nueva categoría 
-+ Añadir la nueva categoría al código que lee los datos
-+ Escribir una nueva categoría al visualizar una carta
++ Agregar la nueva categoría al código que lee los datos
++ Escribir la nueva categoría cuando se muestre una carta robótica
 
-Incluso podrás añadir un color y mostrar las estadísticas para los robots con sus propios colores. 
+Incluso puedes agregar un color y mostrar las estadísticas de los robots en su propio color.
 
-Sugerencia: Usa `color('red')` para cambiar el texto de la tortuga al color rojo antes de escribir. 
+Sugerencia: usa `color ('red')` para cambiar el texto de la tortuga a rojo antes de escribir.
 
-Ejemplo: 
+Ejemplo:
 
-![screenshot](images/robotrumps-jet.png) 
-
-
-
+![screenshot](images/robotrumps-jet.png)
 
 --- /challenge ---
