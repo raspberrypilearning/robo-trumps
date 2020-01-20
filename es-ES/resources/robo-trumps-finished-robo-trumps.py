@@ -12,16 +12,16 @@ robots = {}
 file = open ('cards.txt', 'r')
 
 for line in file.read().splitlines():
-  nombre, bateria, inteligencia, utilidad, velocidad, imagen, color_ = line.split(', ')
-  robots[name] = [bateria, inteligencia, utilidad, velocidad, imagen, color_]
-  screen.register_shape(Image)
-file.Close()
+  nombre, bateria, inteligencia, utilidad, velocidad, imagen, colores = line.split(', ')
+  robots[nombre] = [bateria, inteligencia, utilidad, velocidad, imagen, colores]
+  screen.register_shape(imagen)
+file.close()
 
-print('Robots: ', ', '.join(robots.keys()), ' (or random)')
+print('Robots: ', ', '.join(robots.keys()), ' (o aleatorio)')
 
 while True:
   robot = input ("Elige un robot:")
-  if(robot == "random"):
+  if(robot == "aleatorio"):
     robot = choice(robots.keys())
     print(robot)
   
