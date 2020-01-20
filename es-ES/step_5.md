@@ -16,6 +16,6 @@ Sugerencia: usa `color ('red')` para cambiar el texto de la tortuga a rojo antes
 
 Ejemplo:
 
-![screenshot](images/robotrumps-jet.png)
+![captura de pantalla](images/robotrumps-jet.png)
 
 \--- /challenge \---
