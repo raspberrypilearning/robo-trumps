@@ -13,14 +13,13 @@ In this project you will read data from a file to create robot trump cards. Then
 
 If you need to print this project, please use the [Printer friendly version](https://projects.raspberry-pi.org/en/projects/robo-trumps/print).
 
-
 --- collapse ---
 ---
 title: Club leader notes
 ---
 
-
 ## Introduction:
+
 In this project learners will read data from a file into a dictionary, to create robot trump cards. The cards can then be used to play Robo-Trumps with a friend.
 
 ## Online Resources
@@ -34,6 +33,7 @@ There is also a trinket containing a sample solution to the challenges:
 + [‘Robotrumps’ Finished -- trinket.io/python/9ccc368bd5](https://trinket.io/python/9ccc368bd5)
 
 ## Offline Resources
+
 This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
 
 + robotrumps/robotrumps.py
@@ -49,6 +49,7 @@ You can also find a completed version of this project's challenges in the 'Volun
 (All of the resources above are also downloadable as project and volunteer `.zip` files.)
 
 ## Learning Objectives
+
 + Consolidation: data structures, reading from file and turtle graphics;
 + Using images in turtle graphics;
 + Sharing trinket projects.
@@ -58,25 +59,27 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 + [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
 
 ## Challenges
+
 + Add more robots - Editing a .txt file and working with images;
 + Add more stats to the robots - handling data;
 + Play Robotrumps with a friend.
 
 ## Frequently Asked Questions
+
 + __Offline Python does not work with .png images. .gif images have been supplied for offline use.__
 + Note that this project uses both text input and turtle graphics, you can adjust the amount of space given to each in trinket.
 + You need to click in the trinket text window before typing.
 + Children can use the 'Share' option in trinket to get a link to their project. If they have access to email then they can email the link to a friend, otherwise they can just read it out, note it down on a piece of paper or save it in a text file on the local network.
 
-
 --- /collapse ---
-
 
 --- collapse ---
 ---
 title: Project materials
 ---
+
 ## Project resources
+
 * [.zip file containing all project resources](resources/robo-trumps-project-resources.zip)
 * [Online Trinket containing 'Robo-Trumps' starter resources](http://jumpto.cc/trumps-go)
 * [robo-trumps/robo-trumps.py](resources/robo-trumps-robo-trumps.py)
@@ -95,6 +98,7 @@ title: Project materials
 * [robo-trumps/yellow.gif](resources/robo-trumps-yellow.gif)
 
 ## Club leader resources
+
 * [.zip file containing all completed project resources](resources/robotrumps-volunteer-resources.zip)
 * [Online completed Trinket project](https://trinket.io/python/9ccc368bd5)
 * [robo-trumps-finished/robo-trumps.py](resources/robo-trumps-finished-robo-trumps.py)
