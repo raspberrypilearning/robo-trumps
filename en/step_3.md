@@ -8,9 +8,6 @@ When you've completed this step you'll be able to display robots like this:
 
 ![screenshot](images/robotrumps-example.png)
 
-
-
-
 + Ask the user which robot they would like to see:
 
   ![screenshot](images/robotrumps-choose.png)
@@ -21,7 +18,6 @@ When you've completed this step you'll be able to display robots like this:
   
   Test your code by entering a robot name.
 
-  
 + If the robot doesn't exist then give an error:
 
   ![screenshot](images/robotrumps-else.png)
@@ -60,7 +56,6 @@ When you've completed this step you'll be able to display robots like this:
   
   ![screenshot](images/robotrumps-stats-2.png)
    
-  
 + Oh dear! The stats are all on top of each other. You'll need to add code to move the turtle:
 
    ![screenshot](images/robotrumps-stats-3.png)

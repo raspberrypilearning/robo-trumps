@@ -1,5 +1,7 @@
 --- challenge ---
+
 ## Challenge: Add more stats to the robots
+
 Can you think of more stats to add to the robots. You could add ‘speed’ or ‘usefulness’ or come up with your own ideas. 
 
 You’ll need to:
@@ -15,9 +17,5 @@ Hint: Use `color('red')` to change the turtle's text to red before writing.
 Example: 
 
 ![screenshot](images/robotrumps-jet.png) 
-
-
-
-
 
 --- /challenge ---
