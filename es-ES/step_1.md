@@ -1,6 +1,6 @@
 ## Introducción
 
-En este proyecto, vas a leer datos de un archivo para crear cartas robóticas. Después podras jugar a Cartas robóticas con un amigo.
+En este proyecto, vas a leer datos de un archivo para crear cartas robóticas. Después podrás jugar a Cartas robóticas con un amigo.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/9ccc368bd5?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
