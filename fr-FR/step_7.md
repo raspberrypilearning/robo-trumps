@@ -10,9 +10,11 @@ Le jeu fonctionne mieux si vous jouez tous les deux avec le même jeu de cartes.
 
 --- /challenge ---
 
+***
+Ce projet a été traduit par des bénévoles:
 
-**Traduction de la communauté**
+**Jonathan Vannieuwkerke**
 
-Ce projet a été traduit par **Jonathan Vannieuwkerke** et vérifié par **Michel Arnols**.
+**Michel Arnols**
 
-Nos incroyables bénévoles de traduction nous aident à donner aux enfants du monde entier la chance d'apprendre à coder. Vous pouvez nous aider à atteindre plus d'enfants en traduisant nos projets - en savoir plus sur [rpf.io/translate](https://rpf.io/translate).
+Grâce aux bénévoles, nous pouvons donner aux gens du monde entier la chance d'apprendre dans leur propre langue. Vous pouvez nous aider à atteindre plus de personnes en vous portant volontaire pour la traduction - plus d'informations sur [rpf.io/translate](https://rpf.io/translate).
