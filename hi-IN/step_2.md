@@ -1,63 +1,63 @@
-## Read robot data from a file
+## फाइल से रोबोट डेटा पढ़ें
 
-It's often useful to be able to read information from a file. You can then change the data in the file without having to change your code.
+फ़ाइल से जानकारी पढ़ने में सक्षम होना अक्सर उपयोगी होता है। फिर आप अपना कोड बदले बिना फ़ाइल में डेटा बदल सकते हैं।
 
-+ Open this trinket: <a href="http://jumpto.cc/trumps-go" target="_blank">jumpto.cc/trumps-go</a>.
++ इस ट्रिंकेट को खोलें: <a href="http://jumpto.cc/trumps-go" target="_blank"> jumpto.cc/trumps-go </a> ।
 
-+ Your starter project includes a `cards.txt` file which contains data about robots.
++ आपकी स्टार्टर परियोजना में `cards.txt` फ़ाइल जिसमें रोबोट के बारे में डेटा है।
     
-    Click on `cards.txt` to see the data:
+    ` card.txt ` पर क्लिक करें डेटा देखने के लिए:
     
-    ![screenshot](images/robotrumps-cards.png)
+    ![स्क्रीनशॉट](images/robotrumps-cards.png)
     
-    Each line has data about a robot. The data items are separated by commas.
+    प्रत्येक पंक्ति में एक रोबोट के बारे में डेटा है। डेटा आइटम कॉमा द्वारा अलग किए गए हैं।
     
-    Each line contains the following information:
+    प्रत्येक पंक्ति में निम्नलिखित जानकारी होती है:
     
-    name, intelligence rating, how long the battery lasts, image file name
+    नाम, खुफिया रेटिंग, बैटरी कितनी देर तक चलती है, छवि फ़ाइल नाम
 
-+ Let's read the data in from the file so that you can use it.
++ चलो फ़ाइल से डेटा पढ़ते हैं ताकि आप इसका उपयोग कर सकें।
     
-    The first step is to open the `cards.txt` file in your script:
+    पहला कदम है ` card.txt `फ़ाइल को अपनी स्क्रिप्ट में खोलना:
     
-    ![screenshot](images/robotrumps-open.png)
+    ![स्क्रीनशॉट](images/robotrumps-open.png)
 
-+ Now you can read the data from the file:
++ अब आप फ़ाइल से डेटा पढ़ सकते हैं:
     
-    ![screenshot](images/robotrumps-read.png)
+    ![स्क्रीनशॉट](images/robotrumps-read.png)
 
-+ You should always close a file when you have finished with it:
++ जब आप इसे पूरा कर लें तो आपको हमेशा एक फाइल बंद करनी चाहिए:
     
-    ![screenshot](images/robotrumps-close.png)
+    ![स्क्रीनशॉट](images/robotrumps-close.png)
 
-+ That gives us the file as one string, you need to break it down into the individual pieces of data.
++ वह फ़ाइल हमें एक स्ट्रिंग के रूप में देता है, आपको इसे अलग-अलग डेटा के टुकड़ों में तोड़ने की आवश्यकता है।
     
-    First, you can split the file into a list of lines:
+    सबसे पहले, आप फ़ाइल को लाइनों की सूची में विभाजित कर सकते हैं:
     
-    ![screenshot](images/robotrumps-lines.png)
+    ![स्क्रीनशॉट](images/robotrumps-lines.png)
     
-    Look carefully at the output. There are three items in the list, each one is a line from the file.
+    आउटपुट को ध्यान से देखें। सूची में तीन आइटम हैं, प्रत्येक फ़ाइल से एक पंक्ति है।
 
-+ Now you can loop over those lines one at a time
++ अब आप एक बार में उन लाइनों पर लूप कर सकते हैं
     
-    ![screenshot](images/robotrumps-loop.png)
+    ![स्क्रीनशॉट](images/robotrumps-loop.png)
 
-+ Instead of printing out the lines, read them in to variables:
++ लाइनों को प्रिंट करने के बजाय, उन्हें वेरिएबल में पढ़ें:
     
-    ![screenshot](images/robotrumps-variables.png)
+    ![स्क्रीनशॉट](images/robotrumps-variables.png)
 
-+ You want to be able to use this data later to look up the values for a particular robot. Let's use the robot's name as a key to a dictionary.
++ आप किसी विशेष रोबोट के मूल्यों को देखने के लिए बाद में इस डेटा का उपयोग करने में सक्षम होना चाहते हैं। शब्दकोश की कुंजी के रूप में रोबोट के नाम का उपयोग करते हैं।
     
-    Add a `robots` dictionary:
+    एक ` रोबोट ` शब्दकोश जोड़ें:
     
-    ![screenshot](images/robotrumps-dict.png)
+    ![स्क्रीनशॉट](images/robotrumps-dict.png)
 
-+ Now let's add an entry to the robots dictionary for each robot.
++ अब प्रत्येक रोबोट के लिए रोबोट शब्दकोश में एक एंट्री जोड़ें।
     
-    The name is the key and the value is a list of data for that robot.
+    नाम कुंजी है और मूल्य उस रोबोट के डेटा की एक सूची है।
     
-    Add the highlighted code:
+    हाइलाइट किए गए कोड को जोड़ें:
     
-    ![screenshot](images/robotrumps-data.png)
+    ![स्क्रीनशॉट](images/robotrumps-data.png)
     
-    You can remove `print robots` when you have tested your script.
+    अपने कोड का परीक्षण कर लेने के बाद आप `print robots` लाइन को निकाल सकते हैं।
