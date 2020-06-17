@@ -1,77 +1,77 @@
-## Display the data
+## Visualiza los datos
 
-Now you can display the robot data in a more interesting way.
+Ahora puedes mostrar los datos del robot de una manera más interesante.
 
-Let’s display a robot trump card with an image and data for its intelligence and usefulness.
+Vamos a mostrar una carta robótica con una imagen y datos de su inteligencia y su utilidad.
 
-When you've completed this step you'll be able to display robots like this:
+Cuando hayas completado este paso podrás ver robots como este:
 
-![screenshot](images/robotrumps-example.png)
+![captura de pantalla](images/robotrumps-example.png)
 
-+ Ask the user which robot they would like to see:
++ Pregunta al usuario qué robot le gustaría ver:
     
-    ![screenshot](images/robotrumps-choose.png)
+    ![captura de pantalla](images/robotrumps-choose.png)
 
-+ If the robot is in the dictionary then lookup its data:
++ Si el robot está en el diccionario, busca sus datos:
     
-    ![screenshot](images/robotrumps-if.png)
+    ![captura de pantalla](images/robotrumps-if.png)
     
-    Test your code by entering a robot name.
+    Prueba el código introduciendo el nombre de un robot.
 
-+ If the robot doesn't exist then give an error:
++ Si el robot no existe, entonces da un error:
     
-    ![screenshot](images/robotrumps-else.png)
+    ![captura de pantalla](images/robotrumps-else.png)
     
-    Test your code by entering a robot name that isn't in the dictionary.
+    Prueba tu código introduciendo el nombre de un robot que no está en el diccionario.
 
-+ Now you're going to use the Python turtle to display the robot data.
++ Ahora vas a utilizar la tortuga Python para mostrar los datos del robot.
     
-    Import the turtle library at the top of your script and setup the screen and turtle:
+    Importa la biblioteca de la tortuga en la parte superior de la secuencia de comandos y configura la pantalla y la tortuga:
     
-    ![screenshot](images/robotrumps-turtle.png)
+    ![captura de pantalla](images/robotrumps-turtle.png)
 
-+ Now add code to get the turtle to print the name of the robot:
++ Ahora añade una línea de código para que la tortuga imprima el nombre del robot:
     
-    ![screenshot](images/robotrumps-name.png)
+    ![captura de pantalla](images/robotrumps-name.png)
 
-+ Try changing the `style` variable until you are happy with the text.
++ Intenta cambiar la variable `style` hasta que estés satisfecho con el texto.
     
-    Instead of `Arial` you could try: `Courier`, `Times` or `Verdana`.
+    En lugar de `Arial` puedes intentar: `Courier`, `Times` o `Verdana`.
     
-    Change `14` to a different number to change the size of the font.
+    Cambia `14` a un número diferente para cambiar el tamaño de las letras.
     
-    You can change `bold` to `normal` or `italic`.
+    Puedes cambiar `bold` (negrita) a `normal` (normal) o `italic` (cursiva).
 
-+ Store the list of stats for the robot in a variable instead of printing them out:
++ Guarda la lista de estadísticas para el robot en una variable en lugar de imprimirlas:
     
-    ![screenshot](images/robotrumps-stats.png)
+    ![captura de pantalla](images/robotrumps-stats.png)
 
-+ You can now access the stats for the robot as items in a list:
++ Ahora puedes acceder a las estadísticas del robot como elementos en una lista:
     
-    + `stats[0]` is intelligence
-    + `stats[1]` is battery
-    + `stats[2]` is the image name
+    + `stats[0]` es inteligencia
+    + `stats[1]` es bateria
+    + `stats[2]` es el nombre de la imagen
     
-    Add code to display the intelligence and battery stats:
+    Añade una línea de código para mostrar las estadísticas de la inteligencia y de la batería:
     
-    ![screenshot](images/robotrumps-stats-2.png)
+    ![captura de pantalla](images/robotrumps-stats-2.png)
 
-+ Oh dear! The stats are all on top of each other. You'll need to add code to move the turtle:
++ ¡Oh, vaya! Las estadísticas están todas una encima de la otra. Tendrás que añadir mas código para mover la tortuga:
     
-    ![screenshot](images/robotrumps-stats-3.png)
+    ![captura de pantalla](images/robotrumps-stats-3.png)
 
-+ And finally, let's add the robot image to complete the display.
++ Y finalmente, agreguemos la imagen del robot para completar la visualización.
     
-    You'll need to add a line to register the image when you read the data from `cards.txt`:
+    Deberás agregar una línea para registrar la imagen cuando leas los datos de `cards.txt`:
     
-    ![screenshot](images/robotrumps-register.png)
+    ![captura de pantalla](images/robotrumps-register.png)
 
-+ And add code to position and stamp the image:
++ Y añadir código para posicionar y mostrar la imagen:
     
-    ![screenshot](images/robotrumps-image.png)
+    ![captura de pantalla](images/robotrumps-image.png)
 
-+ Test your code by entering one robot and then another and you'll see that they display on top of each other!
++ ¡Prueba tu código introduciendo un robot y luego otro y verás que se muestran uno encima del otro!
     
-    You need to clear the screen before displaying a robot:
+    Debes borrar la pantalla antes de mostrar un robot:
     
-    ![screenshot](images/robotrumps-clear.png)
+    ![captura de pantalla](images/robotrumps-clear.png)
