@@ -1,33 +1,33 @@
 ---
 hero_image: images/robo-trumps.png
-theme: turquoise
+theme: turkuaz
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Robo-Trumps
-description: Create a database of robots and play Robo-Trumps with a friend!
+curriculum: 1, tasarım-0, programlama-1, fiziksel-hesaplama-0, üretim-0, topluluk-0
+title: Robo-Kozlar
+description: Bir robot veritabanı oluşturun ve bir arkadaşınızla Robo-Kozlar oynayın!
 original_url: https://codeclubprojects.org/en-GB/python/robo-trumps
-interests: games
+interests: oyunlar
 technologies: python
-site_areas: projects
+site_areas: projeler
 hardware: ''
 software: python
 version: 3
-last_tested: 2017-01-01
+last_tested: 01/01/2017
 steps:
   - 
-    title: Introduction
+    title: Giriş
   - 
-    title: Read robot data from a file
+    title: Robot verilerini bir dosyadan oku
   - 
-    title: Display the data
+    title: Verileri görüntüle
   - 
-    title: 'Challenge: Add more robots'
+    title: 'Meydan Okuma: Daha fazla robot ekle'
   - 
-    title: 'Challenge: Add more stats to the robots'
+    title: 'Meydan Okuma: Robotlara daha fazla istatistik ekle'
   - 
-    title: Display a random robot
+    title: Rastgele bir robotu görüntüle
   - 
-    title: 'Challenge: Play robot trumps with a friend'
+    title: 'Meydan Okuma: Bir arkadaşınla robot kozlar oyna'
