@@ -1,63 +1,63 @@
-## Read robot data from a file
+## 从文件读取机器人数据
 
-It's often useful to be able to read information from a file. You can then change the data in the file without having to change your code.
+从文件读取信息通常很有用。 然后你可以修改文件中的数据，而不必修改代码。
 
-+ Open this trinket: <a href="http://jumpto.cc/trumps-go" target="_blank">jumpto.cc/trumps-go</a>.
++ 打开此trinket代码：<a href="http://jumpto.cc/trumps-go" target="_blank">jumpto.cc/trumps-go</a>。
 
-+ Your starter project includes a `cards.txt` file which contains data about robots.
++ 您的入门项目包括一个`cards.txt`文件，此文件包含有关机器人的数据。
     
-    Click on `cards.txt` to see the data:
+    点击 `cards.txt` 查看数据：
     
-    ![screenshot](images/robotrumps-cards.png)
+    ![截图](images/robotrumps-cards.png)
     
-    Each line has data about a robot. The data items are separated by commas.
+    每一行都包含有关机器人的数据。 数据项用逗号隔开。
     
-    Each line contains the following information:
+    每行都包括如下信息：
     
-    name, intelligence rating, how long the battery lasts, image file name
+    名称、智能等级、续航时间、图片文件名称
 
-+ Let's read the data in from the file so that you can use it.
++ 让我们从文件中读取数据，以便您能使用。
     
-    The first step is to open the `cards.txt` file in your script:
+    第一步是在您的脚本中打开`cards.txt`文件：
     
-    ![screenshot](images/robotrumps-open.png)
+    ![截图](images/robotrumps-open.png)
 
-+ Now you can read the data from the file:
++ 现在您可以从文件中读取数据：
     
-    ![screenshot](images/robotrumps-read.png)
+    ![截图](images/robotrumps-read.png)
 
-+ You should always close a file when you have finished with it:
++ 每当完成数据读取，您应该始终关闭文件：
     
-    ![screenshot](images/robotrumps-close.png)
+    ![截图](images/robotrumps-close.png)
 
-+ That gives us the file as one string, you need to break it down into the individual pieces of data.
++ 每一个文件都以字符串的形式呈现，您需要将它分成独立的数据块。
     
-    First, you can split the file into a list of lines:
+    首先，您可以将文件内容分割为一个列表行：
     
-    ![screenshot](images/robotrumps-lines.png)
+    ![截图](images/robotrumps-lines.png)
     
-    Look carefully at the output. There are three items in the list, each one is a line from the file.
+    仔细观察输出。 表中有三项，每一项对应文件中的一行。
 
-+ Now you can loop over those lines one at a time
++ 现在您可以一次循环读取所有的行
     
-    ![screenshot](images/robotrumps-loop.png)
+    ![截图](images/robotrumps-loop.png)
 
-+ Instead of printing out the lines, read them in to variables:
++ 将文件读取入变量中，而不是以行的形式打印出来：
     
-    ![screenshot](images/robotrumps-variables.png)
+    ![截图](images/robotrumps-variables.png)
 
-+ You want to be able to use this data later to look up the values for a particular robot. Let's use the robot's name as a key to a dictionary.
++ 您希望稍后读取这些数据来查找特定的机器人的值。 让我们使用机器人的名字作为字典的键。
     
-    Add a `robots` dictionary:
+    添加一个名为`robots`的字典：
     
-    ![screenshot](images/robotrumps-dict.png)
+    ![截图](images/robotrumps-dict.png)
 
-+ Now let's add an entry to the robots dictionary for each robot.
++ 现在，让我们为每一个机器人添加一个机器人字典条目。
     
-    The name is the key and the value is a list of data for that robot.
+    名称为键，而值为每个机器人的数据列表。
     
-    Add the highlighted code:
+    添加高亮处的代码：
     
-    ![screenshot](images/robotrumps-data.png)
+    ![截图](images/robotrumps-data.png)
     
-    You can remove `print robots` when you have tested your script.
+    当你已测试过您的脚本后，您可以移除`print robots`。
