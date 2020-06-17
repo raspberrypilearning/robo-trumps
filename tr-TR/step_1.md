@@ -1,6 +1,6 @@
-## Introduction
+## Giriş
 
-In this project you will read data from a file to create robot trump cards. Then you can play Robo-Trumps with a friend.
+Bu projede, robot koz kartları oluşturmak için bir dosyadan veri okuyacaksınız. Ardından bir arkadaşınızla Robo-Kozlar oynayabileceksiniz.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/9ccc368bd5?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -16,23 +16,23 @@ If you need to print this project, please use the [Printer friendly version](htt
 
 ## title: Club leader notes
 
-## Introduction:
+## Giriş:
 
-In this project learners will read data from a file into a dictionary, to create robot trump cards. The cards can then be used to play Robo-Trumps with a friend.
+Bu projede öğrenciler robot koz kartları oluşturmak için bir dosyadan sözlüğe veri okuyacaklar. Ardından kartlar bir arkadaşınızla beraber Robo-Kozlar oynamak için kullanılabilir.
 
-## Online Resources
+## Çevrimiçi Kaynaklar
 
-**This project uses Python 3.** We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
+**Bu proje Python 3'ü kullanıyor.** Çevrimiçi Python programlama için [trinket](https://trinket.io/) kullanmanızı tavsiye ederiz. Bu proje aşağıdaki trinketleri içeriyor:
 
-* ['Robotrumps' starting point -- jumpto.cc/trumps-go](http://jumpto.cc/trumps-go)
+* ['Robotrumps' başlangıç noktası -- jumpto.cc/trumps-go](http://jumpto.cc/trumps-go)
 
-There is also a trinket containing a sample solution to the challenges:
+Ayrıca meydan okumalara örnek bir çözüm içeren trinket da var:
 
-* [‘Robotrumps’ Finished -- trinket.io/python/9ccc368bd5](https://trinket.io/python/9ccc368bd5)
+* ['Robotrumps' Bitmiş -- trinket.io/python/9ccc368bd5](https://trinket.io/python/9ccc368bd5)
 
-## Offline Resources
+## Çevrimdışı Kaynaklar
 
-This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
+Bu proje, istenirse [çevrimdışı](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) olarak tamamlanabilir. Bu proje için proje kaynaklarına, 'Proje Malzemeleri' bağlantısını tıklayarak erişebilirsiniz. Bu link, çocukların bu projeyi çevrimdışı tamamlamaları için ihtiyaç duyacağı kaynakları içeren bir 'Proje Kaynakları' bölümü içermektedir. Make sure that each child has access to a copy of these resources. This section includes the following files:
 
 * robotrumps/robotrumps.py
 * robotrumps/cards.txt
@@ -44,40 +44,40 @@ You can also find a completed version of this project's challenges in the 'Volun
 * robotrumps-finished/cards.txt
 * Several robot .gif images
 
-(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+(Yukarıdaki kaynakların tümü proje ve gönüllü olarak indirilebilen `.zip` dosyalarıdır)
 
-## Learning Objectives
+## Kazanımlar
 
-* Consolidation: data structures, reading from file and turtle graphics;
-* Using images in turtle graphics;
-* Sharing trinket projects.
+* Konsolidasyon: veri yapıları, dosya ve kaplumbağa grafiklerinden okuma;
+* Kaplumbağa grafiklerinde görüntüleri kullanma;
+* Trinket projelerini paylaşma.
 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Bir problemi çözmek için programlama yapılarını birleştirin.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Challenges
+## Meydan Okumalar
 
-* Add more robots - Editing a .txt file and working with images;
-* Add more stats to the robots - handling data;
-* Play Robotrumps with a friend.
+* Daha fazla robot ekle - Bir .txt dosyasını düzenleme ve resimlerle çalışma;
+* Robotlara daha fazla istatistik ekleyin - veri işleme;
+* Bir arkadaşınızla Robokozlar oynayın.
 
-## Frequently Asked Questions
+## Sıkça Sorulan Sorular
 
-* **Offline Python does not work with .png images. .gif images have been supplied for offline use.**
-* Note that this project uses both text input and turtle graphics, you can adjust the amount of space given to each in trinket.
-* You need to click in the trinket text window before typing.
-* Children can use the 'Share' option in trinket to get a link to their project. If they have access to email then they can email the link to a friend, otherwise they can just read it out, note it down on a piece of paper or save it in a text file on the local network.
+* **Çevrimdışı Python .png görüntüleri ile çalışmaz. .gif resimleri çevrimdışı kullanım için sağlanmıştır.**
+* Bu projenin hem metin girişi hem de kaplumbağa grafikleri kullandığını, bibloda her birine verilen alan miktarını ayarlayabileceğinizi unutmayın.
+* Yazmadan önce biblo metin penceresini tıklamanız gerekir.
+* Çocuklar projelerine bir link almak için biblodaki 'Paylaş' seçeneğini kullanabilirler. E-postaya erişimleri varsa bir arkadaşlarına bağlantıyı e-postayla gönderebilirler, aksi takdirde sadece okuyabilir, bir kağıda not edebilir veya yerel ağdaki bir metin dosyasına kaydedebilirler.
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: Proje materyalleri
 
-## Project resources
+## Proje kaynakları
 
-* [.zip file containing all project resources](resources/robo-trumps-project-resources.zip)
+* [tüm proje kaynaklarını içeren .zip dosyası](resources/robo-trumps-project-resources.zip)
 * [Online Trinket containing 'Robo-Trumps' starter resources](http://jumpto.cc/trumps-go)
 * [robo-trumps/robo-trumps.py](resources/robo-trumps-robo-trumps.py)
 * [robo-trumps/cards.txt](resources/robo-trumps-cards.txt)
@@ -94,10 +94,10 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 * [robo-trumps/tv.gif](resources/robo-trumps-tv.gif)
 * [robo-trumps/yellow.gif](resources/robo-trumps-yellow.gif)
 
-## Club leader resources
+## Kulüp lideri için kaynaklar
 
-* [.zip file containing all completed project resources](resources/robotrumps-volunteer-resources.zip)
-* [Online completed Trinket project](https://trinket.io/python/9ccc368bd5)
+* [Tamamlanmış tüm proje kaynaklarını içeren .zip dosyası](resources/robotrumps-volunteer-resources.zip)
+* [Çevrimiçi tamamlanmış Trinket projesi](https://trinket.io/python/9ccc368bd5)
 * [robo-trumps-finished/robo-trumps.py](resources/robo-trumps-finished-robo-trumps.py)
 * [robo-trumps-finished/cards.txt](resources/robo-trumps-finished-cards.txt)
 * [robo-trumps-finished/space.gif](resources/robo-trumps-finished-space.gif)
