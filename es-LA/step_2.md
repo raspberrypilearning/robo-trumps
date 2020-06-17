@@ -1,63 +1,63 @@
-## Read robot data from a file
+## Lee los datos del robot desde un archivo
 
-It's often useful to be able to read information from a file. You can then change the data in the file without having to change your code.
+A menudo es útil poder leer información de un archivo. Después podrás cambiar los datos en el archivo sin tener que cambiar tu código.
 
-+ Open this trinket: <a href="http://jumpto.cc/trumps-go" target="_blank">jumpto.cc/trumps-go</a>.
++ Abre este Trinket: <a href="http://jumpto.cc/trumps-go" target="_blank">jumpto.cc/trumps-go</a>.
 
-+ Your starter project includes a `cards.txt` file which contains data about robots.
++ Tu proyecto de inicio incluye un archivo `cards.txt` que contiene datos sobre robots.
     
-    Click on `cards.txt` to see the data:
+    Haz clic en `cards.txt` para ver los datos:
     
-    ![screenshot](images/robotrumps-cards.png)
+    ![captura de pantalla](images/robotrumps-cards.png)
     
-    Each line has data about a robot. The data items are separated by commas.
+    Cada línea tiene datos acerca de un robot. Los elementos de datos están separados por comas.
     
-    Each line contains the following information:
+    Cada línea contiene la siguiente información:
     
-    name, intelligence rating, how long the battery lasts, image file name
+    nombre, indicador de inteligencia, duración de la batería, nombre del archivo de imagen
 
-+ Let's read the data in from the file so that you can use it.
++ Vamos a leer los datos del archivo para que puedas usarlos.
     
-    The first step is to open the `cards.txt` file in your script:
+    El primer paso es abrir el archivo `cards.txt` en tu script:
     
-    ![screenshot](images/robotrumps-open.png)
+    ![captura de pantalla](images/robotrumps-open.png)
 
-+ Now you can read the data from the file:
++ Ahora puedes leer los datos del archivo:
     
-    ![screenshot](images/robotrumps-read.png)
+    ![captura de pantalla](images/robotrumps-read.png)
 
-+ You should always close a file when you have finished with it:
++ Siempre debes cerrar el archivo cuando hayas terminado con él:
     
-    ![screenshot](images/robotrumps-close.png)
+    ![captura de pantalla](images/robotrumps-close.png)
 
-+ That gives us the file as one string, you need to break it down into the individual pieces of data.
++ Eso nos da el archivo como una sola cadena, es necesario dividirlo en piezas individuales de datos.
     
-    First, you can split the file into a list of lines:
+    Primero, puedes dividir el archivo en una lista de líneas:
     
-    ![screenshot](images/robotrumps-lines.png)
+    ![captura de pantalla](images/robotrumps-lines.png)
     
-    Look carefully at the output. There are three items in the list, each one is a line from the file.
+    Mira con cuidado los datos de salida. Hay tres elementos en la lista, cada uno es una línea del archivo.
 
-+ Now you can loop over those lines one at a time
++ Ahora puedes hacer un bucle que recorra esas líneas una a la vez
     
-    ![screenshot](images/robotrumps-loop.png)
+    ![captura de pantalla](images/robotrumps-loop.png)
 
-+ Instead of printing out the lines, read them in to variables:
++ En lugar de imprimir las líneas, vamos a transformarlas en variables:
     
-    ![screenshot](images/robotrumps-variables.png)
+    ![captura de pantalla](images/robotrumps-variables.png)
 
-+ You want to be able to use this data later to look up the values for a particular robot. Let's use the robot's name as a key to a dictionary.
++ Lo que quieres es ser capaz de utilizar estos datos más adelante para buscar los valores de un robot en particular. Usemos el nombre del robot como la clave del diccionario.
     
-    Add a `robots` dictionary:
+    Agrega un diccionario de `robots`:
     
-    ![screenshot](images/robotrumps-dict.png)
+    ![captura de pantalla](images/robotrumps-dict.png)
 
-+ Now let's add an entry to the robots dictionary for each robot.
++ Ahora vamos a añadir una entrada al diccionario de robots para cada robot.
     
-    The name is the key and the value is a list of data for that robot.
+    El nombre es la clave y el valor es una lista de datos para ese robot.
     
-    Add the highlighted code:
+    Añade el código resaltado:
     
-    ![screenshot](images/robotrumps-data.png)
+    ![captura de pantalla](images/robotrumps-data.png)
     
-    You can remove `print robots` when you have tested your script.
+    Puedes eliminar la línea de código `print robots` cuando hayas probado tu script.
