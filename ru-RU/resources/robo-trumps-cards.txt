@@ -1,3 +1,3 @@
-rainbow, 10, 34, rainbow.gif
-space, 13, 28, space.gif
-bird, 6, 4, bird.gif
+радуга, 10, 34, rainbow.gif
+пробел, 13, 28, space.gif
+птица, 6, 4, bird.gif
