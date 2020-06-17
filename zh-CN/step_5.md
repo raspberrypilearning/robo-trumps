@@ -1,21 +1,21 @@
 \--- challenge \---
 
-## Challenge: Add more stats to the robots
+## 挑战：向机器人添加更多的数据
 
-Can you think of more stats to add to the robots. You could add ‘speed’ or ‘usefulness’ or come up with your own ideas.
+您可以想到更多能加入机器人的数据信息吗？ 您可以添加“速度”或者“有用性”，也可提出您的任何想法。
 
-You’ll need to:
+您将需要：
 
-+ Add data to the file for each new category 
-+ Add the new category to the code that read in the data
-+ Write the new category out when you display a trump card
++ 将数据添加到每个新类别的文件中 
++ 将新类别添加到读取数据的代码中
++ 显示一张王牌卡时将新类别写出
 
-You could even add a colour and show the stats for robots in their own color.
+您甚至可以添加颜色，并以机器人各自的颜色显示数据信息。
 
-Hint: Use `color('red')` to change the turtle's text to red before writing.
+提示：使用`color('red')`在书写之前将乌龟的文本改为红色。
 
-Example:
+例子：
 
-![screenshot](images/robotrumps-jet.png)
+![截图](images/robotrumps-jet.png)
 
 \--- /challenge \---
