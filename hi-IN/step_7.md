@@ -1,11 +1,11 @@
 \--- challenge \---
 
-## Challenge: Play robot trumps with a friend
+## चुनौती: मित्र के साथ रोबोट ट्रम्प्स खेलें
 
-Share your project with a friend and play Robotrumps. Both use the same project so that it's fair! Player one requests a random robot and then chooses a category. Player 2 then requests a random robot and you check who has the highest score for the chosen category, then swap over.
+एक दोस्त के साथ अपने प्रोजेक्ट को साझा करें और रोबोट्रम्प्स खेलें। दोनों एक ही प्रोजेक्ट का उपयोग करते हैं ताकि यह उचित हो! प्लेयर एक रैंडम रोबोट का अनुरोध करता है और फिर एक श्रेणी चुनता है। प्लेयर 2 फिर एक रैंडम रोबोट का अनुरोध करता है और आप जांचते हैं कि चुने हुए वर्ग के लिए सबसे अधिक अंक किसके हैं, फिर स्वैप करें।
 
-The game works best if you both play with the same deck of cards. Share a link to your trinket project with a friend so you can both use the same deck.
+यदि आप दोनों एक ही डेक कार्ड के साथ खेलते हैं तो गेम सबसे अच्छा काम करता है। एक दोस्त के साथ अपने ट्रिंकेट प्रोजेक्ट का लिंक साझा करें ताकि आप दोनों एक ही डेक का उपयोग कर सकें।
 
-![screenshot](images/robotrumps-play.png)
+![स्क्रीनशॉट](images/robotrumps-play.png)
 
 \--- /challenge \---
