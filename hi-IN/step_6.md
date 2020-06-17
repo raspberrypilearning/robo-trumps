@@ -1,15 +1,15 @@
-## Display a random robot
+## एक रैंडम रोबोट प्रदर्शित करें
 
-Let’s add code so that you get a random robot when you type Random instead of a robot name.
+आइए कोड जोड़ें ताकि जब आप रोबोट नाम के बजाय रैंडम टाइप करें, आपको रैंडम रोबोट मिल जाए।
 
-+ First you'll need to import the choice function from the random module:
++ पहले आपको रैंडम मॉड्यूल से चॉइस (choice) फ़ंक्शन आयात करना होगा:
     
-    ![screenshot](images/robotrumps-random.png)
+    ![स्क्रीनशॉट](images/robotrumps-random.png)
 
-+ You can use `choice` to pick a random robot name from the list of keys from the robot dictionary.
++ रोबोट शब्दकोश से चाबियों की सूची से रैंडम रोबोट नाम चुनने के लिए, आप `choice` का उपयोग कर सकते हैं |
     
-    ![screenshot](images/robotrumps-choice.png)
+    ![स्क्रीनशॉट](images/robotrumps-choice.png)
 
-+ In Python 3 you need to use `list` to turn the results of `keys` into a list.
++ Python 3 में आपको `keys` के परिणामों को एक सूची में बदलने के लिए `list` का उपयोग करना होगा।
     
-    Tip: Make sure you check your brackets carefully!
+    युक्ति: सुनिश्चित करें कि आप अपने ब्रैकेट को ध्यान से देखें!
