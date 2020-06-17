@@ -1,11 +1,11 @@
 \--- challenge \---
 
-## Challenge: Play robot trumps with a friend
+## 挑战：与朋友一起玩机器人王牌
 
-Share your project with a friend and play Robotrumps. Both use the same project so that it's fair! Player one requests a random robot and then chooses a category. Player 2 then requests a random robot and you check who has the highest score for the chosen category, then swap over.
+与朋友分享您的项目，并一起玩机器人王牌。 两人都使用同一个项目才公平！ 玩家1请求一个随机机器人，然后选择一个类别。 紧接着，玩家2请求一个随机机器人。随后，您要检查谁在所选类别中得分最高。然后，进行交换。
 
-The game works best if you both play with the same deck of cards. Share a link to your trinket project with a friend so you can both use the same deck.
+如果您与朋友使用同一副牌，游戏效果最佳。 与朋友分享您的trinket项目链接，这样您们将可以使用同一副牌。
 
-![screenshot](images/robotrumps-play.png)
+![截图](images/robotrumps-play.png)
 
 \--- /challenge \---
