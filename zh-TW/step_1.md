@@ -18,11 +18,11 @@ If you need to print this project, please use the [Printer friendly version](htt
 
 ## Introduction:
 
-In this project learners will read data from a file into a dictionary, to create robot trump cards. The cards can then be used to play Robo-Trumps with a friend.
+In this project learners will read data from a file into a dictionary, to create robot trump cards. 這些牌隨後可以和朋友一起玩Robo-Trumps。
 
-## Online Resources
+## 線上資源
 
-**This project uses Python 3.** We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
+**這個項目使用Python 3.** 我們建議使用 [trinket](https://trinket.io/) 線上編輯Python。 This project contains the following Trinkets:
 
 * ['Robotrumps' starting point -- jumpto.cc/trumps-go](http://jumpto.cc/trumps-go)
 
@@ -32,10 +32,10 @@ There is also a trinket containing a sample solution to the challenges:
 
 ## Offline Resources
 
-This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
+This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. 本節包括以下文件：
 
-* robotrumps/robotrumps.py
-* robotrumps/cards.txt
+* robotrumps / robotrumps.py
+* robotrumps / cards.txt
 * Several robot .gif images
 
 You can also find a completed version of this project's challenges in the 'Volunteer Resources' section, which contains:
@@ -46,7 +46,7 @@ You can also find a completed version of this project's challenges in the 'Volun
 
 (All of the resources above are also downloadable as project and volunteer `.zip` files.)
 
-## Learning Objectives
+## 學習目標
 
 * Consolidation: data structures, reading from file and turtle graphics;
 * Using images in turtle graphics;
@@ -54,13 +54,13 @@ You can also find a completed version of this project's challenges in the 'Volun
 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [結合編程結構來解決問題。](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Challenges
+## 挑戰
 
-* Add more robots - Editing a .txt file and working with images;
-* Add more stats to the robots - handling data;
-* Play Robotrumps with a friend.
+* 添加更多機器人 - 編輯.txt文件並處理圖像;
+* 為機器人添加更多統計數據 - 處理數據;
+* 和朋友一起玩Robotrumps。
 
 ## Frequently Asked Questions
 
@@ -73,13 +73,13 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 
 ## \--- collapse \---
 
-## title: Project materials
+## 標題：項目材料
 
-## Project resources
+## 項目資源
 
-* [.zip file containing all project resources](resources/robo-trumps-project-resources.zip)
+* [包含所有項目資源的.zip文件](resources/robo-trumps-project-resources.zip)
 * [Online Trinket containing 'Robo-Trumps' starter resources](http://jumpto.cc/trumps-go)
-* [robo-trumps/robo-trumps.py](resources/robo-trumps-robo-trumps.py)
+* [ROBO-王牌/ robo-trumps.py](resources/robo-trumps-robo-trumps.py)
 * [robo-trumps/cards.txt](resources/robo-trumps-cards.txt)
 * [robo-trumps/space.gif](resources/robo-trumps-space.gif)
 * [robo-trumps/rainbow.gif](resources/robo-trumps-rainbow.gif)
@@ -96,7 +96,7 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 
 ## Club leader resources
 
-* [.zip file containing all completed project resources](resources/robotrumps-volunteer-resources.zip)
+* [包含所有已完成項目資源的.zip文件](resources/robotrumps-volunteer-resources.zip)
 * [Online completed Trinket project](https://trinket.io/python/9ccc368bd5)
 * [robo-trumps-finished/robo-trumps.py](resources/robo-trumps-finished-robo-trumps.py)
 * [robo-trumps-finished/cards.txt](resources/robo-trumps-finished-cards.txt)
