@@ -1,13 +1,13 @@
 \--- challenge \---
 
-## Challenge: Add more robots
+## 挑战：添加更多的机器人
 
-Can you add data about more robots to `cards.txt`.
+您可以向`cards.txt`添加更多机器人数据吗。
 
-Click on the images button to see the robot images that you can use.
+点击图像按钮以查看您可使用的机器人图像。
 
-You get to decide how much battery and intelligence they have.
+您可以决定它们能使用的电量和智能等级。
 
-![screenshot](images/robotrumps-yellow.png)
+![截图](images/robotrumps-yellow.png)
 
 \--- /challenge \---
