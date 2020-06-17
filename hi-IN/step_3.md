@@ -1,77 +1,77 @@
-## Display the data
+## डेटा प्रदर्शित करें
 
-Now you can display the robot data in a more interesting way.
+अब आप रोबोट डेटा को अधिक रोचक तरीके से प्रदर्शित कर सकते हैं।
 
-Let’s display a robot trump card with an image and data for its intelligence and usefulness.
+आइए अपनी बुद्धि और उपयोगिता के लिए एक छवि और डेटा के साथ एक रोबोट ट्रम्प कार्ड प्रदर्शित करें।
 
-When you've completed this step you'll be able to display robots like this:
+जब आप यह चरण पूरा कर लेंगे, तो आप इस तरह से रोबोट प्रदर्शित कर सकेंगे:
 
-![screenshot](images/robotrumps-example.png)
+![स्क्रीनशॉट](images/robotrumps-example.png)
 
-+ Ask the user which robot they would like to see:
++ उपयोगकर्ता से पूछें कि वे कौन सा रोबोट देखना चाहते हैं:
     
-    ![screenshot](images/robotrumps-choose.png)
+    ![स्क्रीनशॉट](images/robotrumps-choose.png)
 
-+ If the robot is in the dictionary then lookup its data:
++ यदि रोबोट शब्दकोश में है तो उसका डेटा देखें:
     
-    ![screenshot](images/robotrumps-if.png)
+    ![स्क्रीनशॉट](images/robotrumps-if.png)
     
-    Test your code by entering a robot name.
+    रोबोट नाम दर्ज करके अपने कोड का परीक्षण करें।
 
-+ If the robot doesn't exist then give an error:
++ यदि रोबोट मौजूद नहीं है, तो एक त्रुटि दें:
     
-    ![screenshot](images/robotrumps-else.png)
+    ![स्क्रीनशॉट](images/robotrumps-else.png)
     
-    Test your code by entering a robot name that isn't in the dictionary.
+    एक रोबोट नाम दर्ज करके अपने कोड का परीक्षण करें जो शब्दकोश में नहीं है।
 
-+ Now you're going to use the Python turtle to display the robot data.
++ अब आप रोबोट डेटा प्रदर्शित करने के लिए पायथन टर्टल का उपयोग करने जा रहे हैं।
     
-    Import the turtle library at the top of your script and setup the screen and turtle:
+    अपनी स्क्रिप्ट के शीर्ष पर टर्टल लाइब्रेरी आयात करें और स्क्रीन और टर्टल को सेटअप करें:
     
-    ![screenshot](images/robotrumps-turtle.png)
+    ![स्क्रीनशॉट](images/robotrumps-turtle.png)
 
-+ Now add code to get the turtle to print the name of the robot:
++ अब टर्टल को रोबोट का नाम प्रिंट करने के लिए कोड जोड़ें:
     
-    ![screenshot](images/robotrumps-name.png)
+    ![स्क्रीनशॉट](images/robotrumps-name.png)
 
-+ Try changing the `style` variable until you are happy with the text.
++ `style` वेरिएबल बदलने का प्रयास करें जब तक आप पाठ से खुश हैं।
     
-    Instead of `Arial` you could try: `Courier`, `Times` or `Verdana`.
+    `Arial` के बजाय आप कोशिश कर सकते हैं: `Courier`, `Times` or `Verdana`.
     
-    Change `14` to a different number to change the size of the font.
+    बदलें ` 14 ` फ़ॉन्ट का आकार बदलने के लिए एक अलग संख्या में।
     
-    You can change `bold` to `normal` or `italic`.
+    आप `bold` कोबदल सकते हैं `normal` या ` italic`में.
 
-+ Store the list of stats for the robot in a variable instead of printing them out:
++ रोबोट के लिए आंकड़ों की सूची को प्रिंट करने के बजाय एक वेरिएबल में संग्रहीत करें:
     
-    ![screenshot](images/robotrumps-stats.png)
+    ![स्क्रीनशॉट](images/robotrumps-stats.png)
 
-+ You can now access the stats for the robot as items in a list:
++ अब आप एक सूची में आइटम के रूप में रोबोट के लिए आँकड़े तक पहुँच सकते हैं:
     
-    + `stats[0]` is intelligence
-    + `stats[1]` is battery
-    + `stats[2]` is the image name
+    + ` stats[0]` बुद्धि है
+    + ` stats[1]` बैटरी है
+    + ` stats[2]` छवि का नाम है
     
-    Add code to display the intelligence and battery stats:
+    बुद्धि और बैटरी आँकड़े प्रदर्शित करने के लिए कोड जोड़ें:
     
-    ![screenshot](images/robotrumps-stats-2.png)
+    ![स्क्रीनशॉट](images/robotrumps-stats-2.png)
 
-+ Oh dear! The stats are all on top of each other. You'll need to add code to move the turtle:
++ ओ प्यारे! आँकड़े एक दूसरे के ऊपर हैं। टर्टल का स्थान बदलने के लिए आपको कोड जोड़ना होगा:
     
-    ![screenshot](images/robotrumps-stats-3.png)
+    ![स्क्रीनशॉट](images/robotrumps-stats-3.png)
 
-+ And finally, let's add the robot image to complete the display.
++ और अंत में, चलो प्रदर्शन को पूरा करने के लिए रोबोट छवि जोड़ें।
     
-    You'll need to add a line to register the image when you read the data from `cards.txt`:
+    जब आप `cards.txt` से डेटा पढ़ते हैं तो आपको छवि को पंजीकृत करने के लिए एक पंक्ति जोड़ने की आवश्यकता होगी:
     
-    ![screenshot](images/robotrumps-register.png)
+    ![स्क्रीनशॉट](images/robotrumps-register.png)
 
-+ And add code to position and stamp the image:
++ और छवि में स्थिति और मोहर लगाने के लिए कोड जोड़ें:
     
-    ![screenshot](images/robotrumps-image.png)
+    ![स्क्रीनशॉट](images/robotrumps-image.png)
 
-+ Test your code by entering one robot and then another and you'll see that they display on top of each other!
++ पहले एक रोबोट और फिर एक और रोबोट दर्ज करके अपने कोड का परीक्षण करें और आप देखेंगे कि वे एक दूसरे के ऊपर प्रदर्शित होते हैं!
     
-    You need to clear the screen before displaying a robot:
+    रोबोट प्रदर्शित करने से पहले आपको स्क्रीन साफ़ करनी होगी:
     
-    ![screenshot](images/robotrumps-clear.png)
+    ![स्क्रीनशॉट](images/robotrumps-clear.png)
