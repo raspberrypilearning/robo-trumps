@@ -1,77 +1,77 @@
-## Display the data
+## 显示数据
 
-Now you can display the robot data in a more interesting way.
+现在，你可以将机器人的数据以更有趣的方式显示出来。
 
-Let’s display a robot trump card with an image and data for its intelligence and usefulness.
+为了展示其智能和实用性，让我们用一张图像展示一张机器人王牌卡。
 
-When you've completed this step you'll be able to display robots like this:
+当您完成了这一步，就可以显示如下机器人了：
 
-![screenshot](images/robotrumps-example.png)
+![截图](images/robotrumps-example.png)
 
-+ Ask the user which robot they would like to see:
++ 询问用户想看到哪个机器人：
     
-    ![screenshot](images/robotrumps-choose.png)
+    ![截图](images/robotrumps-choose.png)
 
-+ If the robot is in the dictionary then lookup its data:
++ 如果机器人在字典中，那么查看其数据：
     
-    ![screenshot](images/robotrumps-if.png)
+    ![截图](images/robotrumps-if.png)
     
-    Test your code by entering a robot name.
+    通过输入一个机器人名称来测试代码。
 
-+ If the robot doesn't exist then give an error:
++ 如果机器人不存在，则输出错误：
     
-    ![screenshot](images/robotrumps-else.png)
+    ![截图](images/robotrumps-else.png)
     
-    Test your code by entering a robot name that isn't in the dictionary.
+    通过输入一个字典中不存在的机器人名称来测试代码。
 
-+ Now you're going to use the Python turtle to display the robot data.
++ 现在，你可以使用Python turtle显示机器人数据。
     
-    Import the turtle library at the top of your script and setup the screen and turtle:
+    在您的脚本顶部导入trutle库并设置屏幕和乌龟：
     
-    ![screenshot](images/robotrumps-turtle.png)
+    ![截图](images/robotrumps-turtle.png)
 
-+ Now add code to get the turtle to print the name of the robot:
++ 现在，添加代码以使乌龟打印出机器人的名称：
     
-    ![screenshot](images/robotrumps-name.png)
+    ![截图](images/robotrumps-name.png)
 
-+ Try changing the `style` variable until you are happy with the text.
++ 尝试着改变`style`变量，知道您对文本满意为止。
     
-    Instead of `Arial` you could try: `Courier`, `Times` or `Verdana`.
+    除了`Arial`字体，您还可以尝试：`Courier`、 `Times` 或 `Verdana`字体。
     
-    Change `14` to a different number to change the size of the font.
+    更改`14`为其它数字来改变字体的大小。
     
-    You can change `bold` to `normal` or `italic`.
+    您可以将`bold`更改为`normal`或者`italic`。
 
-+ Store the list of stats for the robot in a variable instead of printing them out:
++ 将机器人的数据列表存储于变量中，而不是打印出来：
     
-    ![screenshot](images/robotrumps-stats.png)
+    ![截图](images/robotrumps-stats.png)
 
-+ You can now access the stats for the robot as items in a list:
++ 您可以通过列表中的条目来访问机器人的数据：
     
-    + `stats[0]` is intelligence
-    + `stats[1]` is battery
-    + `stats[2]` is the image name
+    + `stats[0]` 为智能等级
+    + `stats[1]` 为续航时间
+    + `stats[2]` 为图像名称
     
-    Add code to display the intelligence and battery stats:
+    添加代码以显示智能等级和续航状态：
     
-    ![screenshot](images/robotrumps-stats-2.png)
+    ![截图](images/robotrumps-stats-2.png)
 
-+ Oh dear! The stats are all on top of each other. You'll need to add code to move the turtle:
++ 噢，我的天！ 每一个数据都重叠了。 您将需要添加代码来移动乌龟：
     
-    ![screenshot](images/robotrumps-stats-3.png)
+    ![截图](images/robotrumps-stats-3.png)
 
-+ And finally, let's add the robot image to complete the display.
++ 最后，让我们添加机器人图像以完成显示。
     
-    You'll need to add a line to register the image when you read the data from `cards.txt`:
+    从`cards.txt`读取数据时，您将要添加一行代码来注册图像：
     
-    ![screenshot](images/robotrumps-register.png)
+    ![截图](images/robotrumps-register.png)
 
-+ And add code to position and stamp the image:
++ 然后添加代码来定位和标记图像：
     
-    ![screenshot](images/robotrumps-image.png)
+    ![截图](images/robotrumps-image.png)
 
-+ Test your code by entering one robot and then another and you'll see that they display on top of each other!
++ 通过输入一个机器人和另一个机器人来测试您的代码，您会发现它们重叠显示了！
     
-    You need to clear the screen before displaying a robot:
+    您需要在显示机器人前清空屏幕：
     
-    ![screenshot](images/robotrumps-clear.png)
+    ![截图](images/robotrumps-clear.png)
