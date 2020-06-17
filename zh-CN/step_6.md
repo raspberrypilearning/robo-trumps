@@ -1,15 +1,15 @@
-## Display a random robot
+## 随机显示一个机器人
 
-Let’s add code so that you get a random robot when you type Random instead of a robot name.
+让我们添加代码，以便在您键入Random而不是一个机器人名称的时候获得一个随机机器人。
 
-+ First you'll need to import the choice function from the random module:
++ 首先，您将需要从随机模块中导入choice函数：
     
-    ![screenshot](images/robotrumps-random.png)
+    ![截图](images/robotrumps-random.png)
 
-+ You can use `choice` to pick a random robot name from the list of keys from the robot dictionary.
++ 您可以使用`choice`从机器人字典的键表中选择一个随机机器人名称。
     
-    ![screenshot](images/robotrumps-choice.png)
+    ![截图](images/robotrumps-choice.png)
 
-+ In Python 3 you need to use `list` to turn the results of `keys` into a list.
++ 在Python 3中，您需要使用`list`将`keys`的结果放进入列表中。
     
-    Tip: Make sure you check your brackets carefully!
+    提示：请确保您已认真检查您的括号！
