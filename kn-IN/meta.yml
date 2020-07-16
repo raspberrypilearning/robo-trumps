@@ -1,0 +1,33 @@
+---
+hero_image: images/robo-trumps.png
+theme: turquoise
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: ರೋಬೋ-ಟ್ರಂಪ್ಸ್
+description: ರೋಬೋಟ್‌ಗಳ ಡೇಟಾಬೇಸ್ ರಚಿಸಿ ಮತ್ತು ಸ್ನೇಹಿತನೊಂದಿಗೆ ರೋಬೋ-ಟ್ರಂಪ್ಸ್ ಪ್ಲೇ ಮಾಡಿ!
+original_url: https://codeclubprojects.org/en-GB/python/robo-trumps
+interests: games
+technologies: python
+site_areas: projects
+hardware: ''
+software: python
+version: 3
+last_tested: 2017-01-01
+steps:
+  - 
+    title: ಪರಿಚಯ
+  - 
+    title: ಫೈಲ್‌ನಿಂದ ರೋಬೋಟ್ ಡೇಟಾವನ್ನು ಓದಿ
+  - 
+    title: ಡೇಟಾವನ್ನು ತೋರಿಸಿ
+  - 
+    title: 'ಸವಾಲು: ಹೆಚ್ಚಿನ ರೋಬೋಟ್‌ಗಳನ್ನು ಸೇರಿಸಿ'
+  - 
+    title: 'ಸವಾಲು: ರೋಬೋಟ್‌ಗಳಿಗೆ ಹೆಚ್ಚಿನ ಅಂಕಿಅಂಶಗಳನ್ನು(stats) ಸೇರಿಸಿ'
+  - 
+    title: ಯಾದೃಚ್ om ಿಕ(Random) ರೋಬೋಟ್ ಅನ್ನು ತೋರಿಸಿ
+  - 
+    title: 'ಸವಾಲು: ಸ್ನೇಹಿತನೊಂದಿಗೆ ರೋಬೋಟ್ ಟ್ರಂಪ್‌ ಅದರೊಂದಿಗೆ ಆಟವಾಡಿ'
