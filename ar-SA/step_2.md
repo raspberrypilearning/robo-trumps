@@ -1,18 +1,18 @@
-## Read robot data from a file
+## قراءة بيانات الروبوت من ملف
 
-It's often useful to be able to read information from a file. You can then change the data in the file without having to change your code.
+عادةً، يكون من الأفضل قراءة المعلومات من ملف. ثم يمكنك تغيير البيانات الموجودة في الملف من دون الحاجة إلى تغيير التعليمات البرمجية.
 
-+ Open this trinket: <a href="http://jumpto.cc/trumps-go" target="_blank">jumpto.cc/trumps-go</a>.
++ افتح مشروع trinket هذا: <a href="http://jumpto.cc/trumps-go" target="_blank">jumpto.cc/trumps-go</a>.
 
-+ Your starter project includes a `cards.txt` file which contains data about robots.
++ يتوفر مع مشروع البدء ملف `cards.txt` يحتوي على بيانات عن الروبوتات.
     
-    Click on `cards.txt` to see the data:
+    انقر على الملف `cards.txt` لرؤية البيانات:
     
     ![screenshot](images/robotrumps-cards.png)
     
-    Each line has data about a robot. The data items are separated by commas.
+    يحتوي كل سطر على بيانات عن أحد الروبوتات. وتفصل الفاصلة بين عناصر البيانات.
     
-    Each line contains the following information:
+    يحتوي كل سطر على المعلومات التالية:
     
     name, intelligence rating, how long the battery lasts, image file name
 
