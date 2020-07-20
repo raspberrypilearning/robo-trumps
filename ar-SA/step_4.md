@@ -1,13 +1,13 @@
 \--- challenge \---
 
-## Challenge: Add more robots
+## التحدي: أضف روبوتات أخرى
 
-Can you add data about more robots to `cards.txt`.
+هل يمكنك إضافة بيانات عن روبوتات أخرى إلى الملف `cards.txt`؟
 
-Click on the images button to see the robot images that you can use.
+انقر على زر الصور لترى صور الروبوتات التي يمكنك استخدامها:
 
-You get to decide how much battery and intelligence they have.
+ستحتاج إلى تحديد مدة عمل البطارية ودرجة الذكاء للروبوت.
 
-![screenshot](images/robotrumps-yellow.png)
+![لقطة الشاشة](images/robotrumps-yellow.png)
 
 \--- /challenge \---
