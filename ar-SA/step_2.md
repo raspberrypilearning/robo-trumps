@@ -8,56 +8,56 @@
     
     انقر على الملف `cards.txt` لرؤية البيانات:
     
-    ![screenshot](images/robotrumps-cards.png)
+    ![لقطة الشاشة](images/robotrumps-cards.png)
     
     يحتوي كل سطر على بيانات عن أحد الروبوتات. وتفصل الفاصلة بين عناصر البيانات.
     
     يحتوي كل سطر على المعلومات التالية:
     
-    name, intelligence rating, how long the battery lasts, image file name
+    الاسم، درجة الذكاء، مدة عمل البطارية، واسم ملف الصورة
 
-+ Let's read the data in from the file so that you can use it.
++ لنقم بقراءة البيانات من الملف حتى يمكنك استخدامها.
     
-    The first step is to open the `cards.txt` file in your script:
+    أول خطوة هي فتح الملف `cards.txt` في المقطع البرمجي:
     
-    ![screenshot](images/robotrumps-open.png)
+    ![لقطة الشاشة](images/robotrumps-open.png)
 
-+ Now you can read the data from the file:
++ يمكنك الآن قراءة البيانات من الملف:
     
-    ![screenshot](images/robotrumps-read.png)
+    ![لقطة الشاشة](images/robotrumps-read.png)
 
-+ You should always close a file when you have finished with it:
++ يجب أن تُضيف دائمًا التعليمة البرمجية لغلق الملف الذي تنتهي من قراءة بياناته:
     
-    ![screenshot](images/robotrumps-close.png)
+    ![لقطة الشاشة](images/robotrumps-close.png)
 
-+ That gives us the file as one string, you need to break it down into the individual pieces of data.
++ تعطينا هذه التعليمات البرمجية الملفَ كسلسلة نصية واحدة، لذا ستحتاج إلى تقسيمه إلى أجزاء بيانات منفصلة.
     
-    First, you can split the file into a list of lines:
+    أولًا، يمكنك تقسيم الملف إلى قائمة من الأسطر:
     
-    ![screenshot](images/robotrumps-lines.png)
+    ![لقطة الشاشة](images/robotrumps-lines.png)
     
-    Look carefully at the output. There are three items in the list, each one is a line from the file.
+    انظر جيدًا إلى المخرجات. توجد ثلاثة عناصر في القائمة، ويمثل كل عنصر سطرًا من الملف.
 
-+ Now you can loop over those lines one at a time
++ يمكنك الآن تكرار الأمر ليشمل هذه الأسطر، سطرًا واحدًا في كل مرة
     
-    ![screenshot](images/robotrumps-loop.png)
+    ![لقطة الشاشة](images/robotrumps-loop.png)
 
-+ Instead of printing out the lines, read them in to variables:
++ بدلًا من طباعة هذه الأسطر كما هي، يمكنك الإضافة إلى التعليمات البرمجية لقراءة الأسطر في صورة متغيرات:
     
-    ![screenshot](images/robotrumps-variables.png)
+    ![لقطة الشاشة](images/robotrumps-variables.png)
 
-+ You want to be able to use this data later to look up the values for a particular robot. Let's use the robot's name as a key to a dictionary.
++ ستحتاج إلى إمكانية استخدام هذه البيانات لاحقًا للبحث عن قيم روبوت معين. فلنستخدم اسم الروبوت كمفتاح في قاموس.
     
-    Add a `robots` dictionary:
+    أضف قاموسًا يُسمى `robots`:
     
-    ![screenshot](images/robotrumps-dict.png)
+    ![لقطة الشاشة](images/robotrumps-dict.png)
 
-+ Now let's add an entry to the robots dictionary for each robot.
++ لنضف الآن إدخالًا إلى القاموس `robots` لكل روبوت.
     
-    The name is the key and the value is a list of data for that robot.
+    سيكون اسم الروبوت هو المفتاح، وستكون القيمة هي قائمة البيانات لهذا الروبوت.
     
-    Add the highlighted code:
+    أضف التعليمات البرمجية المظللة:
     
-    ![screenshot](images/robotrumps-data.png)
+    ![لقطة الشاشة](images/robotrumps-data.png)
     
-    You can remove `print robots` when you have tested your script.
+    يمكنك حذف `print robots` بعد أن تختبر المقطع البرمجي.
