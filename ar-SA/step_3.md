@@ -1,77 +1,77 @@
-## Display the data
+## عرض البيانات
 
-Now you can display the robot data in a more interesting way.
+يمكنك الآن عرض بيانات الروبوت بطريقة أجمل.
 
-Let’s display a robot trump card with an image and data for its intelligence and usefulness.
+لنعرض ورقة روبوت رابحة تحتوي على صورة الروبوت وبيانات عن ذكائه وفائدته.
 
-When you've completed this step you'll be able to display robots like this:
+بعد أن تُكمل هذه الخطوة، سيمكنك عرض الروبوتات بهذا الشكل:
 
-![screenshot](images/robotrumps-example.png)
+![لقطة الشاشة](images/robotrumps-example.png)
 
-+ Ask the user which robot they would like to see:
++ اسأل المستخدم عن الروبوت الذي يريد أن يراه:
     
-    ![screenshot](images/robotrumps-choose.png)
+    ![لقطة الشاشة](images/robotrumps-choose.png)
 
-+ If the robot is in the dictionary then lookup its data:
++ إذا كان الروبوت في القاموس، فابحث عن بياناته:
     
-    ![screenshot](images/robotrumps-if.png)
+    ![لقطة الشاشة](images/robotrumps-if.png)
     
-    Test your code by entering a robot name.
+    اختبر التعليمات البرمجية بإدخال اسم أحد الروبوتات.
 
-+ If the robot doesn't exist then give an error:
++ إذا كان الروبوت غير موجود في القاموس، فأدخل تعليمة برمجية لعرض رسالة خطأ:
     
-    ![screenshot](images/robotrumps-else.png)
+    ![لقطة الشاشة](images/robotrumps-else.png)
     
-    Test your code by entering a robot name that isn't in the dictionary.
+    اختبر التعليمة البرمجية بإدخال اسم روبوت غير موجود في القاموس.
 
-+ Now you're going to use the Python turtle to display the robot data.
++ ستستخدم الآن مكتبة turtle في Python لعرض بيانات الروبوت.
     
-    Import the turtle library at the top of your script and setup the screen and turtle:
+    قم باستيراد مكتبة turtle أعلى المقطع البرمجي وإعداد الشاشة والسلحفاة:
     
-    ![screenshot](images/robotrumps-turtle.png)
+    ![لقطة الشاشة](images/robotrumps-turtle.png)
 
-+ Now add code to get the turtle to print the name of the robot:
++ أضف الآن التعليمات البرمجية لتطلب من السلحفاة طباعة اسم الروبوت:
     
-    ![screenshot](images/robotrumps-name.png)
+    ![لقطة الشاشة](images/robotrumps-name.png)
 
-+ Try changing the `style` variable until you are happy with the text.
++ جرِّب تغيير المتغير `style` حتى تحصل على الشكل الذي تريده للنص.
     
-    Instead of `Arial` you could try: `Courier`, `Times` or `Verdana`.
+    فبدلًا من نوع الخط `Arial`، يمكنك أن تجرِّب: `Courier` أو `Times` أو `Verdana`.
     
-    Change `14` to a different number to change the size of the font.
+    غيِّر القيمة `14` إلى رقم مختلف لتغيير حجم الخط.
     
-    You can change `bold` to `normal` or `italic`.
+    يمكنك تغيير `bold` إلى `normal` أو `italic`.
 
-+ Store the list of stats for the robot in a variable instead of printing them out:
++ خزِّن قائمة البيانات الإحصائية للروبوت في متغير بدلًا من طباعتها:
     
-    ![screenshot](images/robotrumps-stats.png)
+    ![لقطة الشاشة](images/robotrumps-stats.png)
 
-+ You can now access the stats for the robot as items in a list:
++ يمكنك الآن الوصول إلى البيانات الإحصائية للروبوت كعناصر في قائمة:
     
-    + `stats[0]` is intelligence
-    + `stats[1]` is battery
-    + `stats[2]` is the image name
+    + `stats[0]` هو عنصر الذكاء
+    + `stats[1]` هو عنصر البطارية
+    + `stats[2]` هو عنصر اسم الصورة
     
-    Add code to display the intelligence and battery stats:
+    أضف تعليمات برمجية لعرض البيانات الإحصائية الخاصة بالذكاء والبطارية:
     
-    ![screenshot](images/robotrumps-stats-2.png)
+    ![لقطة الشاشة](images/robotrumps-stats-2.png)
 
-+ Oh dear! The stats are all on top of each other. You'll need to add code to move the turtle:
++ يوجد خطأ! فكل عناصر البيانات الإحصائية تظهر بعضها فوق بعض. ستحتاج إلى إضافة تعليمات برمجية لتحريك السلحفاة:
     
-    ![screenshot](images/robotrumps-stats-3.png)
+    ![لقطة الشاشة](images/robotrumps-stats-3.png)
 
-+ And finally, let's add the robot image to complete the display.
++ وأخيرًا، لنضف صورة الروبوت ليكتمل العرض.
     
-    You'll need to add a line to register the image when you read the data from `cards.txt`:
+    ستحتاج إلى إضافة سطر لتسجيل الصورة عند قراءة البيانات من الملف `cards.txt`:
     
-    ![screenshot](images/robotrumps-register.png)
+    ![لقطة الشاشة](images/robotrumps-register.png)
 
-+ And add code to position and stamp the image:
++ أضف تعليمات برمجية لتحديد موضع الصورة ولصقها:
     
-    ![screenshot](images/robotrumps-image.png)
+    ![لقطة الشاشة](images/robotrumps-image.png)
 
-+ Test your code by entering one robot and then another and you'll see that they display on top of each other!
++ اختبر التعليمات البرمجية بإدخال اسم روبوت ثم إدخال اسم روبوت آخر. ستجد أن الروبوتين يظهران أحدهما فوق الآخر!
     
-    You need to clear the screen before displaying a robot:
+    ستحتاج إلى مسح الشاشة قبل إدخال اسم الروبوت التالي:
     
-    ![screenshot](images/robotrumps-clear.png)
+    ![لقطة الشاشة](images/robotrumps-clear.png)
