@@ -1,6 +1,6 @@
-rainbow, 10, 34, 8, 9, rainbow.gif, orange
-space, 13, 28, 11, 12, space.gif, grey
-bird, 6, 4, 5, 20, bird.gif, blue
+قوس قزح، 10، 34، 8، 9، rainbow.gif، برتقالي
+الفضاء، 13، 28، 11، 12، space.gif، رمادي
+طائر ، 6 ، 4 ، 5 ، 20 ، bird.gif ، أزرق
 jet, 2, 5, 3, 25, jet.gif, coral
 twoheads, 4, 64, 18, 6, twoheads.gif, green
 dog, 10, 12, 20, 9, dog.gif, turquoise
