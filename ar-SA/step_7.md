@@ -1,11 +1,11 @@
 \--- challenge \---
 
-## Challenge: Play robot trumps with a friend
+## التحدي: العب لعبة أوراق الروبوتات الرابحة مع أحد الأصدقاء
 
-Share your project with a friend and play Robotrumps. Both use the same project so that it's fair! Player one requests a random robot and then chooses a category. Player 2 then requests a random robot and you check who has the highest score for the chosen category, then swap over.
+شارك مشروعك مع أحد الأصدقاء والعب معه لعبة أوراق الروبوتات الرابحة. وليستخدم كلاكما المشروع نفسه لتكون المنافسة عادلة! سيطلب اللاعب الأول روبوتًا عشوائيًا ثم يختار فئة. وسيطلب اللاعب الثاني روبوتًا عشوائيًا، وسيتحقق اللاعبان أيهما حصل على أعلى نتيجة للفئة التي تم اختيارها، ثم يتبادلان الأدوار.
 
-The game works best if you both play with the same deck of cards. Share a link to your trinket project with a friend so you can both use the same deck.
+ستعمل اللعبة بأفضل ما يمكن إذا اختار كل منكما مجموعة أوراق اللعب نفسها. شارك رابط مشروعك على trinket مع أحد الأصدقاء ليتسنى لكما استخدام مجموعة أوراق اللعب نفسها.
 
-![screenshot](images/robotrumps-play.png)
+![لقطة الشاشة](images/robotrumps-play.png)
 
 \--- /challenge \---
