@@ -1,68 +1,63 @@
 ## 从文件读取机器人数据
 
-从文件中读取信息通常很有用处。你随后可以更改文件中的数据，而无须更改你的代码。 
+从文件读取信息通常很有用。 然后你可以修改文件中的数据，而不必修改代码。
 
++ 打开此trinket代码：<a href="http://jumpto.cc/trumps-go" target="_blank">jumpto.cc/trumps-go</a>。
 
++ 您的入门项目包括一个`cards.txt`文件，此文件包含有关机器人的数据。
+    
+    点击 `cards.txt` 查看数据：
+    
+    ![截图](images/robotrumps-cards.png)
+    
+    每一行都包含有关机器人的数据。 数据项用逗号隔开。
+    
+    每行都包括如下信息：
+    
+    名称、智能等级、续航时间、图片文件名称
 
-+ 打开这个 trinket：<a href="http://jumpto.cc/trumps-go" target="_blank">jumpto.cc/trumps-go</a>。 
++ 让我们从文件中读取数据，以便您能使用。
+    
+    第一步是在您的脚本中打开`cards.txt`文件：
+    
+    ![截图](images/robotrumps-open.png)
 
-+ 你的启动器项目包含一个 `cards.txt` 文件，其中包含机器人相关的数据。 
++ 现在您可以从文件中读取数据：
+    
+    ![截图](images/robotrumps-read.png)
 
-  点击 `cards.txt` 来查看数据：
++ 每当完成数据读取，您应该始终关闭文件：
+    
+    ![截图](images/robotrumps-close.png)
 
-  ![screenshot](images/robotrumps-cards.png)
++ 每一个文件都以字符串的形式呈现，您需要将它分成独立的数据块。
+    
+    首先，您可以将文件内容分割为一个列表行：
+    
+    ![截图](images/robotrumps-lines.png)
+    
+    仔细观察输出。 表中有三项，每一项对应文件中的一行。
 
-  每行都有一个机器人的相关数据。数据条目以逗号隔开。 
++ 现在您可以一次循环读取所有的行
+    
+    ![截图](images/robotrumps-loop.png)
 
-  每行都包含以下信息：
++ 将文件读取入变量中，而不是以行的形式打印出来：
+    
+    ![截图](images/robotrumps-variables.png)
 
-  名称、智能等级、电池持续时间、图片文件名称
++ 您希望稍后读取这些数据来查找特定的机器人的值。 让我们使用机器人的名字作为字典的键。
+    
+    添加一个名为`robots`的字典：
+    
+    ![截图](images/robotrumps-dict.png)
 
-
-+ 让我们从文件中读入数据，以便你使用这些数据。 
-
-  第一步是打开脚本中的 `cards.txt` 文件：
-  
-  ![screenshot](images/robotrumps-open.png)
-  
-+ 现在你可以从该文件读取数据：
-
-  ![screenshot](images/robotrumps-read.png)
-  
-+ 你务必要在使用完一份文件后关闭它：
-
-  ![screenshot](images/robotrumps-close.png)
-
-+ 这样可将文件视为一个字符串，你需要将其拆分成多个单独的数据段。 
-
-  首先，你可以将文件划分成行列表：
-
-  ![screenshot](images/robotrumps-lines.png)
-  
-  请仔细查看输出内容。列表中有三个项目，每个项目都是文件中的一行。 
-  
-+ 现在你可以每次一行来循环遍及这些行
-
-  ![screenshot](images/robotrumps-loop.png)
-  
-+ 将这些行读入到变量，而非进行打印输出：
-
-  ![screenshot](images/robotrumps-variables.png)
-  
-+ 你想随后能使用这个数据来查看一个特定机器人的值。让我们使用机器人的名称作为字典的键。 
-
-  添加一个 `robots` 字典：
-
-  ![screenshot](images/robotrumps-dict.png)
-  
-+ 现在针对每个机器人向机器人字典添加一个条目。 
-
-  名称为键，值为该机器人的一系列数据。 
-
-  添加以下高亮代码：
- 
-  ![screenshot](images/robotrumps-data.png)
-  
-  你可以在测试完脚本之后移除 `print robots`。 
-
-
++ 现在，让我们为每一个机器人添加一个机器人字典条目。
+    
+    名称为键，而值为每个机器人的数据列表。
+    
+    添加高亮处的代码：
+    
+    ![截图](images/robotrumps-data.png)
+    
+    当你已测试过您的脚本后，您可以移除`print robots`。
