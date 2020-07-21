@@ -17,10 +17,10 @@ for line in file.read().splitlines():
   screen.register_shape(image)
 file.close()
 
-print('Robots: ', ', '.join(robots.keys()), ' (or random)')
+print('机器人： ', ', '.join(robots.keys()), ' (or random)')
 
 while True:
-  robot = input("Choose a robot: ")
+  robot = input("选择一个机器人: ")
   if(robot == "random"):
     robot = choice(robots.keys())
     print(robot)
@@ -36,15 +36,15 @@ while True:
     stamp()
     setheading(-90)
     forward(60)
-    write('Name: ' + robot, font=style, align='center')
+    write('名称： ' + robot, font=style, align='center')
     forward(25)
-    write('Battery: ' + stats[0], font=style, align='center')
+    write('续航时间： ' + stats[0], font=style, align='center')
     forward(25)
-    write('Intelligence: ' + stats[1], font=style, align='center')
+    write('智能等级： ' + stats[1], font=style, align='center')
     forward(25)
-    write('Usefulness: ' + stats[2], font=style, align='center')
+    write('有用性： ' + stats[2], font=style, align='center')
     forward(25)
-    write('Speed: ' + stats[3], font=style, align='center')
+    write('速度： ' + stats[3], font=style, align='center')
     
   else:
-    print("Robot doesn't exist!")
+    print("此机器人不存在！")
