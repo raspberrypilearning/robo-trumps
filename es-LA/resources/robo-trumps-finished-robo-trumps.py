@@ -9,13 +9,13 @@ penup()
 hideturtle()
 robots = {}
 
-file = open ('cards.txt', 'r')
+archivo = open ('cards.txt', 'r')
 
-for line in file.read().splitlines():
-  nombre, bateria, inteligencia, utilidad, velocidad, imagen, colores = line.split(', ')
+for linea in archivo.read().splitlines():
+  nombre, bateria, inteligencia, utilidad, velocidad, imagen, colores = linea.split(', ')
   robots[nombre] = [bateria, inteligencia, utilidad, velocidad, imagen, colores]
   pantalla.register_shape(imagen)
-file.close()
+archivo.close()
 
 print('Robots: ', ', '.join(robots.keys()), ' (o aleatorio)')
 
