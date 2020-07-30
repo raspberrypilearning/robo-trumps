@@ -1,0 +1,12 @@
+arcoiris, 10, 34, 8, 9, rainbow.gif, orange
+alien, 13, 28, 11, 12, space.gif, grey
+avestruz, 6, 4, 5, 20, bird.gif, blue
+avion, 2, 5, 3, 25, jet.gif, coral
+bicefalo, 4, 64, 18, 6, twoheads.gif, green
+perro, 10, 12, 20, 9, dog.gif, turquoise
+papelera, 12, 33, 29, 7, round.gif, blue
+cerebro, 9, 88, 15, 7, brains.gif, brown
+tele, 18, 6, 5, 16, tv.gif, black
+pelos, 8, 88, 18, 9, hair.gif, teal
+sombras, 22, 43, 18, 10, shades.gif, coral
+amarillo, 2, 3, 9, 5, yellow.gif, gold

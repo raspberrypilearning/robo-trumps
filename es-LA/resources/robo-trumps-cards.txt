@@ -1,0 +1,3 @@
+arcoiris 10, 34, rainbow.gif
+alien, 13, 28, space.gif
+avestruz, 6, 4, bird.gif
