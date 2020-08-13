@@ -8,7 +8,7 @@
     
     डेटा पाहण्यासाठी `cards.txt` वर क्लिक करा :
     
-    ![screenshot](प्रतिमा/robotrumps-cards.png)
+![screenshot](प्रतिमा/robotrumps-cards.png)
     
     प्रत्येक ओळीत रोबोटचा डेटा असतो. डेटा आयटम स्वल्पविरामाने विभक्त केले जातात.
     
@@ -20,7 +20,7 @@
     
     प्रथम चरण `cards.txt` फाइल तुमच्या स्क्रिप्ट मध्ये उघडणे आहे:
     
-    ![screenshot](प्रतिमा/robotrumps-open.png)
+![screenshot](प्रतिमा/robotrumps-open.png)
 
 + आता तुम्ही फाईलमधील डेटा वाचू शकता:
     
