@@ -7,7 +7,8 @@
   </iframe>
   <img src="images/robotrumps-finished.png">
 </div>
-https://trinket.io/python/### معلومات إضافية لقادة النادي
+
+### معلومات إضافية لقادة النادي
 
 إذا كنت بحاجة إلى طباعة هذا المشروع، فيُرجى استخدام [نسخة سهلة الطباعة](https://projects.raspberrypi.org/ar-SA/projects/robo-trumps/print).
 
