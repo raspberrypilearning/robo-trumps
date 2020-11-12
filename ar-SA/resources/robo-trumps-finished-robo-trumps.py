@@ -20,7 +20,7 @@ file.close()
 print('Robots: ', ', '.join(robots.keys()), ' (or random)')
 
 while True:
-  robot = input("Choose a robot: ")
+  robot = input("اختر روبوت: ")
   if(robot == "random"):
     robot = choice(robots.keys())
     print(robot)
@@ -47,4 +47,4 @@ while True:
     write('Speed: ' + stats[3], font=style, align='center')
     
   else:
-    print("Robot doesn't exist!")
+    print("الروبوت غير موجود!")
