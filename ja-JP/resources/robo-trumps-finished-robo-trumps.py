@@ -17,11 +17,11 @@ for line in file.read().splitlines():
   screen.register_shape(image)
 file.close()
 
-print('Robots: ', ', '.join(robots.keys()), ' (or random)')
+print('ロボット: ', ', '.join(robots.keys()), ' (またはランダム)')
 
 while True:
-  robot = input("Choose a robot: ")
-  if(robot == "random"):
+  robot = input("ロボットを選んで下さい: ")
+  if(robot == "ランダム"):
     robot = choice(robots.keys())
     print(robot)
   
@@ -36,15 +36,15 @@ while True:
     stamp()
     setheading(-90)
     forward(60)
-    write('Name: ' + robot, font=style, align='center')
+    write('名前: ' + robot, font=style, align='center')
     forward(25)
-    write('Battery: ' + stats[0], font=style, align='center')
+    write('バッテリー: ' + stats[0], font=style, align='center')
     forward(25)
-    write('Intelligence: ' + stats[1], font=style, align='center')
+    write('インテリジェンス: ' + stats[1], font=style, align='center')
     forward(25)
-    write('Usefulness: ' + stats[2], font=style, align='center')
+    write('使いやすさ: ' + stats[2], font=style, align='center')
     forward(25)
-    write('Speed: ' + stats[3], font=style, align='center')
+    write('スピード: ' + stats[3], font=style, align='center')
     
   else:
-    print("Robot doesn't exist!")
+    print("そのロボットは存在しません!")
