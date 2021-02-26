@@ -13,8 +13,9 @@
 このプロジェクトを印刷する必要がある場合は、 [印刷用バージョン](https://projects.raspberrypi.org/ja-JP/projects/robo-trumps/print)を使用してください。
 
 --- collapse ---
-
-## title：クラブリーダー・ノート
+---
+title: クラブリーダー・ノート
+---
 
 ## はじめに
 
@@ -73,7 +74,7 @@
 
 --- collapse ---
 ---
-title：プロジェクト資料
+title: プロジェクト資料
 ---
 
 ## プロジェクト資料
