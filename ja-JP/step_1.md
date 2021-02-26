@@ -34,7 +34,7 @@
 
 このプロジェクトは[オフラインで完成](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/)することが可能です。 “プロジェクト資料”のリンクをクリックすることでこのプロジェクトのリソースにアクセスすることが可能です。 このリンクには、「プロジェクトリソース」セクションがあります。このセクションには、このプロジェクトをオフラインで完了するために必要なリソースが含まれています。 各子供がこれらのリソースのコピーにアクセスできることを確認してください。 このセクションには、次のファイルが含まれています。
 
-* robottrumps/robottrumps.py
+* robotrumps/robotrumps.py
 * robotrumps/cards.txt
 * いくつかのロボット.gif画像
 
