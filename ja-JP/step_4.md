@@ -1,12 +1,12 @@
 \--- challenge \---
 
-## Challenge: Add more robots
+## 課題：より多くのロボットを追加する
 
-Can you add data about more robots to `cards.txt`.
+`cards.txt`に、より多くのロボットに関するデータを追加できますか。
 
-Click on the images button to see the robot images that you can use.
+画像ボタンをクリックすると、使用できるロボット画像が表示されます。
 
-You get to decide how much battery and intelligence they have.
+バッテリーとインテリジェンスの量を決めることができます。
 
 ![screenshot](images/robotrumps-yellow.png)
 
