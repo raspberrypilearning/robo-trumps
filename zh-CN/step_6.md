@@ -2,7 +2,7 @@
 
 让我们添加代码，以便在您键入Random而不是一个机器人名称的时候获得一个随机机器人。
 
-+ 首先，您将需要从随机模块中导入choice函数：
++ 首先，您需要从random模块中导入choice函数：
     
     ![截图](images/robotrumps-random.png)
 
