@@ -1,0 +1,3 @@
+レインボー, 10, 34, rainbow.gif
+スペース, 13, 28, space.gif
+バード, 6, 4, bird.gif

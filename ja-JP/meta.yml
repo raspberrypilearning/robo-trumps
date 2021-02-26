@@ -1,0 +1,26 @@
+---
+hero_image: images/robo-trumps.png
+theme: turquoise
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: ロボトランプ
+description: ロボットのデータベースを作って、友達とロボットトランプをプレイしよう！
+original_url: https://codeclubprojects.org/en-GB/python/robo-trumps
+interests: games
+technologies: python
+site_areas: projects
+hardware: ''
+software: python
+version: 3
+last_tested: 2017-01-01
+steps:
+  - title: はじめに
+  - title: ファイルからロボットデータを読み込む
+  - title: データを表示する
+  - title: '課題：より多くのロボットを追加する'
+  - title: '課題：ロボットにさらに統計情報を追加する'
+  - title: ランダムなロボットを表示する
+  - title: '課題：友人とロボットトランプをプレイしよう'
