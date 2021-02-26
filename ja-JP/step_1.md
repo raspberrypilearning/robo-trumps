@@ -1,6 +1,6 @@
-## Introduction
+## はじめに
 
-In this project you will read data from a file to create robot trump cards. Then you can play Robo-Trumps with a friend.
+このプロジェクトでは、ファイルからデータを読み込んでロボットトランプカードを作成します。 その後、友達と一緒にロボットトランプをプレイすることができます。
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/9ccc368bd5?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -8,77 +8,77 @@ In this project you will read data from a file to create robot trump cards. Then
   <img src="images/robotrumps-finished.png">
 </div>
 
-### Additional information for club leaders
+### クラブリーダーのための追加情報
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/robo-trumps/print).
+このプロジェクトを印刷する必要がある場合は、 [印刷用バージョン](https://projects.raspberrypi.org/en/projects/robo-trumps/print)を使用してください。
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title：クラブリーダー・ノート
 
-## Introduction:
+## はじめに
 
-In this project learners will read data from a file into a dictionary, to create robot trump cards. The cards can then be used to play Robo-Trumps with a friend.
+このプロジェクトでは、学習者はファイルから辞書にデータを読み込んで、ロボットトランプカードを作成します。 このカードを使用して、友達とロボトランプをプレイすることができます。
 
-## Online Resources
+## オンライン・リソース
 
-**This project uses Python 3.** We recommend using [trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
+**本プロジェクトでは、Python 3を使います。**オンラインでPythonのコードを記述するには、[trinket](https://trinket.io/)の使用をお勧めします。 本プロジェクトには、以下のtrinketが用意されています：
 
-* ['Robotrumps' starting point -- jumpto.cc/trumps-go](http://jumpto.cc/trumps-go)
+* ['Robotrumps'の出発点 - jumpto.cc/trumps-go](http://jumpto.cc/trumps-go)
 
-There is also a trinket containing a sample solution to the challenges:
+また、課題の回答例を含むtrinketもあります。
 
-* [‘Robotrumps’ Finished -- trinket.io/python/9ccc368bd5](https://trinket.io/python/9ccc368bd5)
+* ['Robotrumps'が完了しました - trinket.io/python/9ccc368bd5](https://trinket.io/python/9ccc368bd5)
 
-## Offline Resources
+## オフライン・リソース
 
-This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
+このプロジェクトは[オフラインで完成](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/)することが可能です。 “プロジェクト資料”のリンクをクリックすることでこのプロジェクトのリソースにアクセスすることが可能です。 このリンクには、「プロジェクトリソース」セクションがあります。このセクションには、このプロジェクトをオフラインで完了するために必要なリソースが含まれています。 各子供がこれらのリソースのコピーにアクセスできることを確認してください。 このセクションには、次のファイルが含まれています。
 
-* robotrumps/robotrumps.py
+* robottrumps/robottrumps.py
 * robotrumps/cards.txt
-* Several robot .gif images
+* いくつかのロボット.gif画像
 
-You can also find a completed version of this project's challenges in the 'Volunteer Resources' section, which contains:
+このプロジェクトのチャレンジの完成版は、'ボランティアリソース'セクションでも見つけることができます。そこでは次を含みます:
 
 * robotrumps-finished/robotrumps.py
 * robotrumps-finished/cards.txt
-* Several robot .gif images
+* いくつかのロボットの.gif画像
 
-(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+(すべての上記のリソースはプロジェクトとして、ボランティア`.zip` ファイルとしてダウンロードすることも可能。)
 
-## Learning Objectives
+## 学習目標
 
-* Consolidation: data structures, reading from file and turtle graphics;
-* Using images in turtle graphics;
-* Sharing trinket projects.
+* 統合：データ構造、ファイルおよびタートルグラフィックスからの読み込み、
+* タートルグラフィックスで画像を使用する。
+* Trinketプロジェクトの共有。
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+このプロジェクトでは 、[Raspberry Pi デジタル・メイキング・カリキュラム](http://rpf.io/curriculum)の以下の要素をカバーしています。
 
-* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [プログラミング構造を組み合わせて問題を解決する。](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Challenges
+## 課題
 
-* Add more robots - Editing a .txt file and working with images;
-* Add more stats to the robots - handling data;
-* Play Robotrumps with a friend.
+* ロボットの追加 - .txtファイルの編集と画像の操作
+* ロボットに統計を追加する（データの処理）
+* 友達とロボットトランプをプレイする
 
-## Frequently Asked Questions
+## よくある質問
 
-* **Offline Python does not work with .png images. .gif images have been supplied for offline use.**
-* Note that this project uses both text input and turtle graphics, you can adjust the amount of space given to each in trinket.
-* You need to click in the trinket text window before typing.
-* Children can use the 'Share' option in trinket to get a link to their project. If they have access to email then they can email the link to a friend, otherwise they can just read it out, note it down on a piece of paper or save it in a text file on the local network.
+* **オフラインPythonは.pngイメージでは動作しません。 .gif画像はオフラインで使用するために提供されています。**
+* このプロジェクトはテキスト入力とタートルグラフィックの両方を使用することに注意してください。Trinketでそれぞれに与えるスペースの量を調整できます。
+* 入力する前に、Trinketテキストウィンドウをクリックする必要があります。
+* Trinketの「共有」オプションを使用して、プロジェクトへのリンクを取得できます。 メールにアクセスできる場合は、リンクを友達にメールで送信できます。それ以外の場合は、リンクを読んだり、紙に書き留めたり、ローカルネットワークのテキストファイルに保存したりできます。
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## title：プロジェクト資料
 
-## Project resources
+## プロジェクト資料
 
-* [.zip file containing all project resources](resources/robo-trumps-project-resources.zip)
-* [Online Trinket containing 'Robo-Trumps' starter resources](http://jumpto.cc/trumps-go)
+* [全プロジェクト・リソースの入った.zipファイル](resources/robo-trumps-project-resources.zip)
+* [「ロボットトランプ」のスターターリソースを含むオンラインTrinket](http://jumpto.cc/trumps-go)
 * [robo-trumps/robo-trumps.py](resources/robo-trumps-robo-trumps.py)
 * [robo-trumps/cards.txt](resources/robo-trumps-cards.txt)
 * [robo-trumps/space.gif](resources/robo-trumps-space.gif)
@@ -94,10 +94,10 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 * [robo-trumps/tv.gif](resources/robo-trumps-tv.gif)
 * [robo-trumps/yellow.gif](resources/robo-trumps-yellow.gif)
 
-## Club leader resources
+## クラブ・リーダー向けリソース
 
-* [.zip file containing all completed project resources](resources/robotrumps-volunteer-resources.zip)
-* [Online completed Trinket project](https://trinket.io/python/9ccc368bd5)
+* [全プロジェクトの完成版リソースの入った.zipファイル](resources/robotrumps-volunteer-resources.zip)
+* [完成版プロジェクトのオンラインtrinket](https://trinket.io/python/9ccc368bd5)
 * [robo-trumps-finished/robo-trumps.py](resources/robo-trumps-finished-robo-trumps.py)
 * [robo-trumps-finished/cards.txt](resources/robo-trumps-finished-cards.txt)
 * [robo-trumps-finished/space.gif](resources/robo-trumps-finished-space.gif)
