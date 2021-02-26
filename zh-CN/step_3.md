@@ -34,7 +34,7 @@
     
     ![截图](images/robotrumps-name.png)
 
-+ 尝试着改变`style`变量，知道您对文本满意为止。
++ 尝试更改 `style` 变量直至你对文本满意。
     
     除了`Arial`字体，您还可以尝试：`Courier`、 `Times` 或 `Verdana`字体。
     
