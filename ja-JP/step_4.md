@@ -8,6 +8,6 @@
 
 バッテリーとインテリジェンスの量を決めることができます。
 
-![screenshot](images/robotrumps-yellow.png)
+![スクリーンショット](images/robotrumps-yellow.png)
 
 \--- /challenge \---
