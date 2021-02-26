@@ -6,8 +6,8 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Robo-Trumps
-description: Create a database of robots and play Robo-Trumps with a friend!
+title: ロボトランプ
+description: ロボットのデータベースを作って、友達とロボットトランプをプレイしよう！
 original_url: https://codeclubprojects.org/en-GB/python/robo-trumps
 interests: games
 technologies: python
@@ -18,16 +18,16 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: はじめに
   - 
-    title: Read robot data from a file
+    title: ファイルからロボットデータを読み込む
   - 
-    title: Display the data
+    title: データを表示する
   - 
-    title: 'Challenge: Add more robots'
+    title: '課題：より多くのロボットを追加する'
   - 
-    title: 'Challenge: Add more stats to the robots'
+    title: '課題：ロボットにさらに統計情報を追加する'
   - 
-    title: Display a random robot
+    title: ランダムなロボットを表示する
   - 
-    title: 'Challenge: Play robot trumps with a friend'
+    title: '課題：友人とロボットトランプをプレイしよう'
