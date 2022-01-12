@@ -17,10 +17,12 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: Uvod
-  - title: Učitaj podatke o robotu iz datoteke
-  - title: Prikaži podatke
-  - title: 'Izazov: Dodaj još robota'
-  - title: 'Izazov: Dodaj još podataka o robotima'
-  - title: Prikaži nasumičnog robota
-  - title: 'Izazov: Igraj Robo-karte sa prijateljem'
+- title: Uvod
+  completion: engaged
+- title: Učitaj podatke o robotu iz datoteke
+- title: Prikaži podatke
+- title: 'Izazov: Dodaj još robota'
+- title: 'Izazov: Dodaj još podataka o robotima'
+- title: Prikaži nasumičnog robota
+  completion: internal
+- title: 'Izazov: Igraj Robo-karte sa prijateljem'

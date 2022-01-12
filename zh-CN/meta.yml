@@ -17,10 +17,12 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: 介绍
-  - title: 从文件读取机器人数据
-  - title: 显示数据
-  - title: '挑战：添加更多机器人'
-  - title: '挑战：向机器人添加更多数据'
-  - title: 随机显示机器人
-  - title: '挑战：与朋友一起玩机器人王牌'
+- title: 介绍
+  completion: engaged
+- title: 从文件读取机器人数据
+- title: 显示数据
+- title: 挑战：添加更多机器人
+- title: 挑战：向机器人添加更多数据
+- title: 随机显示机器人
+  completion: internal
+- title: 挑战：与朋友一起玩机器人王牌

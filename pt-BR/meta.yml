@@ -17,10 +17,12 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: Introdução
-  - title: Ler dados do robô de um arquivo
-  - title: Exibir os dados
-  - title: 'Desafio: Adicione mais robôs'
-  - title: 'Desafio: Adicione mais informações aos robôs'
-  - title: Exibir um robô aleatório
-  - title: 'Desafio: Jogue Robô-Trunfo com um amigo'
+- title: Introdução
+  completion: engaged
+- title: Ler dados do robô de um arquivo
+- title: Exibir os dados
+- title: 'Desafio: Adicione mais robôs'
+- title: 'Desafio: Adicione mais informações aos robôs'
+- title: Exibir um robô aleatório
+  completion: internal
+- title: 'Desafio: Jogue Robô-Trunfo com um amigo'
