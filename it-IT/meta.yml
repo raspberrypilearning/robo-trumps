@@ -17,10 +17,14 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: Introduzione
-  - title: Leggi i dati dei robot da un file
-  - title: Visualizza i dati sullo schermo
-  - title: 'Sfida: Aggiungi altri robot'
-  - title: 'Sfida: Aggiungi altre statistiche ai robot'
-  - title: Visualizza un robot a caso
-  - title: 'Sfida: Gioca a Carte Robotiche con un amico'
+- title: Introduzione
+- title: Leggi i dati dei robot da un file
+- title: Visualizza i dati sullo schermo
+  completion:
+  - engaged
+- title: 'Sfida: Aggiungi altri robot'
+- title: 'Sfida: Aggiungi altre statistiche ai robot'
+- title: Visualizza un robot a caso
+  completion:
+  - internal
+- title: 'Sfida: Gioca a Carte Robotiche con un amico'

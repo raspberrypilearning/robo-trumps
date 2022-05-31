@@ -17,10 +17,14 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: 소개
-  - title: 파일에서 로봇 데이터 읽기
-  - title: 데이터 표시
-  - title: '과제: 더 많은 로봇 추가'
-  - title: '과제: 로봇에 더 많은 데이터 추가'
-  - title: 랜덤한 로봇 표시
-  - title: '과제: 친구와 함께하는 로봇 트럼프 게임!'
+- title: 소개
+- title: 파일에서 로봇 데이터 읽기
+- title: 데이터 표시
+  completion:
+  - engaged
+- title: '과제: 더 많은 로봇 추가'
+- title: '과제: 로봇에 더 많은 데이터 추가'
+- title: 랜덤한 로봇 표시
+  completion:
+  - internal
+- title: '과제: 친구와 함께하는 로봇 트럼프 게임!'
