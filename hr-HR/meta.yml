@@ -19,11 +19,13 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Uvod
-  completion: engaged
 - title: Učitaj podatke o robotu iz datoteke
 - title: Prikaži podatke
+  completion:
+  - engaged
 - title: 'Izazov: Dodaj još robota'
 - title: 'Izazov: Dodaj još karakteristika robotima'
 - title: Prikaži nasumičnog robota
-  completion: internal
+  completion:
+  - internal
 - title: 'Izazov: Igraj Borbe robota s prijateljem'

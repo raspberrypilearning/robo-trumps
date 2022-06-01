@@ -19,11 +19,13 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Einleitung
-  completion: engaged
 - title: Lies die Roboter Daten aus einer Datei
 - title: Daten anzeigen
+  completion:
+  - engaged
 - title: 'Aufgabe: Füge noch mehr Roboter hinzu'
 - title: 'Aufgabe: Füge den Robotern weitere Daten hinzu'
 - title: Einen zufällig gewählten Roboter darstellen
-  completion: internal
+  completion:
+  - internal
 - title: 'Aufgabe: Spiele Robo-Trumpf mit einem Freund/einer Freundin'

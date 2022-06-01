@@ -19,11 +19,13 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Εισαγωγή
-  completion: engaged
 - title: Διάβασε στοιχεία ρομπότ από ένα αρχείο
 - title: Εμφάνιση των δεδομένων
+  completion:
+  - engaged
 - title: 'Πρόκληση: Πρόσθεσε περισσότερα ρομπότ'
 - title: 'Πρόκληση: Πρόσθεσε περισσότερα στοιχεία για τα ρομπότ'
 - title: Εμφάνισε ένα τυχαίο ρομπότ
-  completion: internal
+  completion:
+  - internal
 - title: 'Πρόκληση: Παίξε Ρομπο-Κάρτες με έναν φίλο'

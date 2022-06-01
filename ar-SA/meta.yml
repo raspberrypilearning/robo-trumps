@@ -19,11 +19,13 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: المقدمة
-  completion: engaged
 - title: قراءة بيانات الروبوت من ملف
 - title: عرض البيانات
+  completion:
+  - engaged
 - title: 'التحدي: أضف روبوتات أخرى'
 - title: 'التحدي: أضف بيانات إحصائية أخرى إلى الروبوتات'
 - title: عرض روبوت عشوائي
-  completion: internal
+  completion:
+  - internal
 - title: 'التحدي: العب لعبة أوراق الروبوتات الرابحة مع أحد الأصدقاء'

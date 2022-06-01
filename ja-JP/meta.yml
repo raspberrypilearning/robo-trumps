@@ -18,11 +18,13 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: はじめに
-  completion: engaged
 - title: ファイルからロボットデータを読み込む
 - title: データを表示する
+  completion:
+  - engaged
 - title: 課題：より多くのロボットを追加する
 - title: 課題：ロボットにさらに統計情報を追加する
 - title: ランダムなロボットを表示する
-  completion: internal
+  completion:
+  - internal
 - title: 課題：友人とロボットトランプをプレイしよう

@@ -18,11 +18,13 @@ version: 0
 last_tested: २०१७-०१-०१
 steps:
 - title: परिचय
-  completion: engaged
 - title: फाईलमधून रोबोट डेटा वाचा
 - title: डेटा प्रदर्शित करा
+  completion:
+  - engaged
 - title: 'आव्हान: आणखी रोबोट जोडा'
 - title: 'आव्हान: रोबोटमध्ये अधिक आकडेवारी जोडा'
 - title: विनाक्रमित रोबोट प्रदर्शित करा
-  completion: internal
+  completion:
+  - internal
 - title: 'आव्हान: मित्रासह रोबोट ट्रम्प खेळा'

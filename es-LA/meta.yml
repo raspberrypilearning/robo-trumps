@@ -18,11 +18,13 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Introducción
-  completion: engaged
 - title: Lee los datos del robot desde un archivo
 - title: Mostrar los datos
+  completion:
+  - engaged
 - title: 'Desafío: Añadir más robots'
 - title: 'Desafío: Añadir más estadísticas a los robots'
 - title: Mostrar un robot aleatorio
-  completion: internal
+  completion:
+  - internal
 - title: 'Desafío: Juega "Cartas robóticas" con un amigo'

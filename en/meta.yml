@@ -18,11 +18,13 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Introduction
-  completion: engaged
 - title: Read robot data from a file
 - title: Display the data
+  completion:
+  - engaged
 - title: 'Challenge: Add more robots'
 - title: 'Challenge: Add more stats to the robots'
 - title: Display a random robot
-  completion: internal
+  completion:
+  - internal
 - title: 'Challenge: Play robot trumps with a friend'

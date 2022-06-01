@@ -18,11 +18,13 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Introduction
-  completion: engaged
 - title: Lire les données des robots à partir d'un fichier
 - title: Afficher les données
+  completion:
+  - engaged
 - title: 'Défi: ajoute d''autres robots'
 - title: 'Défi: ajoute plus de stats aux robots'
 - title: Afficher un robot de façon aléatoire
-  completion: internal
+  completion:
+  - internal
 - title: 'Défi: joue à Robot-Atout avec un ami'
