@@ -1,63 +1,63 @@
-## Read robot data from a file
+## Wczytaj dane robota z pliku
 
-It's often useful to be able to read information from a file. You can then change the data in the file without having to change your code.
+Często przydaje się możliwość odczytu informacji z pliku. Następnie możesz zmienić dane w pliku bez konieczności zmiany kodu.
 
-+ Open this trinket: <a href="http://jumpto.cc/trumps-go" target="_blank">jumpto.cc/trumps-go</a>.
++ Otwórz ten trinket: <a href="http://jumpto.cc/trumps-go" target="_blank">jumpto.cc/trumps-go</a>.
 
-+ Your starter project includes a `cards.txt` file which contains data about robots.
++ Twój projekt początkowy zawiera plik `cards.txt` zawierający dane o robotach.
     
-    Click on `cards.txt` to see the data:
+    Kliknij `cards.txt`, aby wyświetlić dane:
     
-    ![screenshot](images/robotrumps-cards.png)
+    ![zrzut ekranu](images/robotrumps-cards.png)
     
-    Each line has data about a robot. The data items are separated by commas.
+    Każda linia zawiera dane o robocie. Elementy danych są oddzielone przecinkami.
     
-    Each line contains the following information:
+    Każda linia zawiera następujące informacje:
     
-    name, intelligence rating, how long the battery lasts, image file name
+    nazwa, ocena inteligencji, czas pracy baterii, nazwa pliku obrazu
 
-+ Let's read the data in from the file so that you can use it.
++ Przeczytajmy dane z pliku, abyś mogła z niego korzystać.
     
-    The first step is to open the `cards.txt` file in your script:
+    Pierwszym krokiem jest otwarcie pliku `cards.txt` w swoim skrypcie:
     
-    ![screenshot](images/robotrumps-open.png)
+    ![zrzut ekranu](images/robotrumps-open.png)
 
-+ Now you can read the data from the file:
++ Teraz możesz odczytać dane z pliku:
     
-    ![screenshot](images/robotrumps-read.png)
+    ![zrzut ekranu](images/robotrumps-read.png)
 
-+ You should always close a file when you have finished with it:
++ Zawsze powinnaś zamknąć plik, po zakończeniu:
     
-    ![screenshot](images/robotrumps-close.png)
+    ![zrzut ekranu](images/robotrumps-close.png)
 
-+ That gives us the file as one string, you need to break it down into the individual pieces of data.
++ To daje nam plik jako jeden ciąg, musisz podzielić go na poszczególne fragmenty danych.
     
-    First, you can split the file into a list of lines:
+    Najpierw możesz podzielić plik na listę linii:
     
-    ![screenshot](images/robotrumps-lines.png)
+    ![zrzut ekranu](images/robotrumps-lines.png)
     
-    Look carefully at the output. There are three items in the list, each one is a line from the file.
+    Przyjrzyj się uważnie wynikowi. Na liście znajdują się trzy pozycje, z których każda jest linią z pliku.
 
-+ Now you can loop over those lines one at a time
++ Teraz możesz przełączać się po tych liniach pojedynczo
     
-    ![screenshot](images/robotrumps-loop.png)
+    ![zrzut ekranu](images/robotrumps-loop.png)
 
-+ Instead of printing out the lines, read them in to variables:
++ Zamiast drukować linie, wczytaj je do zmiennych:
     
-    ![screenshot](images/robotrumps-variables.png)
+    ![zrzut ekranu](images/robotrumps-variables.png)
 
-+ You want to be able to use this data later to look up the values for a particular robot. Let's use the robot's name as a key to a dictionary.
++ Chcesz móc później wykorzystać te dane do wyszukiwania wartości dla konkretnego robota. Użyjmy nazwy robota jako klucza do słownika.
     
-    Add a `robots` dictionary:
+    Dodaj słownik `roboty`:
     
-    ![screenshot](images/robotrumps-dict.png)
+    ![zrzut ekranu](images/robotrumps-dict.png)
 
-+ Now let's add an entry to the robots dictionary for each robot.
++ Dodajmy teraz pozycję do słownika robotów dla każdego robota.
     
-    The name is the key and the value is a list of data for that robot.
+    Nazwa jest kluczem, a wartość jest listą danych dla tego robota.
     
-    Add the highlighted code:
+    Dodaj podświetlony kod:
     
-    ![screenshot](images/robotrumps-data.png)
+    ![zrzut ekranu](images/robotrumps-data.png)
     
-    You can remove `print robots` when you have tested your script.
+    Możesz usunąć `drukuj roboty` po przetestowaniu skryptu.
