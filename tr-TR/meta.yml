@@ -23,11 +23,15 @@ steps:
     title: Robot verilerini bir dosyadan oku
   - 
     title: Verileri görüntüle
+    completion:
+      - engaged
   - 
     title: 'Meydan Okuma: Daha fazla robot ekle'
   - 
     title: 'Meydan Okuma: Robotlara daha fazla istatistik ekle'
   - 
     title: Rastgele bir robotu görüntüle
+    completion:
+      - internal
   - 
     title: 'Meydan Okuma: Bir arkadaşınla robot kozlar oyna'
