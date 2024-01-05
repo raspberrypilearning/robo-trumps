@@ -23,11 +23,15 @@ steps:
     title: Lee los datos del robot de un archivo
   - 
     title: Mostrar los datos
+    completion:
+      - engaged
   - 
     title: 'Desafío: Añadir más robots'
   - 
     title: 'Desafío: Añadir más estadísticas a los robots'
   - 
     title: Mostrar un robot al azar
+    completion:
+      - internal
   - 
     title: 'Desafío: Juega a Cartas Robóticas con un amigo'
