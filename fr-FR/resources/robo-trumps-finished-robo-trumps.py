@@ -3,24 +3,24 @@
 from turtle import *
 from random import choice
 
-screen = Screen()
-screen.bgcolor('white')
+ecran = Screen()
+ecran.bgcolor('white')
 penup()
-hideturtle()
+cachertortue()
 robots = {}
 
-file = open('cards.txt', 'r')
+fichier = open('cartes.txt', 'r')
 
-for line in file.read().splitlines():
-  name, battery, intelligence, usefulness, speed, image, colour = line.split(', ')
-  robots[name] = [battery, intelligence, usefulness, speed, image, colour]
-  screen.register_shape(image)
-file.close()
+for line in fichier.read().splitlines():
+  nom, batterie, intelligence, utilité, vitesse, image, couleur = line.split(', ')
+  robots[nom] = [batterie, intelligence, utilité, vitesse, image, couleur]
+  ecran.register_shape(image)
+fichier.close()
 
 print('Robots: ', ', '.join(robots.keys()), ' (or random)')
 
 while True:
-  robot = input("Choose a robot: ")
+  robot = input("Choisir un robot : ")
   if(robot == "random"):
     robot = choice(robots.keys())
     print(robot)
@@ -36,15 +36,15 @@ while True:
     stamp()
     setheading(-90)
     forward(60)
-    write('Name: ' + robot, font=style, align='center')
+    write('Nom: ' + robot, font=style, align='center')
     forward(25)
-    write('Battery: ' + stats[0], font=style, align='center')
+    write('Batterie : ' + stats[0], font=style, align='center')
     forward(25)
     write('Intelligence: ' + stats[1], font=style, align='center')
     forward(25)
-    write('Usefulness: ' + stats[2], font=style, align='center')
+    write('Utilité : ' + stats[2], font=style, align='center')
     forward(25)
-    write('Speed: ' + stats[3], font=style, align='center')
+    write('Vitesse : ' + stats[3], font=style, align='center')
     
   else:
-    print("Robot doesn't exist!")
+    print("Le robot n'existe pas!")
