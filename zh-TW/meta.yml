@@ -23,11 +23,15 @@ steps:
     title: 從文件中讀取機器人數據
   - 
     title: 顯示資料
+    completion:
+      - engaged
   - 
     title: '挑戰：添加更多機器人'
   - 
     title: '挑戰：為機器人添加更多統計數據'
   - 
     title: 顯示隨機機器人
+    completion:
+      - internal
   - 
     title: 'Challenge: Play robot trumps with a friend'
