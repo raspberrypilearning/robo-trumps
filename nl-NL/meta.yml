@@ -23,11 +23,15 @@ steps:
     title: Lees robotgegevens uit een bestand
   - 
     title: Toon de gegevens
+    completion:
+      - engaged
   - 
     title: 'Uitdaging: voeg meer robots toe'
   - 
     title: 'Uitdaging: voeg meer gegevens toe aan de robots'
   - 
     title: Geef een willekeurige robot weer
+    completion:
+      - internal
   - 
     title: 'Uitdaging: speel Robo-Troef met een vriend'
