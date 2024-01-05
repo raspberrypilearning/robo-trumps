@@ -23,11 +23,15 @@ steps:
     title: Lire les données des robots à partir d'un fichier
   - 
     title: Afficher les données
+    completion:
+      - engaged
   - 
     title: 'Défi : Ajoute d''autres robots'
   - 
     title: 'Défi : Ajoute plus de stats aux robots'
   - 
     title: Afficher un robot de façon aléatoire
+    completion:
+      - internal
   - 
     title: 'Défi : Joue à Robot-Atout avec un ami'
