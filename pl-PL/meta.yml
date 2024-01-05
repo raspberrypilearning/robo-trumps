@@ -7,7 +7,7 @@ ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 title: Robo-Trumps
-description: Create a database of robots and play Robo-Trumps with a friend!
+description: Stwórz bazę danych robotów i graj w Robo-Trumps z przyjacielem!
 original_url: https://codeclubprojects.org/en-GB/python/robo-trumps
 interests: games
 technologies: python
@@ -18,16 +18,20 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: Wprowadzenie
   - 
-    title: Read robot data from a file
+    title: Wczytaj dane robota z pliku
   - 
-    title: Display the data
+    title: Wyświetl dane
+    completion:
+      - engaged
   - 
-    title: 'Challenge: Add more robots'
+    title: 'Wyzwanie: Dodaj więcej robotów'
   - 
-    title: 'Challenge: Add more stats to the robots'
+    title: 'Wyzwanie: Dodaj więcej statystyk do robotów'
   - 
-    title: Display a random robot
+    title: Wyświetl losowego robota
+    completion:
+      - internal
   - 
-    title: 'Challenge: Play robot trumps with a friend'
+    title: 'Wyzwanie: Zagraj w Robo-Trumps z przyjacielem'
