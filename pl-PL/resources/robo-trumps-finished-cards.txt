@@ -1,4 +1,4 @@
-rainbow, 10, 34, 8, 9, rainbow.gif, orange
+tęcza, 10, 34, 8, 9, rainbow.gif, orange
 space, 13, 28, 11, 12, space.gif, grey
 bird, 6, 4, 5, 20, bird.gif, blue
 jet, 2, 5, 3, 25, jet.gif, coral
