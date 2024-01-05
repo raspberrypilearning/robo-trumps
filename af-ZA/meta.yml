@@ -23,11 +23,15 @@ steps:
     title: Read robot data from a file
   - 
     title: Display the data
+    completion:
+      - engaged
   - 
     title: 'Challenge: Add more robots'
   - 
     title: 'Challenge: Add more stats to the robots'
   - 
     title: Display a random robot
+    completion:
+      - internal
   - 
     title: 'Challenge: Play robot trumps with a friend'
