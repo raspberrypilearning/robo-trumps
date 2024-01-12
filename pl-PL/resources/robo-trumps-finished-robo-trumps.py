@@ -3,48 +3,48 @@
 from turtle import *
 from random import choice
 
-screen = Screen()
+ekran = Screen()
 screen.bgcolor('white')
 penup()
 hideturtle()
-robots = {}
+roboty = {}
 
-file = open('cards.txt', 'r')
+plik = open('cards.txt', 'r')
 
-for line in file.read().splitlines():
-  name, battery, intelligence, usefulness, speed, image, colour = line.split(', ')
-  robots[name] = [battery, intelligence, usefulness, speed, image, colour]
-  screen.register_shape(image)
-file.close()
+for linia in plik.read().splitlines():
+  imie, bateria, inteligencja, użyteczność, prędkość, obraz, kolor = linia.split(', ')
+  roboty[imie] = [bateria, inteligencja, użyteczność, prędkość, obraz, kolor]
+  ekran.register_shape(obraz)
+plik.close()
 
-print('Robots: ', ', '.join(robots.keys()), ' (or random)')
+print('Roboty: ', ', '.join(roboty.keys()), ' (or random)')
 
 while True:
-  robot = input("Choose a robot: ")
+  robot = input("Wybierz robota: ")
   if(robot == "random"):
-    robot = choice(robots.keys())
+    robot = choice(roboty.keys())
     print(robot)
   
-  if robot in robots:
-    stats = robots[robot]
-    style = ('Courier', 14, 'bold')
+  if robot in roboty:
+    statystyki = roboty[robot]
+    styl = ('Courier', 14, 'bold')
     clear()
-    color(stats[5])
+    color(statystyki[5])
     goto(0, 100)
-    shape(stats[4])
+    shape(statystyki[4])
     setheading(90)
     stamp()
     setheading(-90)
     forward(60)
-    write('Name: ' + robot, font=style, align='center')
+    write('Imie: ' + robot, font=style, align='center')
     forward(25)
-    write('Battery: ' + stats[0], font=style, align='center')
+    write('Bateria: ' + statystyki[0], font=style, align='center')
     forward(25)
-    write('Intelligence: ' + stats[1], font=style, align='center')
+    write('Inteligencja: ' + statystyki[1], font=style, align='center')
     forward(25)
-    write('Usefulness: ' + stats[2], font=style, align='center')
+    write('Użyteczność: ' + statystyki[2], font=style, align='center')
     forward(25)
-    write('Speed: ' + stats[3], font=style, align='center')
+    write('Prędkość: ' + statystyki[3], font=style, align='center')
     
   else:
-    print("Robot doesn't exist!")
+    print("Robot nie istnieje!")
