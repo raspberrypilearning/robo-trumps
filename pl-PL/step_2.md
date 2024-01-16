@@ -26,7 +26,7 @@ Często przydaje się możliwość odczytu informacji z pliku. Następnie możes
     
     ![zrzut ekranu](images/robotrumps-read.png)
 
-+ Zawsze powinnaś zamknąć plik, po zakończeniu:
++ Zawsze powinno się zamknąć plik po zakończeniu:
     
     ![zrzut ekranu](images/robotrumps-close.png)
 
@@ -36,7 +36,7 @@ Często przydaje się możliwość odczytu informacji z pliku. Następnie możes
     
     ![zrzut ekranu](images/robotrumps-lines.png)
     
-    Przyjrzyj się uważnie wynikowi. Na liście znajdują się trzy pozycje, z których każda jest linią z pliku.
+    Przyjrzyj się uważnie wynikowi. Na liście znajdują się trzy pozycje, z których każda odpowiada jednej linii z pliku.
 
 + Teraz możesz przełączać się po tych liniach pojedynczo
     
@@ -46,7 +46,7 @@ Często przydaje się możliwość odczytu informacji z pliku. Następnie możes
     
     ![zrzut ekranu](images/robotrumps-variables.png)
 
-+ Chcesz móc później wykorzystać te dane do wyszukiwania wartości dla konkretnego robota. Użyjmy nazwy robota jako klucza do słownika.
++ Aby móc później wykorzystać te dane do wyszukiwania wartości dla konkretnego robota, utwórz słownik. Użyj nazwy robota jako klucza do słownika.
     
     Dodaj słownik `roboty`:
     
@@ -60,4 +60,4 @@ Często przydaje się możliwość odczytu informacji z pliku. Następnie możes
     
     ![zrzut ekranu](images/robotrumps-data.png)
     
-    Możesz usunąć `drukuj roboty` po przetestowaniu skryptu.
+    Możesz usunąć `print(roboty)` po przetestowaniu skryptu.
