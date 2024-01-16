@@ -2,7 +2,7 @@
 
 ## Wyzwanie: Dodaj więcej statystyk do robotów
 
-Czy możesz wymyślić więcej statystyk do dodania do robotów? Możesz dodać "szybkość" lub "użyteczność" lub wymyślić coś samemu.
+Czy jesteś w stanie wymyślić więcej statystyk do dodania do robotów? Możesz dodać "szybkość" lub "użyteczność" lub wymyślić coś samemu.
 
 Musisz:
 
