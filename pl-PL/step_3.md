@@ -4,7 +4,7 @@ Teraz możesz wyświetlać dane robota w bardziej interesujący sposób.
 
 Pokażmy kartę atutową robota z obrazem i danymi, aby uzyskać informacje na temat jej inteligencji i użyteczności.
 
-Po ukończeniu tego kroku będziesz mógł wyświetlać roboty w następujący sposób:
+Po ukończeniu tego kroku będziesz w stanie wyświetlać roboty w następujący sposób:
 
 ![zrzut ekranu](images/robotrumps-example.png)
 
