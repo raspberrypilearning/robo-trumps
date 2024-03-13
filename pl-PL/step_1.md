@@ -21,7 +21,7 @@ title: Notatki dla liderów klubów
 
 W tym projekcie uczniowie będą czytać dane z pliku do słownika, aby stworzyć karty atutowe robotów. Karty mogą być następnie używane do gry Robo-Trumps z przyjacielem.
 
-## Zasoby Online
+## Zasoby online
 
 **Ten projekt używa języka Python 3.** Do pisania kodu w Pythonie zalecamy użycie edytora [trinket](https://trinket.io/). Ten projekt zawiera następujące Trinkety:
 
@@ -31,7 +31,7 @@ Dostępny jest również Trinket zawierający przykładowe rozwiązanie dla wyzw
 
 * [Zakończony "Robo-Trumps" - trinket.io/python/9ccc368bd5](https://trinket.io/python/9ccc368bd5)
 
-## Zasoby Offline
+## Zasoby offline
 
 Ten projekt można również [ukończyć bez dostępu do sieci](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/). Materiały potrzebne do wykonania projektu dostępne są po kliknięciu linku "Materiały do projektu". Można znaleźć tam sekcję "Źródła Projektu", która zawiera zasoby, potrzebne dzieciom do wykonania projektu w wersji offline. Upewnij się, że każde dziecko ma dostęp do tych zasobów. Ta sekcja zawiera następujące pliki:
 
@@ -77,7 +77,7 @@ Projekt ten obejmuje elementy z następujących wątków [Cyfrowego programu nau
 title: Materiały do projektu
 ---
 
-## Zasoby Projektu
+## Zasoby projektu
 
 * [Plik .zip zawierający wszystkie zasoby projektu](resources/robo-trumps-project-resources.zip)
 * [Trinket Online zawierający zasoby startowe "Robo-Trumps"](http://jumpto.cc/trumps-go)
