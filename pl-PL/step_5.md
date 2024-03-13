@@ -1,6 +1,6 @@
 \--- challenge \---
 
-## Wyzwanie: Dodaj więcej statystyk do robotów
+## Wyzwanie: dodaj więcej statystyk do robotów
 
 Czy jesteś w stanie wymyślić więcej statystyk do dodania do robotów? Możesz dodać "szybkość" lub "użyteczność" lub wymyślić coś samemu.
 
@@ -12,7 +12,7 @@ Musisz:
 
 Możesz nawet dodać kolor i wyświetlić statystyki dla robotów w ich własnym kolorze.
 
-Wskazówka: Użyj `color('red')`, aby zmienić tekst żółwia na czerwony przed napisaniem.
+Wskazówka: użyj `color('red')`, aby zmienić tekst żółwia na czerwony przed napisaniem.
 
 Przykład:
 
