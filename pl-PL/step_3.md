@@ -48,8 +48,8 @@ Po ukończeniu tego kroku będziesz w stanie wyświetlać roboty w następujący
 
 + Możesz teraz uzyskać dostęp do statystyk robota jako pozycji na liście:
     
-    + `statystyki[0]` to bateria
-    + `statystyki[1]` to inteligencja
+    + `statystyki[0]` to inteligencja
+    + `statystyki[1]` to bateria
     + `statystyki[2]` to nazwa obrazu
     
     Dodaj kod, aby wyświetlić statystyki inteligencji i baterii:
