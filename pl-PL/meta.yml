@@ -26,12 +26,12 @@ steps:
     completion:
       - engaged
   - 
-    title: 'Wyzwanie: Dodaj więcej robotów'
+    title: 'Wyzwanie: dodaj więcej robotów'
   - 
-    title: 'Wyzwanie: Dodaj więcej statystyk do robotów'
+    title: 'Wyzwanie: dodaj więcej statystyk do robotów'
   - 
     title: Wyświetl losowego robota
     completion:
       - internal
   - 
-    title: 'Wyzwanie: Zagraj w Robo-Trumps z przyjacielem'
+    title: 'Wyzwanie: zagraj w Robo-Trumps z przyjacielem'
