@@ -1,6 +1,6 @@
 \--- challenge \---
 
-## Wyzwanie: Dodaj więcej robotów
+## Wyzwanie: dodaj więcej robotów
 
 Czy możesz dodać dane o większej liczbie robotów do pliku `cards.txt`.
 
