@@ -8,7 +8,6 @@ In this project you will read data from a file to create robot trump cards. Then
   <img src="images/robotrumps-finished.png">
 </div>
 
-
 ### Additional information for club leaders
 
 If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/robo-trumps/print).
