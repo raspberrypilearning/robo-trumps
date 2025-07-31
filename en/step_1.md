@@ -8,9 +8,9 @@ Create robot trump cards!
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Click on the <strong>Run</strong> button and read the output.
+Click on the <strong>Run</strong> button.
 
-  Type in the name of your dragon and tap <kbd>Enter</kbd> to begin the story.
+Type in the name of a robot from the list and tap <kbd>Enter</kbd> to play the game.
 
 </div>
 <div class="trinket">
