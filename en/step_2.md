@@ -2,7 +2,7 @@
 
 It's often useful to be able to read information from a file. You can then change the data in the file without having to change your code. 
 
-+ Open this trinket: <a href="http://jumpto.cc/trumps-go" target="_blank">jumpto.cc/trumps-go</a>. 
++ Open the <a href="https://editor.raspberrypi.org/en/projects/starter-robo-trumps" target="_blank">starter project</a>. 
 
 + Your starter project includes a `cards.txt` file which contains data about robots. 
 
